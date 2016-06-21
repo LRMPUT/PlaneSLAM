@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -std=c++11  -Wall -W -O3 -DNDEBUG   -shared -Wl,-soname,libg2o_ext_freeglut_minimal.so -o ../../../lib/libg2o_ext_freeglut_minimal.so CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.o CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.o -lGL 

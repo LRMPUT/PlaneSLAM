@@ -1,0 +1,4 @@
+gtTraj = load('groundtruth.txt');
+diffTraj = load('diffTraj.txt');
+
+plot3(gtTraj(:, 2), gtTraj(:, 3), gtTraj(:, 4), '-r'); 
