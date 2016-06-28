@@ -15,6 +15,8 @@
 #include "3rdParty/g2o/g2o/types/slam3d/se3quat.h"
 #include "3rdParty/g2o/g2o/types/slam3d/edge_se3.h"
 #include "3rdParty/g2o/g2o/types/slam3d/vertex_se3.h"
+#include "3rdParty/g2o/g2o/types/slam3d/vertex_plane_quat.h"
+#include "3rdParty/g2o/g2o/types/slam3d/edge_se3_plane.h"
 #include "3rdParty/g2o/g2o/types/sba/types_six_dof_expmap.h"
 #include "3rdParty/g2o/g2o/types/slam3d/isometry3d_mappings.h"
 #include "3rdParty/g2o/g2o/types/slam3d/isometry3d_gradients.h"
@@ -74,6 +76,24 @@ void compJacobB(const g2o::SE3Quat& a, Eigen::Matrix<double, 7, 7>& jacob){
 			                           0,                             0,                             0,  aqz,  aqw, -aqx, aqy,
 			                           0,                             0,                             0, -aqy,  aqx,  aqw, aqz,
 			                           0,                             0,                             0, -aqx, -aqy, -aqz, aqw;
+}
+
+Eigen::Quaterniond normAndDToQuat(double d, Eigen::Vector3d norm){
+	Eigen::Quaterniond res;
+	norm.normalize();
+	if(d < 0.0){
+		res.x() = norm[0];
+		res.y() = norm[1];
+		res.z() = norm[2];
+		res.w() = -d;
+	}
+	else{
+		res.x() = -norm[0];
+		res.y() = -norm[1];
+		res.z() = -norm[2];
+		res.w() = d;
+	}
+	return res;
 }
 
 int main(){
@@ -244,6 +264,18 @@ int main(){
 				}
 				optimizerSE3.addVertex(curV);
 	    	}
+	    	//minimal
+	    	{
+				g2o::VertexSE3* curV = new g2o::VertexSE3();
+				g2o::SE3Quat poseSE3Quat;
+				poseSE3Quat.fromVector(odomPoses[po]);
+				curV->setEstimate(g2o::internal::fromSE3Quat(poseSE3Quat));
+				curV->setId(po);
+				if(po == 0){
+					curV->setFixed(true);
+				}
+				optimizerMin.addVertex(curV);
+	    	}
 	    }
 	    for(int pl = 0; pl < planesPoses.size(); ++pl){
 	    	//SE3
@@ -255,6 +287,21 @@ int main(){
 				curV->setId(odomPoses.size() + pl);
 	//    		curV->setFixed(true);
 				optimizerSE3.addVertex(curV);
+	    	}
+	    	//minimal
+	    	{
+				g2o::VertexPlaneQuat* curV = new g2o::VertexPlaneQuat();
+				g2o::SE3Quat planePoseSE3Quat;
+				planePoseSE3Quat.fromVector(planesPoses[pl]);
+				Eigen::Vector3d norm = planePoseSE3Quat.rotation().toRotationMatrix().block<3, 1>(0, 2);
+				Eigen::Vector3d P = planePoseSE3Quat.translation();
+				// compute point on the plane from which normal vector intersects with the origin
+				double d = P.dot(norm) / norm.dot(norm);
+
+				curV->setEstimate(normAndDToQuat(d, norm));
+				curV->setId(odomPoses.size() + pl);
+	//    		curV->setFixed(true);
+				optimizerMin.addVertex(curV);
 	    	}
 	    }
 
@@ -284,12 +331,25 @@ int main(){
 	    		{
 					Eigen::Vector3d plIP = poseP + d * plNorm;
 
+					Eigen::Vector3d xAxis, yAxis;
+					//if normal vector is not parallel to global x axis
+					if(plNorm.cross(Eigen::Vector3d(1.0, 0.0, 0.0)).norm() > 1e-2){
+						// plane x axis as a cross product - always perpendicular to normal vector
+						xAxis = plNorm.cross(Eigen::Vector3d(1.0, 0.0, 0.0));
+						xAxis.normalize();
+						yAxis = plNorm.cross(xAxis);
+					}
+					else{
+						xAxis = plNorm.cross(Eigen::Vector3d(0.0, 1.0, 0.0));
+						xAxis.normalize();
+						yAxis = plNorm.cross(xAxis);
+					}
+					Eigen::Matrix3d plRot;
+					plRot.block<3, 1>(0, 0) = xAxis;
+					plRot.block<3, 1>(0, 1) = yAxis;
+					plRot.block<3, 1>(0, 2) = plNorm;
 
-
-					uniform_real_distribution<double> distRot(-pi, pi);
-					double theta = distRot(gen);
-					Eigen::Quaterniond rotZ(cos(theta/2.0), 0.0, 0.0, sin(theta/2.0));
-					g2o::SE3Quat planePoseSE3Quat(rawPlanePoseSE3Quat.rotation()*rotZ, plIP);
+					g2o::SE3Quat planePoseSE3Quat(plRot, plIP);
 
 					Eigen::Matrix<double, 9, 9> covarRotMat;
 					covarRotMat << 	1000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
