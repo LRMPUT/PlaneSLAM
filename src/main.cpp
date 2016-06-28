@@ -313,11 +313,13 @@ int main(){
 	    		g2o::SE3Quat rawPlanePoseSE3Quat;
 	    		rawPlanePoseSE3Quat.fromVector(planesPoses[pl]);
 
+				g2o::SE3Quat rawMeasSE3Quat = poseSE3Quat.inverse() * rawPlanePoseSE3Quat;
+
 	    		// z axis - normal vector
-	    		Eigen::Vector3d plNorm = rawPlanePoseSE3Quat.rotation().toRotationMatrix().block<3, 1>(0, 2);
-	    		Eigen::Vector3d plP = rawPlanePoseSE3Quat.translation();
-	    		// compute point on the plane from which normal vector intersects with camera position
-	    		double d = (plP - poseP).dot(plNorm) / plNorm.dot(plNorm);
+	    		Eigen::Vector3d plNorm = rawMeasSE3Quat.rotation().toRotationMatrix().block<3, 1>(0, 2);
+	    		Eigen::Vector3d plP = rawMeasSE3Quat.translation();
+	    		// compute point on the plane from which normal vector intersects with camera position (in camera's frame of reference)
+	    		double d = plP.dot(plNorm) / plNorm.dot(plNorm);
 
 	    		//adding noise
 	    		d += distT(gen);
@@ -329,7 +331,7 @@ int main(){
 
 	    		//SE3 edge
 	    		{
-					Eigen::Vector3d plIP = poseP + d * plNorm;
+					Eigen::Vector3d plIP = d * plNorm;
 
 					Eigen::Vector3d xAxis, yAxis;
 					//if normal vector is not parallel to global x axis
@@ -349,7 +351,7 @@ int main(){
 					plRot.block<3, 1>(0, 1) = yAxis;
 					plRot.block<3, 1>(0, 2) = plNorm;
 
-					g2o::SE3Quat planePoseSE3Quat(plRot, plIP);
+					g2o::SE3Quat planePoseOrigCamSE3Quat(plRot, plIP);
 
 					Eigen::Matrix<double, 9, 9> covarRotMat;
 					covarRotMat << 	1000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
@@ -380,7 +382,7 @@ int main(){
 					covarPlane.block<4, 4>(3, 3) = dq_dR * covarRotMat * dq_dR.transpose();
 
 	//	    		Eigen::Matrix<double, 7, 7> jacob;
-					g2o::SE3Quat measSE3Quat = poseSE3Quat.inverse() * planePoseSE3Quat;
+//					g2o::SE3Quat measSE3Quat = poseSE3Quat.inverse() * planePoseSE3Quat;
 	//	    		compJacobB(measSE3Quat.inverse(), jacob);
 
 	//	    		Eigen::Matrix<double, 7, 7> covarPose = jacob * covarPlane * jacob.transpose();
@@ -390,43 +392,56 @@ int main(){
 					Eigen::Matrix<double, 6, 6> infPlane66 = infPlane.block<6, 6>(0, 0);
 	//				Eigen::Matrix<double, 6, 6> infPose66;
 	//				infPose66.setIdentity();
-					if(po == 0){
-						cout << "pl = " << pl << endl;
-						cout << "rawPlanePoseSE3Quat.rotation() = " << rawPlanePoseSE3Quat.rotation().vec() << endl;
-						cout << "rawPlanePoseSE3Quat.translation() = " << rawPlanePoseSE3Quat.translation() << endl;
-						cout << "planePoseSE3Quat.translation() = " << planePoseSE3Quat.translation() << endl;
-						cout << "measSE3Quat = " << measSE3Quat.toVector() << endl;
-						cout << "measSE3Quat.inverse() = " << measSE3Quat.inverse().toVector() << endl;
-						cout << "meas rotation = " << measSE3Quat.rotation().matrix() << endl;
-						cout << "covarPlane = " << covarPlane << endl;
-						cout << "dq_dR = " << dq_dR << endl;
-						cout << "covar rot quat = " << dq_dR * covarRotMat * dq_dR.transpose() << endl;
-	//	    			cout << "jacob = " << jacob << endl;
-	//	    			cout << "covarPose = " << covarPose << endl;
-	//	    			cout << "infPose = " << infPose << endl;
-	//	    			cout << "infPose66 = " << infPose66 << endl;
-						cout << "infPlane66 = " << infPlane66 << endl << endl << endl;
-					}
+//					if(po == 0){
+//						cout << "pl = " << pl << endl;
+//						cout << "rawPlanePoseSE3Quat.rotation() = " << rawPlanePoseSE3Quat.rotation().vec() << endl;
+//						cout << "rawPlanePoseSE3Quat.translation() = " << rawPlanePoseSE3Quat.translation() << endl;
+////						cout << "planePoseSE3Quat.translation() = " << planePoseSE3Quat.translation() << endl;
+////						cout << "measSE3Quat = " << measSE3Quat.toVector() << endl;
+////						cout << "measSE3Quat.inverse() = " << measSE3Quat.inverse().toVector() << endl;
+////						cout << "meas rotation = " << measSE3Quat.rotation().matrix() << endl;
+//						cout << "covarPlane = " << covarPlane << endl;
+//						cout << "dq_dR = " << dq_dR << endl;
+//						cout << "covar rot quat = " << dq_dR * covarRotMat * dq_dR.transpose() << endl;
+//	//	    			cout << "jacob = " << jacob << endl;
+//	//	    			cout << "covarPose = " << covarPose << endl;
+//	//	    			cout << "infPose = " << infPose << endl;
+//	//	    			cout << "infPose66 = " << infPose66 << endl;
+//						cout << "infPlane66 = " << infPlane66 << endl << endl << endl;
+//					}
 					g2o::EdgeSE3* curEdge = new g2o::EdgeSE3();
 					curEdge->setVertex(0, optimizerSE3.vertex(po));
 					curEdge->setVertex(1, optimizerSE3.vertex(odomPoses.size() + pl));
-					curEdge->setMeasurement(g2o::internal::fromSE3Quat(measSE3Quat));
+					curEdge->setMeasurement(g2o::internal::fromSE3Quat(planePoseOrigCamSE3Quat));
 					curEdge->setInformation(infPlane66);
 
 
-					if(po == 0){
-						curEdge->computeError();
-						g2o::Vector6d error = curEdge->error();
-						cout << "error = " << error << endl;
-						cout << "cost = " << error.transpose() * infPlane66 * error << endl;
-					}
+//					if(po == 0){
+//						curEdge->computeError();
+//						g2o::Vector6d error = curEdge->error();
+//						cout << "error = " << error << endl;
+//						cout << "cost = " << error.transpose() * infPlane66 * error << endl;
+//					}
 
 					optimizerSE3.addEdge(curEdge);
 	    		}
 
-	    		// minimal respresentation
+	    		// minimal representation
 	    		{
+					g2o::EdgeSE3Plane* curEdge = new g2o::EdgeSE3Plane();
+					curEdge->setVertex(0, optimizerMin.vertex(po));
+					curEdge->setVertex(1, optimizerMin.vertex(odomPoses.size() + pl));
+					curEdge->setMeasurement(normAndDToQuat(d, plNorm));
+					curEdge->setInformation(Eigen::Matrix<double, 3, 3>::Identity());
 
+//					if(po == 0){
+//						curEdge->computeError();
+//						g2o::Vector6d error = curEdge->error();
+//						cout << "error = " << error << endl;
+//						cout << "cost = " << error.transpose() * infPlane66 * error << endl;
+//					}
+
+					optimizerMin.addEdge(curEdge);
 	    		}
 	    	}
 	    }
@@ -439,34 +454,51 @@ int main(){
 		optimizerSE3.initializeOptimization();
 		optimizerSE3.optimize(maxIter);
 
-		for(auto it = optimizerSE3.edges().begin(); it != optimizerSE3.edges().end(); ++it){
-			g2o::EdgeSE3* curEdge = static_cast<g2o::EdgeSE3*>(*it);
-			if(curEdge->vertex(0)->id() == 0){
-				cout << "edge (" << curEdge->vertex(0)->id() << ", "
-						<< curEdge->vertex(1)->id() << ") = " << endl;
-				cout << "error = " << curEdge->error() << endl;
-				cout << "information = " << curEdge->information() << endl;
-				cout << "cost = " << curEdge->error().transpose() * curEdge->information() * curEdge->error() << endl;
-				cout << "measurement = " << curEdge->measurement().matrix() << endl;
-				cout << "vert 0 est = " << static_cast<g2o::VertexSE3*>(curEdge->vertex(0))->estimate().matrix() << endl;
-				cout << "vert 1 est = " << static_cast<g2o::VertexSE3*>(curEdge->vertex(1))->estimate().matrix() << endl;
-				g2o::Isometry3D diff = curEdge->measurement().inverse() *
-						static_cast<g2o::VertexSE3*>(curEdge->vertex(0))->estimate().inverse() *
-						static_cast<g2o::VertexSE3*>(curEdge->vertex(1))->estimate();
-				cout << "diff = " << diff.matrix() << endl;
-			}
-		}
+//		for(auto it = optimizerSE3.edges().begin(); it != optimizerSE3.edges().end(); ++it){
+//			g2o::EdgeSE3* curEdge = static_cast<g2o::EdgeSE3*>(*it);
+//			if(curEdge->vertex(0)->id() == 0){
+//				cout << "edge (" << curEdge->vertex(0)->id() << ", "
+//						<< curEdge->vertex(1)->id() << ") = " << endl;
+//				cout << "error = " << curEdge->error() << endl;
+//				cout << "information = " << curEdge->information() << endl;
+//				cout << "cost = " << curEdge->error().transpose() * curEdge->information() * curEdge->error() << endl;
+//				cout << "measurement = " << curEdge->measurement().matrix() << endl;
+//				cout << "vert 0 est = " << static_cast<g2o::VertexSE3*>(curEdge->vertex(0))->estimate().matrix() << endl;
+//				cout << "vert 1 est = " << static_cast<g2o::VertexSE3*>(curEdge->vertex(1))->estimate().matrix() << endl;
+//				g2o::Isometry3D diff = curEdge->measurement().inverse() *
+//						static_cast<g2o::VertexSE3*>(curEdge->vertex(0))->estimate().inverse() *
+//						static_cast<g2o::VertexSE3*>(curEdge->vertex(1))->estimate();
+//				cout << "diff = " << diff.matrix() << endl;
+//			}
+//		}
 
-		ofstream optTrajFile("../res/optTraj.txt");
+		ofstream optTrajSE3File("../res/optTrajSE3.txt");
 		for(int po = 0; po < odomPoses.size(); ++po){
 			g2o::VertexSE3* curPoseVert = static_cast<g2o::VertexSE3*>(optimizerSE3.vertex(po));
 			g2o::Vector7d poseVect = g2o::internal::toVectorQT(curPoseVert->estimate());
 
-			optTrajFile << (po + 1);
+			optTrajSE3File << (po + 1);
 			for(int i = 0; i < 7; ++i){
-				optTrajFile << " " << poseVect[i];
+				optTrajSE3File << " " << poseVect[i];
 			}
-			optTrajFile << endl;
+			optTrajSE3File << endl;
+		}
+
+	    cout << "optimizerMin.vertices().size() = " << optimizerMin.vertices().size() << endl;
+	    cout << "optimizerMin.edges.size() = " << optimizerMin.edges().size() << endl;
+		optimizerMin.initializeOptimization();
+		optimizerMin.optimize(maxIter);
+
+		ofstream optTrajMinFile("../res/optTrajMin.txt");
+		for(int po = 0; po < odomPoses.size(); ++po){
+			g2o::VertexSE3* curPoseVert = static_cast<g2o::VertexSE3*>(optimizerMin.vertex(po));
+			g2o::Vector7d poseVect = g2o::internal::toVectorQT(curPoseVert->estimate());
+
+			optTrajMinFile << (po + 1);
+			for(int i = 0; i < 7; ++i){
+				optTrajMinFile << " " << poseVect[i];
+			}
+			optTrajMinFile << endl;
 		}
 	}
 	catch(char const *str){
