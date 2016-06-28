@@ -54,7 +54,7 @@ g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo
  ../g2o/types/slam3d/se3_ops.h
  ../g2o/types/slam3d/se3_ops.hpp
  ../g2o/types/slam3d/se3quat.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/ba_anchored_inverse_depth/ba_anchored_inverse_depth_demo.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/ba_anchored_inverse_depth/ba_anchored_inverse_depth_demo.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

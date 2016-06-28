@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/depend.make
@@ -54,17 +54,17 @@ include g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_de
 
 g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.o: g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/flags.make
 g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.o: ../g2o/examples/ba_anchored_inverse_depth/ba_anchored_inverse_depth_demo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/ba_anchored_inverse_depth/ba_anchored_inverse_depth_demo.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/ba_anchored_inverse_depth/ba_anchored_inverse_depth_demo.cpp
 
 g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/ba_anchored_inverse_depth/ba_anchored_inverse_depth_demo.cpp > CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/ba_anchored_inverse_depth/ba_anchored_inverse_depth_demo.cpp > CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.i
 
 g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/ba_anchored_inverse_depth/ba_anchored_inverse_depth_demo.cpp -o CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/ba_anchored_inverse_depth/ba_anchored_inverse_depth_demo.cpp -o CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.s
 
 g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.o.requires:
 .PHONY : g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/ba_anchored_inverse_depth_demo.cpp.o.requires
@@ -107,7 +107,7 @@ ba_anchored_inverse_depth_demo_EXTERNAL_OBJECTS =
 ../bin/ba_anchored_inverse_depth_demo: /usr/lib/x86_64-linux-gnu/libGL.so
 ../bin/ba_anchored_inverse_depth_demo: g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../../bin/ba_anchored_inverse_depth_demo"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ba_anchored_inverse_depth_demo.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ba_anchored_inverse_depth_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/build: ../bin/ba_anchored_inverse_depth_demo
@@ -117,10 +117,10 @@ g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo
 .PHONY : g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/requires
 
 g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth && $(CMAKE_COMMAND) -P CMakeFiles/ba_anchored_inverse_depth_demo.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth && $(CMAKE_COMMAND) -P CMakeFiles/ba_anchored_inverse_depth_demo.dir/cmake_clean.cmake
 .PHONY : g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/clean
 
 g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/ba_anchored_inverse_depth /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/ba_anchored_inverse_depth /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/depend
 

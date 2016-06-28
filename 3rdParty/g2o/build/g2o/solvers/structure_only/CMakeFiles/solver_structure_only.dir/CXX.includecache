@@ -318,25 +318,25 @@ macros.h
 g2o_stuff_api.h
 ../g2o/stuff/g2o_stuff_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/structure_only.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/structure_only.cpp
 structure_only_solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/structure_only_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/structure_only_solver.h
 g2o/core/optimization_algorithm_factory.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/optimization_algorithm_factory.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/optimization_algorithm_factory.h
 g2o/core/optimization_algorithm.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/optimization_algorithm.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/optimization_algorithm.h
 g2o/stuff/macros.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/stuff/macros.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/stuff/macros.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/structure_only_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/structure_only_solver.h
 g2o/core/base_vertex.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/base_vertex.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/base_vertex.h
 g2o/core/base_binary_edge.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/base_binary_edge.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/base_binary_edge.h
 g2o/core/optimization_algorithm.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/optimization_algorithm.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/optimization_algorithm.h
 g2o/core/sparse_optimizer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/sparse_optimizer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/g2o/core/sparse_optimizer.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

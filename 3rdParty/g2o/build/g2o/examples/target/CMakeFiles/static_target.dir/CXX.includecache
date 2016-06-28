@@ -436,7 +436,7 @@ string
 g2o_stuff_api.h
 ../g2o/stuff/g2o_stuff_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/target/static_target.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/target/static_target.cpp
 Eigen/StdVector
 -
 iostream
@@ -456,9 +456,9 @@ g2o/solvers/cholmod/linear_solver_cholmod.h
 g2o/stuff/sampler.h
 -
 targetTypes3D.hpp
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/target/targetTypes3D.hpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/target/targetTypes3D.hpp
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/target/targetTypes3D.hpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/target/targetTypes3D.hpp
 g2o/core/base_vertex.h
 -
 g2o/core/base_unary_edge.h

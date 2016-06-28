@@ -1,4 +1,4 @@
-# Install script for directory: /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_cli
+# Install script for directory: /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_cli
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,7 +47,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/lib/libg2o_cli.so")
+FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib/libg2o_cli.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/lib/libg2o_cli.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libg2o_cli.so")
     FILE(RPATH_REMOVE
@@ -73,7 +73,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/bin/g2o")
+FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/bin/g2o")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o")
     FILE(RPATH_REMOVE
@@ -94,10 +94,10 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/local/include/g2o/apps/g2o_cli" TYPE FILE FILES
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_cli/g2o_common.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_cli/g2o_cli_api.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_cli/dl_wrapper.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_cli/output_helper.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_cli/g2o_common.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_cli/g2o_cli_api.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_cli/dl_wrapper.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_cli/output_helper.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

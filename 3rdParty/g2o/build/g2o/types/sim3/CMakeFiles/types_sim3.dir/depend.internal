@@ -30,9 +30,9 @@ g2o/types/sim3/CMakeFiles/types_sim3.dir/types_seven_dof_expmap.cpp.o
  ../g2o/types/slam3d/se3_ops.h
  ../g2o/types/slam3d/se3_ops.hpp
  ../g2o/types/slam3d/se3quat.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/sim3.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/types_seven_dof_expmap.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/types_seven_dof_expmap.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/sim3.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/types_seven_dof_expmap.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/types_seven_dof_expmap.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

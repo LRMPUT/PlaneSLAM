@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/depend.make
@@ -54,17 +54,17 @@ include g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/flags.make
 
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.o: g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/flags.make
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.o: ../g2o/solvers/slam2d_linear/slam2d_linear.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/slam2d_linear.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/slam2d_linear.cpp
 
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/slam2d_linear.cpp > CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/slam2d_linear.cpp > CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.i
 
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/slam2d_linear.cpp -o CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/slam2d_linear.cpp -o CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.s
 
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.o.requires:
 .PHONY : g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.o.requires
@@ -77,17 +77,17 @@ g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.
 
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.o: g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/flags.make
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.o: ../g2o/solvers/slam2d_linear/solver_slam2d_linear.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.cpp
 
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.cpp > CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.cpp > CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.i
 
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.cpp -o CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.cpp -o CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.s
 
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.o.requires:
 .PHONY : g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_linear.cpp.o.requires
@@ -124,7 +124,7 @@ solver_slam2d_linear_EXTERNAL_OBJECTS =
 ../lib/libg2o_solver_slam2d_linear.so: /usr/lib/x86_64-linux-gnu/libGL.so
 ../lib/libg2o_solver_slam2d_linear.so: g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_solver_slam2d_linear.so"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/solver_slam2d_linear.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/solver_slam2d_linear.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/build: ../lib/libg2o_solver_slam2d_linear.so
@@ -135,10 +135,10 @@ g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/requires: g2o/solv
 .PHONY : g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/requires
 
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && $(CMAKE_COMMAND) -P CMakeFiles/solver_slam2d_linear.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear && $(CMAKE_COMMAND) -P CMakeFiles/solver_slam2d_linear.dir/cmake_clean.cmake
 .PHONY : g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/clean
 
 g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/depend
 

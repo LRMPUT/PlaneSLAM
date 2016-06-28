@@ -159,7 +159,9 @@
 /usr/local/include/g2o/types/slam3d/parameter_stereo_camera.h
 /usr/local/include/g2o/types/slam3d/edge_se3_lotsofxyz.h
 /usr/local/include/g2o/types/slam3d/isometry3d_gradients.h
+/usr/local/include/g2o/types/slam3d/vertex_plane_quat.h
 /usr/local/include/g2o/types/slam3d/edge_se3_prior.h
+/usr/local/include/g2o/types/slam3d/edge_se3_plane.h
 /usr/local/include/g2o/types/slam3d/se3quat.h
 /usr/local/include/g2o/types/slam3d/types_slam3d.h
 /usr/local/include/g2o/types/slam3d/dquat2mat.h

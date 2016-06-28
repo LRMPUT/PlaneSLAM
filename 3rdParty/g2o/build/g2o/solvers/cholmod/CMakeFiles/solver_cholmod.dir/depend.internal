@@ -37,8 +37,8 @@ g2o/solvers/cholmod/CMakeFiles/solver_cholmod.dir/solver_cholmod.cpp.o
  ../g2o/stuff/sparse_helper.h
  ../g2o/stuff/string_tools.h
  ../g2o/stuff/timeutil.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/cholmod/linear_solver_cholmod.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/cholmod/solver_cholmod.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/cholmod/linear_solver_cholmod.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/cholmod/solver_cholmod.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support

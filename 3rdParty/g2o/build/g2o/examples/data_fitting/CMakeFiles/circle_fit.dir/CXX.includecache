@@ -464,7 +464,7 @@ string
 g2o_stuff_api.h
 ../g2o/stuff/g2o_stuff_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/circle_fit.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/circle_fit.cpp
 Eigen/Core
 -
 Eigen/StdVector
@@ -474,25 +474,25 @@ Eigen/Geometry
 iostream
 -
 g2o/stuff/sampler.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/stuff/sampler.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/stuff/sampler.h
 g2o/stuff/command_args.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/stuff/command_args.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/stuff/command_args.h
 g2o/core/sparse_optimizer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/sparse_optimizer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/sparse_optimizer.h
 g2o/core/block_solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/block_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/block_solver.h
 g2o/core/solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/solver.h
 g2o/core/optimization_algorithm_levenberg.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/optimization_algorithm_levenberg.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/optimization_algorithm_levenberg.h
 g2o/core/optimization_algorithm_gauss_newton.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/optimization_algorithm_gauss_newton.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/optimization_algorithm_gauss_newton.h
 g2o/core/base_vertex.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/base_vertex.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/base_vertex.h
 g2o/core/base_unary_edge.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/base_unary_edge.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/core/base_unary_edge.h
 g2o/solvers/csparse/linear_solver_csparse.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/solvers/csparse/linear_solver_csparse.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/g2o/solvers/csparse/linear_solver_csparse.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

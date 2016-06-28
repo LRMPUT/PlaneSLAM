@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/os_specific.c
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/os_specific.c
 os_specific.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/os_specific.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/os_specific.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/os_specific.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/os_specific.h
 stdio.h
 -
 stdlib.h

@@ -54,7 +54,7 @@ g2o/examples/ba/CMakeFiles/ba_demo.dir/ba_demo.cpp.o
  ../g2o/types/slam3d/se3_ops.h
  ../g2o/types/slam3d/se3_ops.hpp
  ../g2o/types/slam3d/se3quat.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/ba/ba_demo.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/ba/ba_demo.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/progress.marks
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/progress.marks
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/clean
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/rule
 .PHONY : g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/rule
 
 # Convenience name for target.
@@ -153,12 +153,12 @@ g2o_interactive_library: g2o/examples/interactive_slam/g2o_interactive/CMakeFile
 
 # fast build rule for target.
 g2o_interactive_library/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build
 .PHONY : g2o_interactive_library/fast
 
 # Convenience name for target.
 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/rule
 .PHONY : g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ g2o_online_application: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles
 
 # fast build rule for target.
 g2o_online_application/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/build
 .PHONY : g2o_online_application/fast
 
 g2o_online.o: g2o_online.cpp.o
@@ -175,7 +175,7 @@ g2o_online.o: g2o_online.cpp.o
 
 # target to build an object file
 g2o_online.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/g2o_online.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/g2o_online.cpp.o
 .PHONY : g2o_online.cpp.o
 
 g2o_online.i: g2o_online.cpp.i
@@ -183,7 +183,7 @@ g2o_online.i: g2o_online.cpp.i
 
 # target to preprocess a source file
 g2o_online.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/g2o_online.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/g2o_online.cpp.i
 .PHONY : g2o_online.cpp.i
 
 g2o_online.s: g2o_online.cpp.s
@@ -191,7 +191,7 @@ g2o_online.s: g2o_online.cpp.s
 
 # target to generate assembly for a file
 g2o_online.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/g2o_online.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/g2o_online.cpp.s
 .PHONY : g2o_online.cpp.s
 
 g2o_slam_interface.o: g2o_slam_interface.cpp.o
@@ -199,7 +199,7 @@ g2o_slam_interface.o: g2o_slam_interface.cpp.o
 
 # target to build an object file
 g2o_slam_interface.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/g2o_slam_interface.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/g2o_slam_interface.cpp.o
 .PHONY : g2o_slam_interface.cpp.o
 
 g2o_slam_interface.i: g2o_slam_interface.cpp.i
@@ -207,7 +207,7 @@ g2o_slam_interface.i: g2o_slam_interface.cpp.i
 
 # target to preprocess a source file
 g2o_slam_interface.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/g2o_slam_interface.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/g2o_slam_interface.cpp.i
 .PHONY : g2o_slam_interface.cpp.i
 
 g2o_slam_interface.s: g2o_slam_interface.cpp.s
@@ -215,7 +215,7 @@ g2o_slam_interface.s: g2o_slam_interface.cpp.s
 
 # target to generate assembly for a file
 g2o_slam_interface.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/g2o_slam_interface.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/g2o_slam_interface.cpp.s
 .PHONY : g2o_slam_interface.cpp.s
 
 graph_optimizer_sparse_online.o: graph_optimizer_sparse_online.cpp.o
@@ -223,7 +223,7 @@ graph_optimizer_sparse_online.o: graph_optimizer_sparse_online.cpp.o
 
 # target to build an object file
 graph_optimizer_sparse_online.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/graph_optimizer_sparse_online.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/graph_optimizer_sparse_online.cpp.o
 .PHONY : graph_optimizer_sparse_online.cpp.o
 
 graph_optimizer_sparse_online.i: graph_optimizer_sparse_online.cpp.i
@@ -231,7 +231,7 @@ graph_optimizer_sparse_online.i: graph_optimizer_sparse_online.cpp.i
 
 # target to preprocess a source file
 graph_optimizer_sparse_online.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/graph_optimizer_sparse_online.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/graph_optimizer_sparse_online.cpp.i
 .PHONY : graph_optimizer_sparse_online.cpp.i
 
 graph_optimizer_sparse_online.s: graph_optimizer_sparse_online.cpp.s
@@ -239,7 +239,7 @@ graph_optimizer_sparse_online.s: graph_optimizer_sparse_online.cpp.s
 
 # target to generate assembly for a file
 graph_optimizer_sparse_online.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/graph_optimizer_sparse_online.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/graph_optimizer_sparse_online.cpp.s
 .PHONY : graph_optimizer_sparse_online.cpp.s
 
 types_online.o: types_online.cpp.o
@@ -247,7 +247,7 @@ types_online.o: types_online.cpp.o
 
 # target to build an object file
 types_online.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/types_online.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/types_online.cpp.o
 .PHONY : types_online.cpp.o
 
 types_online.i: types_online.cpp.i
@@ -255,7 +255,7 @@ types_online.i: types_online.cpp.i
 
 # target to preprocess a source file
 types_online.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/types_online.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/types_online.cpp.i
 .PHONY : types_online.cpp.i
 
 types_online.s: types_online.cpp.s
@@ -263,7 +263,7 @@ types_online.s: types_online.cpp.s
 
 # target to generate assembly for a file
 types_online.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/types_online.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/types_online.cpp.s
 .PHONY : types_online.cpp.s
 
 # Help Target
@@ -303,6 +303,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

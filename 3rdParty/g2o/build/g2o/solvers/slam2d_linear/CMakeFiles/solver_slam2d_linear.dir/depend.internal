@@ -38,9 +38,9 @@ g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/slam2d_linear.cpp.
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
  ../g2o/stuff/timeutil.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/g2o_slam2d_linear_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/slam2d_linear.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/g2o_slam2d_linear_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/slam2d_linear.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -293,9 +293,9 @@ g2o/solvers/slam2d_linear/CMakeFiles/solver_slam2d_linear.dir/solver_slam2d_line
  ../g2o/types/slam2d/g2o_types_slam2d_api.h
  ../g2o/types/slam2d/se2.h
  ../g2o/types/slam2d/vertex_se2.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/g2o_slam2d_linear_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/g2o_slam2d_linear_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/slam2d_linear/solver_slam2d_linear.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

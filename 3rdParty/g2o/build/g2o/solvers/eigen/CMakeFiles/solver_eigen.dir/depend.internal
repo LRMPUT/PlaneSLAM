@@ -35,8 +35,8 @@ g2o/solvers/eigen/CMakeFiles/solver_eigen.dir/solver_eigen.cpp.o
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
  ../g2o/stuff/timeutil.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/eigen/linear_solver_eigen.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/eigen/solver_eigen.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/eigen/linear_solver_eigen.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/eigen/solver_eigen.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support

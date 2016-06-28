@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11  -Wall -W -O3 -DNDEBUG    CMakeFiles/curve_fit.dir/curve_fit.cpp.o  -o ../../../../bin/curve_fit -rdynamic ../../../../lib/libg2o_core.so ../../../../lib/libg2o_stuff.so -lrt -Wl,-rpath,/home/jachu/workspace/PUTSLAM/3rdParty/g2o/lib 
+/usr/bin/c++    -std=c++11  -Wall -W -O3 -DNDEBUG    CMakeFiles/curve_fit.dir/curve_fit.cpp.o  -o ../../../../bin/curve_fit -rdynamic ../../../../lib/libg2o_core.so ../../../../lib/libg2o_stuff.so -lrt -Wl,-rpath,/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib 

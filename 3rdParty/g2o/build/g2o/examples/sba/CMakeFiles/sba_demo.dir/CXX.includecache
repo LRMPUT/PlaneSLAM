@@ -814,7 +814,7 @@ isometry3d_mappings.h
 g2o_types_slam3d_api.h
 ../g2o/types/slam3d/g2o_types_slam3d_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/sba_demo.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/sba_demo.cpp
 Eigen/StdVector
 -
 unordered_set
@@ -824,27 +824,27 @@ iostream
 stdint.h
 -
 g2o/config.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/g2o/config.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/g2o/config.h
 g2o/core/sparse_optimizer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/g2o/core/sparse_optimizer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/g2o/core/sparse_optimizer.h
 g2o/core/block_solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/g2o/core/block_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/g2o/core/block_solver.h
 g2o/core/solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/g2o/core/solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/g2o/core/solver.h
 g2o/core/robust_kernel_impl.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/g2o/core/robust_kernel_impl.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/g2o/core/robust_kernel_impl.h
 g2o/core/optimization_algorithm_levenberg.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/g2o/core/optimization_algorithm_levenberg.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/g2o/core/optimization_algorithm_levenberg.h
 g2o/solvers/dense/linear_solver_dense.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/g2o/solvers/dense/linear_solver_dense.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/g2o/solvers/dense/linear_solver_dense.h
 g2o/types/icp/types_icp.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/g2o/types/icp/types_icp.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/g2o/types/icp/types_icp.h
 g2o/solvers/structure_only/structure_only_solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/g2o/solvers/structure_only/structure_only_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/g2o/solvers/structure_only/structure_only_solver.h
 g2o/solvers/cholmod/linear_solver_cholmod.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/g2o/solvers/cholmod/linear_solver_cholmod.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/g2o/solvers/cholmod/linear_solver_cholmod.h
 g2o/solvers/csparse/linear_solver_csparse.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sba/g2o/solvers/csparse/linear_solver_csparse.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sba/g2o/solvers/csparse/linear_solver_csparse.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/depend.make
@@ -54,17 +54,17 @@ include g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_libra
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.o: g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flags.make
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.o: ../g2o/examples/interactive_slam/slam_parser/parser/slam_context.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser_library.dir/slam_context.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/slam_context.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser_library.dir/slam_context.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/slam_context.cpp
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser_library.dir/slam_context.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/slam_context.cpp > CMakeFiles/parser_library.dir/slam_context.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/slam_context.cpp > CMakeFiles/parser_library.dir/slam_context.cpp.i
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser_library.dir/slam_context.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/slam_context.cpp -o CMakeFiles/parser_library.dir/slam_context.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/slam_context.cpp -o CMakeFiles/parser_library.dir/slam_context.cpp.s
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.o.requires:
 .PHONY : g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.o.requires
@@ -77,17 +77,17 @@ g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/s
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.o: g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flags.make
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.o: ../g2o/examples/interactive_slam/slam_parser/parser/bison_parser.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser_library.dir/bison_parser.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser_library.dir/bison_parser.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.cpp
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser_library.dir/bison_parser.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.cpp > CMakeFiles/parser_library.dir/bison_parser.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.cpp > CMakeFiles/parser_library.dir/bison_parser.cpp.i
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser_library.dir/bison_parser.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.cpp -o CMakeFiles/parser_library.dir/bison_parser.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.cpp -o CMakeFiles/parser_library.dir/bison_parser.cpp.s
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.o.requires:
 .PHONY : g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.o.requires
@@ -100,17 +100,17 @@ g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/b
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.o: g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flags.make
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.o: ../g2o/examples/interactive_slam/slam_parser/parser/driver.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser_library.dir/driver.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/driver.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser_library.dir/driver.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/driver.cpp
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser_library.dir/driver.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/driver.cpp > CMakeFiles/parser_library.dir/driver.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/driver.cpp > CMakeFiles/parser_library.dir/driver.cpp.i
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser_library.dir/driver.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/driver.cpp -o CMakeFiles/parser_library.dir/driver.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/driver.cpp -o CMakeFiles/parser_library.dir/driver.cpp.s
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.o.requires:
 .PHONY : g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.o.requires
@@ -123,17 +123,17 @@ g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/d
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.o: g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flags.make
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.o: ../g2o/examples/interactive_slam/slam_parser/parser/flex_scanner.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser_library.dir/flex_scanner.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/flex_scanner.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/parser_library.dir/flex_scanner.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/flex_scanner.cpp
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser_library.dir/flex_scanner.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/flex_scanner.cpp > CMakeFiles/parser_library.dir/flex_scanner.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/flex_scanner.cpp > CMakeFiles/parser_library.dir/flex_scanner.cpp.i
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser_library.dir/flex_scanner.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/flex_scanner.cpp -o CMakeFiles/parser_library.dir/flex_scanner.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/flex_scanner.cpp -o CMakeFiles/parser_library.dir/flex_scanner.cpp.s
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.o.requires:
 .PHONY : g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.o.requires
@@ -161,7 +161,7 @@ parser_library_EXTERNAL_OBJECTS =
 ../lib/libg2o_parser.so: g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make
 ../lib/libg2o_parser.so: g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../../../lib/libg2o_parser.so"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parser_library.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parser_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build: ../lib/libg2o_parser.so
@@ -174,10 +174,10 @@ g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/r
 .PHONY : g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/requires
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && $(CMAKE_COMMAND) -P CMakeFiles/parser_library.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser && $(CMAKE_COMMAND) -P CMakeFiles/parser_library.dir/cmake_clean.cmake
 .PHONY : g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/clean
 
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/depend
 

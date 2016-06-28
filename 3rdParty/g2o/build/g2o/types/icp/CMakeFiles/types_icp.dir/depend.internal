@@ -52,9 +52,9 @@ g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o
  ../g2o/types/slam3d/types_slam3d.h
  ../g2o/types/slam3d/vertex_pointxyz.h
  ../g2o/types/slam3d/vertex_se3.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/icp/g2o_types_icp_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/icp/types_icp.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/icp/types_icp.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/icp/g2o_types_icp_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/icp/types_icp.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/icp/types_icp.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

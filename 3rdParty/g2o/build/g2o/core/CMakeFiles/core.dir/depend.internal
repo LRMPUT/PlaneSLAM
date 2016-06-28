@@ -3,9 +3,9 @@
 
 g2o/core/CMakeFiles/core.dir/batch_stats.cpp.o
  ../g2o/core/eigen_types.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/batch_stats.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/batch_stats.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/batch_stats.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/batch_stats.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -212,17 +212,17 @@ g2o/core/CMakeFiles/core.dir/cache.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/macros.h
  ../g2o/stuff/misc.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/cache.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/cache.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/creators.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/factory.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/cache.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/cache.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/creators.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/factory.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -431,22 +431,22 @@ g2o/core/CMakeFiles/core.dir/cache.cpp.o
 g2o/core/CMakeFiles/core.dir/estimate_propagator.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/macros.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/batch_stats.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/estimate_propagator.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/estimate_propagator.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/batch_stats.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/estimate_propagator.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/estimate_propagator.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -657,17 +657,17 @@ g2o/core/CMakeFiles/core.dir/factory.cpp.o
  ../g2o/stuff/color_macros.h
  ../g2o/stuff/macros.h
  ../g2o/stuff/misc.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/cache.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/creators.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/factory.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/factory.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/cache.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/creators.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/factory.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/factory.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -876,10 +876,10 @@ g2o/core/CMakeFiles/core.dir/factory.cpp.o
 g2o/core/CMakeFiles/core.dir/hyper_dijkstra.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/macros.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_dijkstra.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_dijkstra.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_dijkstra.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_dijkstra.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -1084,9 +1084,9 @@ g2o/core/CMakeFiles/core.dir/hyper_dijkstra.cpp.o
  g2o/config.h
 g2o/core/CMakeFiles/core.dir/hyper_graph.cpp.o
  ../g2o/core/eigen_types.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -1295,16 +1295,16 @@ g2o/core/CMakeFiles/core.dir/hyper_graph_action.cpp.o
  ../g2o/stuff/macros.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/cache.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph_action.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph_action.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/cache.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph_action.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph_action.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -1513,14 +1513,14 @@ g2o/core/CMakeFiles/core.dir/hyper_graph_action.cpp.o
 g2o/core/CMakeFiles/core.dir/jacobian_workspace.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/macros.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -1729,20 +1729,20 @@ g2o/core/CMakeFiles/core.dir/jacobian_workspace.cpp.o
 g2o/core/CMakeFiles/core.dir/marginal_covariance_cholesky.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/macros.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/marginal_covariance_cholesky.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/marginal_covariance_cholesky.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/marginal_covariance_cholesky.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/marginal_covariance_cholesky.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -1950,9 +1950,9 @@ g2o/core/CMakeFiles/core.dir/marginal_covariance_cholesky.cpp.o
  g2o/config.h
 g2o/core/CMakeFiles/core.dir/matrix_structure.cpp.o
  ../g2o/core/eigen_types.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -2163,28 +2163,28 @@ g2o/core/CMakeFiles/core.dir/optimizable_graph.cpp.o
  ../g2o/stuff/misc.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/batch_stats.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/cache.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/creators.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/estimate_propagator.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/factory.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph_action.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_property.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/robust_kernel.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/batch_stats.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/cache.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/creators.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/estimate_propagator.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/factory.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph_action.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_property.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/robust_kernel.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -2397,15 +2397,15 @@ g2o/core/CMakeFiles/core.dir/optimization_algorithm.cpp.o
  ../g2o/stuff/macros.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -2616,29 +2616,29 @@ g2o/core/CMakeFiles/core.dir/optimization_algorithm_dogleg.cpp.o
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
  ../g2o/stuff/timeutil.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/batch_stats.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/block_solver.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/block_solver.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/linear_solver.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_dogleg.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_dogleg.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_with_hessian.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/solver.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_diagonal.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/batch_stats.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/block_solver.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/block_solver.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/linear_solver.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_dogleg.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_dogleg.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_with_hessian.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/solver.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_diagonal.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -2848,10 +2848,10 @@ g2o/core/CMakeFiles/core.dir/optimization_algorithm_factory.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/macros.h
  ../g2o/stuff/misc.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_factory.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_factory.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_property.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_factory.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_factory.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_property.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -3061,25 +3061,25 @@ g2o/core/CMakeFiles/core.dir/optimization_algorithm_gauss_newton.cpp.o
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
  ../g2o/stuff/timeutil.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/batch_stats.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_gauss_newton.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_gauss_newton.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_with_hessian.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/solver.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/batch_stats.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_gauss_newton.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_gauss_newton.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_with_hessian.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/solver.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -3292,25 +3292,25 @@ g2o/core/CMakeFiles/core.dir/optimization_algorithm_levenberg.cpp.o
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
  ../g2o/stuff/timeutil.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/batch_stats.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_levenberg.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_levenberg.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_with_hessian.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/solver.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/batch_stats.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_levenberg.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_levenberg.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_with_hessian.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/solver.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -3522,24 +3522,24 @@ g2o/core/CMakeFiles/core.dir/optimization_algorithm_with_hessian.cpp.o
  ../g2o/stuff/macros.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/batch_stats.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_with_hessian.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/solver.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/batch_stats.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm_with_hessian.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/solver.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -3747,10 +3747,10 @@ g2o/core/CMakeFiles/core.dir/optimization_algorithm_with_hessian.cpp.o
  g2o/config.h
 g2o/core/CMakeFiles/core.dir/parameter.cpp.o
  ../g2o/core/eigen_types.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -3960,13 +3960,13 @@ g2o/core/CMakeFiles/core.dir/parameter_container.cpp.o
  ../g2o/stuff/macros.h
  ../g2o/stuff/misc.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/creators.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/factory.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/creators.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/factory.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -4171,9 +4171,9 @@ g2o/core/CMakeFiles/core.dir/parameter_container.cpp.o
  g2o/config.h
 g2o/core/CMakeFiles/core.dir/robust_kernel.cpp.o
  ../g2o/core/eigen_types.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/robust_kernel.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/robust_kernel.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/robust_kernel.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/robust_kernel.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -4380,10 +4380,10 @@ g2o/core/CMakeFiles/core.dir/robust_kernel_factory.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/macros.h
  ../g2o/stuff/misc.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/robust_kernel.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/robust_kernel_factory.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/robust_kernel_factory.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/robust_kernel.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/robust_kernel_factory.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/robust_kernel_factory.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -4590,11 +4590,11 @@ g2o/core/CMakeFiles/core.dir/robust_kernel_impl.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/macros.h
  ../g2o/stuff/misc.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/robust_kernel.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/robust_kernel_factory.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/robust_kernel_impl.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/robust_kernel_impl.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/robust_kernel.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/robust_kernel_factory.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/robust_kernel_impl.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/robust_kernel_impl.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -4799,16 +4799,16 @@ g2o/core/CMakeFiles/core.dir/robust_kernel_impl.cpp.o
  g2o/config.h
 g2o/core/CMakeFiles/core.dir/solver.cpp.o
  ../g2o/core/eigen_types.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/batch_stats.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/solver.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/solver.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/batch_stats.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/solver.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/solver.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -5019,25 +5019,25 @@ g2o/core/CMakeFiles/core.dir/sparse_optimizer.cpp.o
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
  ../g2o/stuff/timeutil.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/batch_stats.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/estimate_propagator.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph_action.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/robust_kernel.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/batch_stats.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/estimate_propagator.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph_action.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimization_algorithm.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/robust_kernel.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -5249,23 +5249,23 @@ g2o/core/CMakeFiles/core.dir/sparse_optimizer_terminate_action.cpp.o
  ../g2o/stuff/macros.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/batch_stats.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/hyper_graph_action.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/parameter_container.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_optimizer_terminate_action.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/core/sparse_optimizer_terminate_action.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/batch_stats.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/g2o_core_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/hyper_graph_action.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/jacobian_workspace.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_operations.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/matrix_structure.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/openmp_mutex.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/optimizable_graph.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/parameter_container.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_block_matrix_ccs.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_optimizer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_optimizer_terminate_action.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/core/sparse_optimizer_terminate_action.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support

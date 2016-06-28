@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/progress.marks
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/interface/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/progress.marks
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/interface/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/interface/clean
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/interface/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/interface/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/interface/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/interface/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/interface/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/rule
 .PHONY : g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ interface_library: g2o/examples/interactive_slam/slam_parser/interface/CMakeFile
 
 # fast build rule for target.
 interface_library/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build
 .PHONY : interface_library/fast
 
 parser_interface.o: parser_interface.cpp.o
@@ -161,7 +161,7 @@ parser_interface.o: parser_interface.cpp.o
 
 # target to build an object file
 parser_interface.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/parser_interface.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/parser_interface.cpp.o
 .PHONY : parser_interface.cpp.o
 
 parser_interface.i: parser_interface.cpp.i
@@ -169,7 +169,7 @@ parser_interface.i: parser_interface.cpp.i
 
 # target to preprocess a source file
 parser_interface.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/parser_interface.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/parser_interface.cpp.i
 .PHONY : parser_interface.cpp.i
 
 parser_interface.s: parser_interface.cpp.s
@@ -177,7 +177,7 @@ parser_interface.s: parser_interface.cpp.s
 
 # target to generate assembly for a file
 parser_interface.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/parser_interface.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/parser_interface.cpp.s
 .PHONY : parser_interface.cpp.s
 
 slam_context_interface.o: slam_context_interface.cpp.o
@@ -185,7 +185,7 @@ slam_context_interface.o: slam_context_interface.cpp.o
 
 # target to build an object file
 slam_context_interface.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/slam_context_interface.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/slam_context_interface.cpp.o
 .PHONY : slam_context_interface.cpp.o
 
 slam_context_interface.i: slam_context_interface.cpp.i
@@ -193,7 +193,7 @@ slam_context_interface.i: slam_context_interface.cpp.i
 
 # target to preprocess a source file
 slam_context_interface.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/slam_context_interface.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/slam_context_interface.cpp.i
 .PHONY : slam_context_interface.cpp.i
 
 slam_context_interface.s: slam_context_interface.cpp.s
@@ -201,7 +201,7 @@ slam_context_interface.s: slam_context_interface.cpp.s
 
 # target to generate assembly for a file
 slam_context_interface.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/slam_context_interface.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/build.make g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/slam_context_interface.cpp.s
 .PHONY : slam_context_interface.cpp.s
 
 # Help Target
@@ -234,6 +234,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/progress.marks
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/parser/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/progress.marks
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/parser/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/parser/clean
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/parser/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/parser/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/parser/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/parser/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/parser/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/rule
 .PHONY : g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ parser_library: g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/pars
 
 # fast build rule for target.
 parser_library/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build
 .PHONY : parser_library/fast
 
 bison_parser.o: bison_parser.cpp.o
@@ -161,7 +161,7 @@ bison_parser.o: bison_parser.cpp.o
 
 # target to build an object file
 bison_parser.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.o
 .PHONY : bison_parser.cpp.o
 
 bison_parser.i: bison_parser.cpp.i
@@ -169,7 +169,7 @@ bison_parser.i: bison_parser.cpp.i
 
 # target to preprocess a source file
 bison_parser.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.i
 .PHONY : bison_parser.cpp.i
 
 bison_parser.s: bison_parser.cpp.s
@@ -177,7 +177,7 @@ bison_parser.s: bison_parser.cpp.s
 
 # target to generate assembly for a file
 bison_parser.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/bison_parser.cpp.s
 .PHONY : bison_parser.cpp.s
 
 driver.o: driver.cpp.o
@@ -185,7 +185,7 @@ driver.o: driver.cpp.o
 
 # target to build an object file
 driver.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.o
 .PHONY : driver.cpp.o
 
 driver.i: driver.cpp.i
@@ -193,7 +193,7 @@ driver.i: driver.cpp.i
 
 # target to preprocess a source file
 driver.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.i
 .PHONY : driver.cpp.i
 
 driver.s: driver.cpp.s
@@ -201,7 +201,7 @@ driver.s: driver.cpp.s
 
 # target to generate assembly for a file
 driver.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/driver.cpp.s
 .PHONY : driver.cpp.s
 
 flex_scanner.o: flex_scanner.cpp.o
@@ -209,7 +209,7 @@ flex_scanner.o: flex_scanner.cpp.o
 
 # target to build an object file
 flex_scanner.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.o
 .PHONY : flex_scanner.cpp.o
 
 flex_scanner.i: flex_scanner.cpp.i
@@ -217,7 +217,7 @@ flex_scanner.i: flex_scanner.cpp.i
 
 # target to preprocess a source file
 flex_scanner.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.i
 .PHONY : flex_scanner.cpp.i
 
 flex_scanner.s: flex_scanner.cpp.s
@@ -225,7 +225,7 @@ flex_scanner.s: flex_scanner.cpp.s
 
 # target to generate assembly for a file
 flex_scanner.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/flex_scanner.cpp.s
 .PHONY : flex_scanner.cpp.s
 
 slam_context.o: slam_context.cpp.o
@@ -233,7 +233,7 @@ slam_context.o: slam_context.cpp.o
 
 # target to build an object file
 slam_context.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.o
 .PHONY : slam_context.cpp.o
 
 slam_context.i: slam_context.cpp.i
@@ -241,7 +241,7 @@ slam_context.i: slam_context.cpp.i
 
 # target to preprocess a source file
 slam_context.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.i
 .PHONY : slam_context.cpp.i
 
 slam_context.s: slam_context.cpp.s
@@ -249,7 +249,7 @@ slam_context.s: slam_context.cpp.s
 
 # target to generate assembly for a file
 slam_context.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/build.make g2o/examples/interactive_slam/slam_parser/parser/CMakeFiles/parser_library.dir/slam_context.cpp.s
 .PHONY : slam_context.cpp.s
 
 # Help Target
@@ -288,6 +288,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

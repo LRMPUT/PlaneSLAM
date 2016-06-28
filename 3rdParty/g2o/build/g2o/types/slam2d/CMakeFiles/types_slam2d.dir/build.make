@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include g2o/types/slam2d/CMakeFiles/types_slam2d.dir/depend.make
@@ -54,17 +54,17 @@ include g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.o: ../g2o/types/slam2d/edge_se2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/edge_se2.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2.cpp > CMakeFiles/types_slam2d.dir/edge_se2.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2.cpp > CMakeFiles/types_slam2d.dir/edge_se2.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/edge_se2.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2.cpp -o CMakeFiles/types_slam2d.dir/edge_se2.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2.cpp -o CMakeFiles/types_slam2d.dir/edge_se2.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.o.requires
@@ -77,17 +77,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.o.provides.build: g2o/
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.o: ../g2o/types/slam2d/edge_se2_pointxy_calib.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_calib.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_calib.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_calib.cpp > CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_calib.cpp > CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_calib.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_calib.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.o.requires
@@ -100,17 +100,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.o.provid
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/types_slam2d.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/types_slam2d.cpp.o: ../g2o/types/slam2d/types_slam2d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/types_slam2d.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/types_slam2d.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/types_slam2d.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/types_slam2d.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/types_slam2d.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/types_slam2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/types_slam2d.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/types_slam2d.cpp > CMakeFiles/types_slam2d.dir/types_slam2d.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/types_slam2d.cpp > CMakeFiles/types_slam2d.dir/types_slam2d.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/types_slam2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/types_slam2d.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/types_slam2d.cpp -o CMakeFiles/types_slam2d.dir/types_slam2d.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/types_slam2d.cpp -o CMakeFiles/types_slam2d.dir/types_slam2d.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/types_slam2d.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/types_slam2d.cpp.o.requires
@@ -123,17 +123,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/types_slam2d.cpp.o.provides.build: 
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.o: ../g2o/types/slam2d/vertex_point_xy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_point_xy.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_point_xy.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_point_xy.cpp > CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_point_xy.cpp > CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_point_xy.cpp -o CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_point_xy.cpp -o CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.o.requires
@@ -146,17 +146,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.o.provides.buil
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.o: ../g2o/types/slam2d/edge_se2_pointxy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy.cpp > CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy.cpp > CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.o.requires
@@ -169,17 +169,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.o.provides.bui
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_se2.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_se2.cpp.o: ../g2o/types/slam2d/vertex_se2.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_se2.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/vertex_se2.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_se2.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/vertex_se2.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_se2.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_se2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/vertex_se2.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_se2.cpp > CMakeFiles/types_slam2d.dir/vertex_se2.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_se2.cpp > CMakeFiles/types_slam2d.dir/vertex_se2.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_se2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/vertex_se2.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_se2.cpp -o CMakeFiles/types_slam2d.dir/vertex_se2.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/vertex_se2.cpp -o CMakeFiles/types_slam2d.dir/vertex_se2.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_se2.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_se2.cpp.o.requires
@@ -192,17 +192,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_se2.cpp.o.provides.build: g2
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.o: ../g2o/types/slam2d/edge_se2_pointxy_bearing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_bearing.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_bearing.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_bearing.cpp > CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_bearing.cpp > CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_bearing.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_bearing.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.o.requires
@@ -215,17 +215,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.o.prov
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.o: ../g2o/types/slam2d/edge_se2_prior.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_prior.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_prior.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_prior.cpp > CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_prior.cpp > CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_prior.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_prior.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.o.requires
@@ -238,17 +238,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.o.provides.build
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.o: ../g2o/types/slam2d/parameter_se2_offset.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/parameter_se2_offset.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/parameter_se2_offset.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/parameter_se2_offset.cpp > CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/parameter_se2_offset.cpp > CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/parameter_se2_offset.cpp -o CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/parameter_se2_offset.cpp -o CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.o.requires
@@ -261,17 +261,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.o.provides
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.o: ../g2o/types/slam2d/edge_se2_offset.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_offset.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_offset.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_offset.cpp > CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_offset.cpp > CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_offset.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_offset.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.o.requires
@@ -284,17 +284,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.o.provides.buil
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.o: ../g2o/types/slam2d/edge_se2_pointxy_offset.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_offset.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_offset.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_offset.cpp > CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_offset.cpp > CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_offset.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_pointxy_offset.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.o.requires
@@ -307,17 +307,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.o.provi
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.o: ../g2o/types/slam2d/edge_se2_xyprior.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_xyprior.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_xyprior.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_xyprior.cpp > CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_xyprior.cpp > CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_xyprior.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_xyprior.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.o.requires
@@ -330,17 +330,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.o.provides.bui
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o: ../g2o/types/slam2d/edge_pointxy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_pointxy.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_pointxy.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_pointxy.cpp > CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_pointxy.cpp > CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_pointxy.cpp -o CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_pointxy.cpp -o CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o.requires
@@ -353,17 +353,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o.provides.build: 
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o: ../g2o/types/slam2d/edge_se2_twopointsxy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_twopointsxy.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_twopointsxy.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_twopointsxy.cpp > CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_twopointsxy.cpp > CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_twopointsxy.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_twopointsxy.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o.requires
@@ -376,17 +376,17 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o.provides
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.o: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/flags.make
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.o: ../g2o/types/slam2d/edge_se2_lotsofxy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_lotsofxy.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_lotsofxy.cpp
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_lotsofxy.cpp > CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_lotsofxy.cpp > CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.i
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_lotsofxy.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d/edge_se2_lotsofxy.cpp -o CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.s
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.o.requires:
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.o.requires
@@ -446,7 +446,7 @@ types_slam2d_EXTERNAL_OBJECTS =
 ../lib/libg2o_types_slam2d.so: /usr/lib/x86_64-linux-gnu/libXext.so
 ../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_types_slam2d.so"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/types_slam2d.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/types_slam2d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/build: ../lib/libg2o_types_slam2d.so
@@ -470,10 +470,10 @@ g2o/types/slam2d/CMakeFiles/types_slam2d.dir/requires: g2o/types/slam2d/CMakeFil
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/requires
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d && $(CMAKE_COMMAND) -P CMakeFiles/types_slam2d.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && $(CMAKE_COMMAND) -P CMakeFiles/types_slam2d.dir/cmake_clean.cmake
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/clean
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam2d/CMakeFiles/types_slam2d.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d/CMakeFiles/types_slam2d.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/depend
 

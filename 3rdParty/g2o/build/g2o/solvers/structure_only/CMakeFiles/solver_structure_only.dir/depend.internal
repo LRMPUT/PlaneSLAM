@@ -32,8 +32,8 @@ g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/structure_only.c
  ../g2o/stuff/misc.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/structure_only.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/structure_only/structure_only_solver.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/structure_only.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/structure_only/structure_only_solver.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

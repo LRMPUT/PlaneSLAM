@@ -1,4 +1,4 @@
-# Install script for directory: /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser
+# Install script for directory: /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,7 +47,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/lib/libg2o_parser.so")
+FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib/libg2o_parser.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/lib/libg2o_parser.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libg2o_parser.so")
     IF(CMAKE_INSTALL_DO_STRIP)
@@ -66,15 +66,15 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/local/include/slam_parser/parser" TYPE FILE FILES
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/FlexLexer.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/scanner.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/slam_context.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/commands.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/driver.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/stack.hh"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/location.hh"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/position.hh"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/FlexLexer.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/bison_parser.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/scanner.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/slam_context.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/commands.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/driver.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/stack.hh"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/location.hh"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/slam_parser/parser/position.hh"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

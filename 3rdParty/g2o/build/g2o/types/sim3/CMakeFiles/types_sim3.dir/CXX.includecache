@@ -284,29 +284,29 @@ Eigen/Core
 Eigen/Geometry
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/sim3.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/sim3.h
 g2o/types/slam3d/se3_ops.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/g2o/types/slam3d/se3_ops.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/g2o/types/slam3d/se3_ops.h
 Eigen/Geometry
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/types_seven_dof_expmap.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/types_seven_dof_expmap.cpp
 types_seven_dof_expmap.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/types_seven_dof_expmap.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/types_seven_dof_expmap.h
 g2o/core/factory.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/g2o/core/factory.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/g2o/core/factory.h
 g2o/stuff/macros.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/g2o/stuff/macros.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/g2o/stuff/macros.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/types_seven_dof_expmap.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/types_seven_dof_expmap.h
 g2o/core/base_vertex.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/g2o/core/base_vertex.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/g2o/core/base_vertex.h
 g2o/core/base_binary_edge.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/g2o/core/base_binary_edge.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/g2o/core/base_binary_edge.h
 g2o/types/sba/types_six_dof_expmap.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/g2o/types/sba/types_six_dof_expmap.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/g2o/types/sba/types_six_dof_expmap.h
 sim3.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/sim3/sim3.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/sim3/sim3.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

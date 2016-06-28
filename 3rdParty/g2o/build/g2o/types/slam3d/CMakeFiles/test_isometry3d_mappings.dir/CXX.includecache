@@ -18,47 +18,47 @@ float.h
 math.h
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/g2o_types_slam3d_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/g2o_types_slam3d_api.h
 g2o/config.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/g2o/config.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/g2o/config.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/isometry3d_mappings.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/isometry3d_mappings.h
 g2o_types_slam3d_api.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/g2o_types_slam3d_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/g2o_types_slam3d_api.h
 se3quat.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/se3quat.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/se3quat.h
 Eigen/Core
 -
 Eigen/Geometry
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/se3_ops.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/se3_ops.h
 Eigen/Core
 -
 Eigen/Geometry
 -
 g2o_types_slam3d_api.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/g2o_types_slam3d_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/g2o_types_slam3d_api.h
 se3_ops.hpp
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/se3_ops.hpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/se3_ops.hpp
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/se3_ops.hpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/se3_ops.hpp
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/se3quat.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/se3quat.h
 se3_ops.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/se3_ops.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/se3_ops.h
 Eigen/Core
 -
 Eigen/Geometry
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/test_isometry3d_mappings.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/test_isometry3d_mappings.cpp
 iostream
 -
 isometry3d_mappings.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/isometry3d_mappings.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/isometry3d_mappings.h
 g2o/stuff/macros.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d/g2o/stuff/macros.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/g2o/stuff/macros.h
 cstdio
 -
 

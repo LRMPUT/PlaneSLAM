@@ -66,7 +66,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_anonymize_observations_application.dir/g2o
  ../g2o/types/slam3d/types_slam3d.h
  ../g2o/types/slam3d/vertex_pointxyz.h
  ../g2o/types/slam3d/vertex_se3.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/g2o_anonymize_observations.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/g2o_anonymize_observations.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

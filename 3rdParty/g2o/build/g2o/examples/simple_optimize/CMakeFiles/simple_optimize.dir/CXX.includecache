@@ -404,23 +404,23 @@ string
 g2o_stuff_api.h
 ../g2o/stuff/g2o_stuff_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/simple_optimize/simple_optimize.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/simple_optimize/simple_optimize.cpp
 iostream
 -
 g2o/core/sparse_optimizer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/core/sparse_optimizer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/core/sparse_optimizer.h
 g2o/core/block_solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/core/block_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/core/block_solver.h
 g2o/core/optimization_algorithm_gauss_newton.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/core/optimization_algorithm_gauss_newton.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/core/optimization_algorithm_gauss_newton.h
 g2o/core/optimization_algorithm_levenberg.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/core/optimization_algorithm_levenberg.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/core/optimization_algorithm_levenberg.h
 g2o/solvers/csparse/linear_solver_csparse.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/solvers/csparse/linear_solver_csparse.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/solvers/csparse/linear_solver_csparse.h
 g2o/core/factory.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/core/factory.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/core/factory.h
 g2o/stuff/command_args.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/stuff/command_args.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/simple_optimize/g2o/stuff/command_args.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

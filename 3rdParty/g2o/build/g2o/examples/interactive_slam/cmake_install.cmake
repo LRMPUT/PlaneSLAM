@@ -1,4 +1,4 @@
-# Install script for directory: /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam
+# Install script for directory: /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/cmake_install.cmake")
-  INCLUDE("/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_interactive/cmake_install.cmake")
-  INCLUDE("/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental/cmake_install.cmake")
+  INCLUDE("/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/slam_parser/cmake_install.cmake")
+  INCLUDE("/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_interactive/cmake_install.cmake")
+  INCLUDE("/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

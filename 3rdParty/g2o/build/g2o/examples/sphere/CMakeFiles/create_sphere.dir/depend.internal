@@ -33,7 +33,7 @@ g2o/examples/sphere/CMakeFiles/create_sphere.dir/create_sphere.cpp.o
  ../g2o/types/slam3d/se3_ops.hpp
  ../g2o/types/slam3d/se3quat.h
  ../g2o/types/slam3d/vertex_se3.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sphere/create_sphere.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sphere/create_sphere.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

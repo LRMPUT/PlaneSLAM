@@ -1,4 +1,4 @@
-# Install script for directory: /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons
+# Install script for directory: /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,7 +47,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/lib/libg2o_types_slam3d_addons.so")
+FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib/libg2o_types_slam3d_addons.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/lib/libg2o_types_slam3d_addons.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libg2o_types_slam3d_addons.so")
     FILE(RPATH_REMOVE
@@ -68,19 +68,19 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/local/include/g2o/types/slam3d_addons" TYPE FILE FILES
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/plane3d.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/plane3d.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

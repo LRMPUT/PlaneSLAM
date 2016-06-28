@@ -32,10 +32,10 @@ g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_applica
  ../g2o/stuff/string_tools.h
  ../g2o/stuff/tictoc.h
  ../g2o/stuff/timeutil.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/g2o_incremental.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/g2o_incremental_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/graph_optimizer_sparse_incremental.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/linear_solver_cholmod_online.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/g2o_incremental.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/g2o_incremental_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/graph_optimizer_sparse_incremental.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/linear_solver_cholmod_online.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support

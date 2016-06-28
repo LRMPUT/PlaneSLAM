@@ -1,4 +1,4 @@
-# Install script for directory: /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff
+# Install script for directory: /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,7 +47,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/lib/libg2o_stuff.so")
+FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib/libg2o_stuff.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/lib/libg2o_stuff.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libg2o_stuff.so")
     IF(CMAKE_INSTALL_DO_STRIP)
@@ -71,7 +71,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/lib/libg2o_opengl_helper.so")
+FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib/libg2o_opengl_helper.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/lib/libg2o_opengl_helper.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libg2o_opengl_helper.so")
     IF(CMAKE_INSTALL_DO_STRIP)
@@ -90,23 +90,23 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/local/include/g2o/stuff" TYPE FILE FILES
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/string_tools.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/sparse_helper.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/macros.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/property.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/color_macros.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/command_args.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/opengl_wrapper.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/misc.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/g2o_stuff_api.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/unscented.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/filesys_tools.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/tictoc.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/scoped_pointer.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/sampler.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/os_specific.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/timeutil.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/string_tools.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/sparse_helper.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/macros.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/property.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/color_macros.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/command_args.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/opengl_wrapper.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/misc.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/g2o_stuff_api.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/unscented.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/filesys_tools.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/tictoc.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/scoped_pointer.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/sampler.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/os_specific.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/timeutil.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

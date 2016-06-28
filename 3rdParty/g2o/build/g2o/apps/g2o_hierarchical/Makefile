@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical/CMakeFiles/progress.marks
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical/CMakeFiles/progress.marks
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/clean
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/rule
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/rule
 
 # Convenience name for target.
@@ -153,12 +153,12 @@ g2o_hierarchical_application: g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchi
 
 # fast build rule for target.
 g2o_hierarchical_application/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/build
 .PHONY : g2o_hierarchical_application/fast
 
 # Convenience name for target.
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/rule
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ g2o_hierarchical_library: g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_
 
 # fast build rule for target.
 g2o_hierarchical_library/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build
 .PHONY : g2o_hierarchical_library/fast
 
 backbone_tree_action.o: backbone_tree_action.cpp.o
@@ -175,7 +175,7 @@ backbone_tree_action.o: backbone_tree_action.cpp.o
 
 # target to build an object file
 backbone_tree_action.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.o
 .PHONY : backbone_tree_action.cpp.o
 
 backbone_tree_action.i: backbone_tree_action.cpp.i
@@ -183,7 +183,7 @@ backbone_tree_action.i: backbone_tree_action.cpp.i
 
 # target to preprocess a source file
 backbone_tree_action.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.i
 .PHONY : backbone_tree_action.cpp.i
 
 backbone_tree_action.s: backbone_tree_action.cpp.s
@@ -191,7 +191,7 @@ backbone_tree_action.s: backbone_tree_action.cpp.s
 
 # target to generate assembly for a file
 backbone_tree_action.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.s
 .PHONY : backbone_tree_action.cpp.s
 
 edge_creator.o: edge_creator.cpp.o
@@ -199,7 +199,7 @@ edge_creator.o: edge_creator.cpp.o
 
 # target to build an object file
 edge_creator.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.o
 .PHONY : edge_creator.cpp.o
 
 edge_creator.i: edge_creator.cpp.i
@@ -207,7 +207,7 @@ edge_creator.i: edge_creator.cpp.i
 
 # target to preprocess a source file
 edge_creator.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.i
 .PHONY : edge_creator.cpp.i
 
 edge_creator.s: edge_creator.cpp.s
@@ -215,7 +215,7 @@ edge_creator.s: edge_creator.cpp.s
 
 # target to generate assembly for a file
 edge_creator.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.s
 .PHONY : edge_creator.cpp.s
 
 edge_labeler.o: edge_labeler.cpp.o
@@ -223,7 +223,7 @@ edge_labeler.o: edge_labeler.cpp.o
 
 # target to build an object file
 edge_labeler.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.o
 .PHONY : edge_labeler.cpp.o
 
 edge_labeler.i: edge_labeler.cpp.i
@@ -231,7 +231,7 @@ edge_labeler.i: edge_labeler.cpp.i
 
 # target to preprocess a source file
 edge_labeler.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.i
 .PHONY : edge_labeler.cpp.i
 
 edge_labeler.s: edge_labeler.cpp.s
@@ -239,7 +239,7 @@ edge_labeler.s: edge_labeler.cpp.s
 
 # target to generate assembly for a file
 edge_labeler.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.s
 .PHONY : edge_labeler.cpp.s
 
 edge_types_cost_function.o: edge_types_cost_function.cpp.o
@@ -247,7 +247,7 @@ edge_types_cost_function.o: edge_types_cost_function.cpp.o
 
 # target to build an object file
 edge_types_cost_function.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.o
 .PHONY : edge_types_cost_function.cpp.o
 
 edge_types_cost_function.i: edge_types_cost_function.cpp.i
@@ -255,7 +255,7 @@ edge_types_cost_function.i: edge_types_cost_function.cpp.i
 
 # target to preprocess a source file
 edge_types_cost_function.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.i
 .PHONY : edge_types_cost_function.cpp.i
 
 edge_types_cost_function.s: edge_types_cost_function.cpp.s
@@ -263,7 +263,7 @@ edge_types_cost_function.s: edge_types_cost_function.cpp.s
 
 # target to generate assembly for a file
 edge_types_cost_function.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.s
 .PHONY : edge_types_cost_function.cpp.s
 
 g2o_hierarchical.o: g2o_hierarchical.cpp.o
@@ -271,7 +271,7 @@ g2o_hierarchical.o: g2o_hierarchical.cpp.o
 
 # target to build an object file
 g2o_hierarchical.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/g2o_hierarchical.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/g2o_hierarchical.cpp.o
 .PHONY : g2o_hierarchical.cpp.o
 
 g2o_hierarchical.i: g2o_hierarchical.cpp.i
@@ -279,7 +279,7 @@ g2o_hierarchical.i: g2o_hierarchical.cpp.i
 
 # target to preprocess a source file
 g2o_hierarchical.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/g2o_hierarchical.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/g2o_hierarchical.cpp.i
 .PHONY : g2o_hierarchical.cpp.i
 
 g2o_hierarchical.s: g2o_hierarchical.cpp.s
@@ -287,7 +287,7 @@ g2o_hierarchical.s: g2o_hierarchical.cpp.s
 
 # target to generate assembly for a file
 g2o_hierarchical.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/g2o_hierarchical.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/g2o_hierarchical.cpp.s
 .PHONY : g2o_hierarchical.cpp.s
 
 g2o_hierarchical_test_functions.o: g2o_hierarchical_test_functions.cpp.o
@@ -295,7 +295,7 @@ g2o_hierarchical_test_functions.o: g2o_hierarchical_test_functions.cpp.o
 
 # target to build an object file
 g2o_hierarchical_test_functions.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.o
 .PHONY : g2o_hierarchical_test_functions.cpp.o
 
 g2o_hierarchical_test_functions.i: g2o_hierarchical_test_functions.cpp.i
@@ -303,7 +303,7 @@ g2o_hierarchical_test_functions.i: g2o_hierarchical_test_functions.cpp.i
 
 # target to preprocess a source file
 g2o_hierarchical_test_functions.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.i
 .PHONY : g2o_hierarchical_test_functions.cpp.i
 
 g2o_hierarchical_test_functions.s: g2o_hierarchical_test_functions.cpp.s
@@ -311,7 +311,7 @@ g2o_hierarchical_test_functions.s: g2o_hierarchical_test_functions.cpp.s
 
 # target to generate assembly for a file
 g2o_hierarchical_test_functions.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.s
 .PHONY : g2o_hierarchical_test_functions.cpp.s
 
 simple_star_ops.o: simple_star_ops.cpp.o
@@ -319,7 +319,7 @@ simple_star_ops.o: simple_star_ops.cpp.o
 
 # target to build an object file
 simple_star_ops.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.o
 .PHONY : simple_star_ops.cpp.o
 
 simple_star_ops.i: simple_star_ops.cpp.i
@@ -327,7 +327,7 @@ simple_star_ops.i: simple_star_ops.cpp.i
 
 # target to preprocess a source file
 simple_star_ops.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.i
 .PHONY : simple_star_ops.cpp.i
 
 simple_star_ops.s: simple_star_ops.cpp.s
@@ -335,7 +335,7 @@ simple_star_ops.s: simple_star_ops.cpp.s
 
 # target to generate assembly for a file
 simple_star_ops.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.s
 .PHONY : simple_star_ops.cpp.s
 
 star.o: star.cpp.o
@@ -343,7 +343,7 @@ star.o: star.cpp.o
 
 # target to build an object file
 star.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.o
 .PHONY : star.cpp.o
 
 star.i: star.cpp.i
@@ -351,7 +351,7 @@ star.i: star.cpp.i
 
 # target to preprocess a source file
 star.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.i
 .PHONY : star.cpp.i
 
 star.s: star.cpp.s
@@ -359,7 +359,7 @@ star.s: star.cpp.s
 
 # target to generate assembly for a file
 star.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build.make g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.s
 .PHONY : star.cpp.s
 
 # Help Target
@@ -411,6 +411,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

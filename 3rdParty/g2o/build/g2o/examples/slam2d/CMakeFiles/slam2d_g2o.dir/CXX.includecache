@@ -490,15 +490,15 @@ se2.h
 g2o_types_slam2d_api.h
 ../g2o/types/slam2d/g2o_types_slam2d_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx
 ../../../../g2o/examples/slam2d/main_window.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.cpp
 draw_helpers.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.h
 g2o/stuff/misc.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/stuff/misc.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/stuff/misc.h
 cmath
 -
 OpenGL/glu.h
@@ -506,17 +506,17 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.h
 qgl.h
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.cpp
 main_window.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.h
 g2o/core/sparse_optimizer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/sparse_optimizer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/sparse_optimizer.h
 g2o/core/estimate_propagator.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/estimate_propagator.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/estimate_propagator.h
 QFileDialog
 -
 fstream
@@ -524,49 +524,49 @@ fstream
 iostream
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.h
 ui_base_main_window.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/ui_base_main_window.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/ui_base_main_window.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_g2o.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_g2o.cpp
 iostream
 -
 main_window.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.h
 g2o/core/sparse_optimizer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/sparse_optimizer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/sparse_optimizer.h
 g2o/core/block_solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/block_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/block_solver.h
 g2o/core/factory.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/factory.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/factory.h
 g2o/core/optimization_algorithm_gauss_newton.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/optimization_algorithm_gauss_newton.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/optimization_algorithm_gauss_newton.h
 g2o/core/optimization_algorithm_levenberg.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/optimization_algorithm_levenberg.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/optimization_algorithm_levenberg.h
 g2o/solvers/csparse/linear_solver_csparse.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/solvers/csparse/linear_solver_csparse.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/solvers/csparse/linear_solver_csparse.h
 QApplication
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.cpp
 slam2d_viewer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.h
 draw_helpers.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.h
 g2o/types/slam2d/vertex_se2.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/types/slam2d/vertex_se2.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/types/slam2d/vertex_se2.h
 g2o/types/slam2d/vertex_point_xy.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/types/slam2d/vertex_point_xy.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/types/slam2d/vertex_point_xy.h
 g2o/core/sparse_optimizer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/sparse_optimizer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/g2o/core/sparse_optimizer.h
 Eigen/Core
 -
 iostream
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.h
 qglviewer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/qglviewer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/qglviewer.h
 
 /usr/include/QGLViewer/camera.h
 manipulatedCameraFrame.h

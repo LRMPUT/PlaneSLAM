@@ -346,11 +346,11 @@ string
 g2o_stuff_api.h
 ../g2o/stuff/g2o_stuff_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/dense/linear_solver_dense.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/dense/linear_solver_dense.h
 g2o/core/linear_solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/linear_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/linear_solver.h
 g2o/core/batch_stats.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/batch_stats.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/batch_stats.h
 vector
 -
 utility
@@ -360,21 +360,21 @@ Eigen/Core
 Eigen/Cholesky
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/dense/solver_dense.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/dense/solver_dense.cpp
 linear_solver_dense.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/dense/linear_solver_dense.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/dense/linear_solver_dense.h
 g2o/config.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/config.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/config.h
 g2o/core/block_solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/block_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/block_solver.h
 g2o/core/solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/solver.h
 g2o/core/optimization_algorithm_factory.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/optimization_algorithm_factory.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/optimization_algorithm_factory.h
 g2o/core/optimization_algorithm_gauss_newton.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/optimization_algorithm_gauss_newton.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/optimization_algorithm_gauss_newton.h
 g2o/core/optimization_algorithm_levenberg.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/optimization_algorithm_levenberg.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/dense/g2o/core/optimization_algorithm_levenberg.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

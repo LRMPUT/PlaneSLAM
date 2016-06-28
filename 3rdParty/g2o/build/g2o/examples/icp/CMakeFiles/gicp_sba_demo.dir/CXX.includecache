@@ -764,7 +764,7 @@ isometry3d_mappings.h
 g2o_types_slam3d_api.h
 ../g2o/types/slam3d/g2o_types_slam3d_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/icp/gicp_sba_demo.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/icp/gicp_sba_demo.cpp
 Eigen/StdVector
 -
 random
@@ -774,17 +774,17 @@ iostream
 stdint.h
 -
 g2o/core/sparse_optimizer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/icp/g2o/core/sparse_optimizer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/icp/g2o/core/sparse_optimizer.h
 g2o/core/block_solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/icp/g2o/core/block_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/icp/g2o/core/block_solver.h
 g2o/core/solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/icp/g2o/core/solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/icp/g2o/core/solver.h
 g2o/core/optimization_algorithm_levenberg.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/icp/g2o/core/optimization_algorithm_levenberg.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/icp/g2o/core/optimization_algorithm_levenberg.h
 g2o/solvers/csparse/linear_solver_csparse.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/icp/g2o/solvers/csparse/linear_solver_csparse.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/icp/g2o/solvers/csparse/linear_solver_csparse.h
 g2o/types/icp/types_icp.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/icp/g2o/types/icp/types_icp.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/icp/g2o/types/icp/types_icp.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

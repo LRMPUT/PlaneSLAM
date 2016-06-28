@@ -22,25 +22,25 @@ OpenGL/gl.h
 GL/gl.h
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_font.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_font.cpp
 freeglut_minimal.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
 iostream
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
 g2o/stuff/opengl_wrapper.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/g2o/stuff/opengl_wrapper.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/g2o/stuff/opengl_wrapper.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_mono_roman.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_mono_roman.cpp
 freeglut_minimal.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
 stdlib.h
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_roman.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_roman.cpp
 freeglut_minimal.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
 stdlib.h
 -
 

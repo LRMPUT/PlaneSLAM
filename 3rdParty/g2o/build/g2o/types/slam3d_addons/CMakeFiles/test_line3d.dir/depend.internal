@@ -12,9 +12,9 @@ g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/line3d_test.cpp.o
  ../g2o/types/slam3d/se3_ops.h
  ../g2o/types/slam3d/se3_ops.hpp
  ../g2o/types/slam3d/se3quat.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d_test.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d_test.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support

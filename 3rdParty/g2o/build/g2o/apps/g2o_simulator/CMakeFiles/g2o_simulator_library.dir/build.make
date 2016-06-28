@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/depend.make
@@ -54,17 +54,17 @@ include g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/apps/g2o_simulator/simulator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simulator.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simulator.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/simulator.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simulator.cpp > CMakeFiles/g2o_simulator_library.dir/simulator.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simulator.cpp > CMakeFiles/g2o_simulator_library.dir/simulator.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/simulator.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simulator.cpp -o CMakeFiles/g2o_simulator_library.dir/simulator.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simulator.cpp -o CMakeFiles/g2o_simulator_library.dir/simulator.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o.requires
@@ -77,17 +77,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o.prov
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.o: ../g2o/apps/g2o_simulator/pointsensorparameters.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/pointsensorparameters.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/pointsensorparameters.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/pointsensorparameters.cpp > CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/pointsensorparameters.cpp > CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/pointsensorparameters.cpp -o CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/pointsensorparameters.cpp -o CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.o.requires
@@ -100,17 +100,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/pointsensorparameter
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/apps/g2o_simulator/sensor_odometry2d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry2d.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry2d.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry2d.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry2d.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry2d.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry2d.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o.requires
@@ -123,17 +123,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/apps/g2o_simulator/sensor_pose2d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose2d.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose2d.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose2d.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose2d.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose2d.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose2d.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o.requires
@@ -146,17 +146,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o.
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/apps/g2o_simulator/sensor_pointxy.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o.requires
@@ -169,17 +169,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/apps/g2o_simulator/sensor_pointxy_bearing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_bearing.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_bearing.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_bearing.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_bearing.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_bearing.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_bearing.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o.requires
@@ -192,17 +192,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_beari
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/apps/g2o_simulator/sensor_pointxy_offset.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_offset.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_offset.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_offset.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_offset.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_offset.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxy_offset.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o.requires
@@ -215,17 +215,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offse
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/apps/g2o_simulator/simutils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simutils.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simutils.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/simutils.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simutils.cpp > CMakeFiles/g2o_simulator_library.dir/simutils.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simutils.cpp > CMakeFiles/g2o_simulator_library.dir/simutils.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/simutils.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simutils.cpp -o CMakeFiles/g2o_simulator_library.dir/simutils.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/simutils.cpp -o CMakeFiles/g2o_simulator_library.dir/simutils.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o.requires
@@ -238,17 +238,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o.provi
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/apps/g2o_simulator/sensor_segment2d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o.requires
@@ -261,17 +261,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/apps/g2o_simulator/sensor_segment2d_line.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_line.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_line.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_line.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_line.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_line.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_line.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o.requires
@@ -284,17 +284,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_lin
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/apps/g2o_simulator/sensor_segment2d_pointline.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_pointline.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_pointline.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_pointline.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_pointline.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_pointline.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_segment2d_pointline.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o.requires
@@ -307,17 +307,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_poi
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/apps/g2o_simulator/sensor_odometry3d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry3d.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry3d.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry3d.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry3d.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry3d.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_odometry3d.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o.requires
@@ -330,17 +330,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/apps/g2o_simulator/sensor_pose3d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o.requires
@@ -353,17 +353,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o.
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/apps/g2o_simulator/sensor_pose3d_offset.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d_offset.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d_offset.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d_offset.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d_offset.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d_offset.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pose3d_offset.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o.requires
@@ -376,17 +376,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/apps/g2o_simulator/sensor_pointxyz.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o.requires
@@ -399,17 +399,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/apps/g2o_simulator/sensor_pointxyz_disparity.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_disparity.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_disparity.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_disparity.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_disparity.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_disparity.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_disparity.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o.requires
@@ -422,17 +422,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/apps/g2o_simulator/sensor_pointxyz_depth.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_depth.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_depth.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_depth.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_depth.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_depth.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_pointxyz_depth.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o.requires
@@ -445,17 +445,17 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_dept
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/flags.make
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/apps/g2o_simulator/sensor_se3_prior.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_se3_prior.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_se3_prior.cpp
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_se3_prior.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_se3_prior.cpp > CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.i
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_se3_prior.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/sensor_se3_prior.cpp -o CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.s
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o.requires:
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o.requires
@@ -524,7 +524,7 @@ g2o_simulator_library_EXTERNAL_OBJECTS =
 ../lib/libg2o_simulator.so: /usr/lib/x86_64-linux-gnu/libGL.so
 ../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_simulator.so"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g2o_simulator_library.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g2o_simulator_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/build: ../lib/libg2o_simulator.so
@@ -551,10 +551,10 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/requires: g2o/apps/g
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/requires
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && $(CMAKE_COMMAND) -P CMakeFiles/g2o_simulator_library.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && $(CMAKE_COMMAND) -P CMakeFiles/g2o_simulator_library.dir/cmake_clean.cmake
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/clean
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_simulator /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/depend
 

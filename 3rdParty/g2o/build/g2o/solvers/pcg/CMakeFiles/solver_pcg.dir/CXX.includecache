@@ -346,11 +346,11 @@ string
 g2o_stuff_api.h
 ../g2o/stuff/g2o_stuff_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/linear_solver_pcg.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/linear_solver_pcg.h
 g2o/core/linear_solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/linear_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/linear_solver.h
 g2o/core/batch_stats.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/batch_stats.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/batch_stats.h
 vector
 -
 utility
@@ -360,25 +360,25 @@ Eigen/Core
 Eigen/StdVector
 -
 linear_solver_pcg.hpp
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/linear_solver_pcg.hpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/linear_solver_pcg.hpp
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/linear_solver_pcg.hpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/linear_solver_pcg.hpp
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/solver_pcg.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/solver_pcg.cpp
 linear_solver_pcg.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/linear_solver_pcg.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/linear_solver_pcg.h
 g2o/core/block_solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/block_solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/block_solver.h
 g2o/core/solver.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/solver.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/solver.h
 g2o/core/optimization_algorithm_factory.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/optimization_algorithm_factory.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/optimization_algorithm_factory.h
 g2o/stuff/macros.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/stuff/macros.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/stuff/macros.h
 g2o/core/optimization_algorithm_gauss_newton.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/optimization_algorithm_gauss_newton.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/optimization_algorithm_gauss_newton.h
 g2o/core/optimization_algorithm_levenberg.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/optimization_algorithm_levenberg.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/pcg/g2o/core/optimization_algorithm_levenberg.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

@@ -18,11 +18,11 @@ float.h
 math.h
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.cpp
 csparse_helper.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.h
 g2o/stuff/macros.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o/stuff/macros.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o/stuff/macros.h
 string
 -
 cassert
@@ -40,15 +40,15 @@ algorithm
 vector
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.h
 cs.h
 -
 g2o_csparse_extension_api.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o_csparse_extension_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o_csparse_extension_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o_csparse_extension_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o_csparse_extension_api.h
 g2o/config.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o/config.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o/config.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

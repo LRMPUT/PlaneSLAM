@@ -36,11 +36,11 @@ g2o/solvers/csparse/CMakeFiles/solver_csparse.dir/solver_csparse.cpp.o
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
  ../g2o/stuff/timeutil.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o_csparse_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o_csparse_extension_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/linear_solver_csparse.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/solver_csparse.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o_csparse_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o_csparse_extension_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/linear_solver_csparse.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/solver_csparse.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support

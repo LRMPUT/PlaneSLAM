@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/icp/CMakeFiles/progress.marks
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/icp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/icp/CMakeFiles/progress.marks
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/icp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/icp/clean
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/icp/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/icp/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/icp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/icp/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/icp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 g2o/types/icp/CMakeFiles/types_icp.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/icp/CMakeFiles/types_icp.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/icp/CMakeFiles/types_icp.dir/rule
 .PHONY : g2o/types/icp/CMakeFiles/types_icp.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ types_icp: g2o/types/icp/CMakeFiles/types_icp.dir/rule
 
 # fast build rule for target.
 types_icp/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/icp/CMakeFiles/types_icp.dir/build.make g2o/types/icp/CMakeFiles/types_icp.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/icp/CMakeFiles/types_icp.dir/build.make g2o/types/icp/CMakeFiles/types_icp.dir/build
 .PHONY : types_icp/fast
 
 types_icp.o: types_icp.cpp.o
@@ -161,7 +161,7 @@ types_icp.o: types_icp.cpp.o
 
 # target to build an object file
 types_icp.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/icp/CMakeFiles/types_icp.dir/build.make g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/icp/CMakeFiles/types_icp.dir/build.make g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o
 .PHONY : types_icp.cpp.o
 
 types_icp.i: types_icp.cpp.i
@@ -169,7 +169,7 @@ types_icp.i: types_icp.cpp.i
 
 # target to preprocess a source file
 types_icp.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/icp/CMakeFiles/types_icp.dir/build.make g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/icp/CMakeFiles/types_icp.dir/build.make g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.i
 .PHONY : types_icp.cpp.i
 
 types_icp.s: types_icp.cpp.s
@@ -177,7 +177,7 @@ types_icp.s: types_icp.cpp.s
 
 # target to generate assembly for a file
 types_icp.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/icp/CMakeFiles/types_icp.dir/build.make g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/icp/CMakeFiles/types_icp.dir/build.make g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.s
 .PHONY : types_icp.cpp.s
 
 # Help Target
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/target
+# Install script for directory: /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/target
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

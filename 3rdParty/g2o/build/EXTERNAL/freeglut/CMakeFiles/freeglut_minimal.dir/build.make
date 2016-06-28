@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/depend.make
@@ -54,17 +54,17 @@ include EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/flags.make
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o: EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/flags.make
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o: ../EXTERNAL/freeglut/freeglut_font.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_font.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_font.cpp
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_font.cpp > CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_font.cpp > CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.i
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_font.cpp -o CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_font.cpp -o CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.s
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o.requires:
 .PHONY : EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o.requires
@@ -77,17 +77,17 @@ EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o.provides.b
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.o: EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/flags.make
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.o: ../EXTERNAL/freeglut/freeglut_stroke_mono_roman.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_mono_roman.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_mono_roman.cpp
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_mono_roman.cpp > CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_mono_roman.cpp > CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.i
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_mono_roman.cpp -o CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_mono_roman.cpp -o CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.s
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.o.requires:
 .PHONY : EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.o.requires
@@ -100,17 +100,17 @@ EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.o: EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/flags.make
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.o: ../EXTERNAL/freeglut/freeglut_stroke_roman.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_roman.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_roman.cpp
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_roman.cpp > CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_roman.cpp > CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.i
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_roman.cpp -o CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_roman.cpp -o CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.s
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.o.requires:
 .PHONY : EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.o.requires
@@ -137,7 +137,7 @@ freeglut_minimal_EXTERNAL_OBJECTS =
 ../lib/libg2o_ext_freeglut_minimal.so: /usr/lib/x86_64-linux-gnu/libGL.so
 ../lib/libg2o_ext_freeglut_minimal.so: EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib/libg2o_ext_freeglut_minimal.so"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freeglut_minimal.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freeglut_minimal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/build: ../lib/libg2o_ext_freeglut_minimal.so
@@ -149,10 +149,10 @@ EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/requires: EXTERNAL/freeglut/CM
 .PHONY : EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/requires
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && $(CMAKE_COMMAND) -P CMakeFiles/freeglut_minimal.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut && $(CMAKE_COMMAND) -P CMakeFiles/freeglut_minimal.dir/cmake_clean.cmake
 .PHONY : EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/clean
 
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/depend
 

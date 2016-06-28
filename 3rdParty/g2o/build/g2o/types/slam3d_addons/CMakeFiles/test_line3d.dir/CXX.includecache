@@ -76,27 +76,27 @@ Eigen/Core
 Eigen/Geometry
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
 g2o/config.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/config.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/config.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
 g2o_types_slam3d_addons_api.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
 g2o/stuff/misc.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/stuff/misc.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/stuff/misc.h
 Eigen/Core
 -
 Eigen/Geometry
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d_test.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d_test.cpp
 line3d.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
 g2o/types/slam3d/isometry3d_mappings.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/types/slam3d/isometry3d_mappings.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/types/slam3d/isometry3d_mappings.h
 g2o/types/slam3d/isometry3d_gradients.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/types/slam3d/isometry3d_gradients.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/types/slam3d/isometry3d_gradients.h
 iostream
 -
 

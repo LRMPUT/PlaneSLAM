@@ -42,8 +42,8 @@ g2o/examples/target/CMakeFiles/static_target.dir/static_target.cpp.o
  ../g2o/stuff/sparse_helper.h
  ../g2o/stuff/string_tools.h
  ../g2o/stuff/timeutil.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/target/static_target.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/target/targetTypes3D.hpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/target/static_target.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/target/targetTypes3D.hpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

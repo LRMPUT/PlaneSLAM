@@ -41,7 +41,7 @@ g2o/examples/data_fitting/CMakeFiles/curve_fit.dir/curve_fit.cpp.o
  ../g2o/stuff/sampler.h
  ../g2o/stuff/string_tools.h
  ../g2o/stuff/timeutil.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/data_fitting/curve_fit.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/data_fitting/curve_fit.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

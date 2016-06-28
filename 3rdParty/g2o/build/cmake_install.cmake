@@ -1,4 +1,4 @@
-# Install script for directory: /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+# Install script for directory: /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,13 +41,13 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/include/g2o" TYPE FILE FILES "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/config.h")
+FILE(INSTALL DESTINATION "/usr/local/include/g2o" TYPE FILE FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/config.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/EXTERNAL/cmake_install.cmake")
-  INCLUDE("/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/cmake_install.cmake")
+  INCLUDE("/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/EXTERNAL/cmake_install.cmake")
+  INCLUDE("/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -57,7 +57,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

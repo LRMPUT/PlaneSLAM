@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/sba/CMakeFiles/progress.marks
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/sba/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/sba/CMakeFiles/progress.marks
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/sba/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/sba/clean
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/sba/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/sba/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/sba/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/sba/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/sba/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 g2o/types/sba/CMakeFiles/types_sba.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/sba/CMakeFiles/types_sba.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/sba/CMakeFiles/types_sba.dir/rule
 .PHONY : g2o/types/sba/CMakeFiles/types_sba.dir/rule
 
 # Convenience name for target.
@@ -153,7 +153,7 @@ types_sba: g2o/types/sba/CMakeFiles/types_sba.dir/rule
 
 # fast build rule for target.
 types_sba/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/build
 .PHONY : types_sba/fast
 
 types_sba.o: types_sba.cpp.o
@@ -161,7 +161,7 @@ types_sba.o: types_sba.cpp.o
 
 # target to build an object file
 types_sba.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_sba.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_sba.cpp.o
 .PHONY : types_sba.cpp.o
 
 types_sba.i: types_sba.cpp.i
@@ -169,7 +169,7 @@ types_sba.i: types_sba.cpp.i
 
 # target to preprocess a source file
 types_sba.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_sba.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_sba.cpp.i
 .PHONY : types_sba.cpp.i
 
 types_sba.s: types_sba.cpp.s
@@ -177,7 +177,7 @@ types_sba.s: types_sba.cpp.s
 
 # target to generate assembly for a file
 types_sba.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_sba.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_sba.cpp.s
 .PHONY : types_sba.cpp.s
 
 types_six_dof_expmap.o: types_six_dof_expmap.cpp.o
@@ -185,7 +185,7 @@ types_six_dof_expmap.o: types_six_dof_expmap.cpp.o
 
 # target to build an object file
 types_six_dof_expmap.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_six_dof_expmap.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_six_dof_expmap.cpp.o
 .PHONY : types_six_dof_expmap.cpp.o
 
 types_six_dof_expmap.i: types_six_dof_expmap.cpp.i
@@ -193,7 +193,7 @@ types_six_dof_expmap.i: types_six_dof_expmap.cpp.i
 
 # target to preprocess a source file
 types_six_dof_expmap.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_six_dof_expmap.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_six_dof_expmap.cpp.i
 .PHONY : types_six_dof_expmap.cpp.i
 
 types_six_dof_expmap.s: types_six_dof_expmap.cpp.s
@@ -201,7 +201,7 @@ types_six_dof_expmap.s: types_six_dof_expmap.cpp.s
 
 # target to generate assembly for a file
 types_six_dof_expmap.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_six_dof_expmap.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/types_six_dof_expmap.cpp.s
 .PHONY : types_six_dof_expmap.cpp.s
 
 # Help Target
@@ -234,6 +234,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

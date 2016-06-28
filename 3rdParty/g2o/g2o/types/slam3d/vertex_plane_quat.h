@@ -30,7 +30,7 @@ namespace g2o{
 
 		virtual bool setEstimateDataImpl(const double* est){
 			Eigen::Map<const Vector4D> v(est);
-			_estimate=Eigen::Quaterniond(est[3], est[0], est[1], est[2]);
+			_estimate=Eigen::Quaterniond(v[3], v[0], v[1], v[2]);
 			return true;
 		}
 
@@ -49,13 +49,13 @@ namespace g2o{
 
 		virtual bool setMinimalEstimateDataImpl(const double* est){
 			Eigen::Map<const Vector3D> v(est);
-			double w = sqrt(1.0 - est[0]*est[0] - est[1]*est[1] - est[2]*est[2]);
-			_estimate=Eigen::Quaterniond(w, est[0], est[1], est[2]);
+			double w = sqrt(1.0 - v[0]*v[0] - v[1]*v[1] - v[2]*v[2]);
+			_estimate=Eigen::Quaterniond(w, v[0], v[1], v[2]);
 			return true;
 		}
 
 		virtual bool getMinimalEstimateData(double* est) const{
-			Eigen::Map<Vector6d> v(est);
+			Eigen::Map<Vector3D> v(est);
 			v[0] = _estimate.x();
 			v[1] = _estimate.y();
 			v[2] = _estimate.z();
@@ -69,19 +69,29 @@ namespace g2o{
 		/**
 		* update the position of this vertex. The update is using
 		* exponential map from article "Simultaneous Localization
-		*  and Mapping with Infinite Planes by Michael Kaess.
+		*  and Mapping with Infinite Planes" by Michael Kaess.
 		*/
 		virtual void oplusImpl(const double* update)
 		{
 			Eigen::Map<const Vector3D> v(update);
+
 			double arg = 0.5 * sqrt(v[0]*v[0] + v[1]*v[1] + v[2]*v[2]);
-			double sinc =
-			Isometry3D increment = internal::fromVectorMQT(v);
-			_estimate = _estimate * increment;
-			if (++_numOplusCalls > orthogonalizeAfter) {
-			  _numOplusCalls = 0;
-			  internal::approximateNearestOrthogonalMatrix(_estimate.matrix().topLeftCorner<3,3>());
+			double sincArg = 1.0;
+			if(arg > 1e-5){
+				sincArg = sin(arg)/arg;
 			}
+			double cosArg = cos(arg);
+			double sign = 1.0;
+			if(cosArg < 0.0){
+				sign = -1.0;
+			}
+
+			Eigen::Quaterniond increment(sign*cosArg,
+										sign*0.5*sincArg*v[0],
+										sign*0.5*sincArg*v[1],
+										sign*0.5*sincArg*v[2]);
+			_estimate = increment * _estimate;
+			_estimate.normalize();
 		}
 
 	};

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/depend.make
@@ -54,17 +54,17 @@ include g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.o: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.o: ../g2o/types/slam3d_addons/vertex_se3_euler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.cpp
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.cpp > CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.cpp > CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.i
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.cpp -o CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.cpp -o CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.s
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.o.requires:
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.o.requires
@@ -77,17 +77,17 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o: ../g2o/types/slam3d_addons/edge_se3_euler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.cpp
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.cpp > CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.cpp > CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.i
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.s
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o.requires:
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o.requires
@@ -100,17 +100,17 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o.
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o: ../g2o/types/slam3d_addons/vertex_plane.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.cpp
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.cpp > CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.cpp > CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.i
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.cpp -o CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.cpp -o CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.s
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o.requires:
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o.requires
@@ -123,17 +123,17 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o.pr
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.o: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.o: ../g2o/types/slam3d_addons/edge_se3_plane_calib.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.cpp
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.cpp > CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.cpp > CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.i
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.s
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.o.requires:
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.o.requires
@@ -146,17 +146,17 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o: ../g2o/types/slam3d_addons/line3d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.cpp
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d_addons.dir/line3d.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.cpp > CMakeFiles/types_slam3d_addons.dir/line3d.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.cpp > CMakeFiles/types_slam3d_addons.dir/line3d.cpp.i
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d_addons.dir/line3d.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.cpp -o CMakeFiles/types_slam3d_addons.dir/line3d.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.cpp -o CMakeFiles/types_slam3d_addons.dir/line3d.cpp.s
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o.requires:
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o.requires
@@ -169,17 +169,17 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o.provides
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o: ../g2o/types/slam3d_addons/vertex_line3d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.cpp
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.cpp > CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.cpp > CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.i
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.cpp -o CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.cpp -o CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.s
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o.requires:
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o.requires
@@ -192,17 +192,17 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o.p
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o: ../g2o/types/slam3d_addons/edge_se3_line.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.cpp
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.cpp > CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.cpp > CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.i
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.s
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o.requires:
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o.requires
@@ -215,17 +215,17 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o.p
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.o: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.o: ../g2o/types/slam3d_addons/edge_line3d.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.cpp
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.cpp > CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.cpp > CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.i
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.s
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.o.requires:
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.o.requires
@@ -238,17 +238,17 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.o.pro
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o: ../g2o/types/slam3d_addons/edge_plane.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.cpp
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.cpp > CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.cpp > CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.i
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.s
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o.requires:
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o.requires
@@ -261,17 +261,17 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o.prov
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o: ../g2o/types/slam3d_addons/edge_se3_calib.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.cpp
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.cpp > CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.cpp > CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.i
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.cpp -o CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.s
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o.requires:
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o.requires
@@ -284,17 +284,17 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o.
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/flags.make
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o: ../g2o/types/slam3d_addons/types_slam3d_addons.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.cpp
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.cpp > CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.cpp > CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.i
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.cpp -o CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.cpp -o CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.s
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o.requires:
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o.requires
@@ -347,7 +347,7 @@ types_slam3d_addons_EXTERNAL_OBJECTS =
 ../lib/libg2o_types_slam3d_addons.so: /usr/lib/x86_64-linux-gnu/libXext.so
 ../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_types_slam3d_addons.so"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/types_slam3d_addons.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/types_slam3d_addons.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/build: ../lib/libg2o_types_slam3d_addons.so
@@ -367,10 +367,10 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/requires: g2o/types/s
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/requires
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && $(CMAKE_COMMAND) -P CMakeFiles/types_slam3d_addons.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && $(CMAKE_COMMAND) -P CMakeFiles/types_slam3d_addons.dir/cmake_clean.cmake
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/clean
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/depend
 

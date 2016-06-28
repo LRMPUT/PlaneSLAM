@@ -1,4 +1,4 @@
-# Install script for directory: /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer
+# Install script for directory: /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,7 +47,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/bin/g2o_viewer")
+FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/bin/g2o_viewer")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_viewer" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_viewer")
     FILE(RPATH_REMOVE
@@ -73,7 +73,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/lib/libg2o_viewer.so")
+FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib/libg2o_viewer.so")
   IF(EXISTS "$ENV{DESTDIR}/usr/local/lib/libg2o_viewer.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libg2o_viewer.so")
     FILE(RPATH_REMOVE
@@ -94,14 +94,14 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/local/include/g2o/apps/g2o_viewer" TYPE FILE FILES
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
@@ -115,8 +115,8 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/local/include/g2o/apps/g2o_viewer" TYPE FILE FILES
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/ui_base_main_window.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/ui_base_properties_widget.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/ui_base_main_window.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/ui_base_properties_widget.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

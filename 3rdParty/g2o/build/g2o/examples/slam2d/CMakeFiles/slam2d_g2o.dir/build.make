@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/depend.make
@@ -53,28 +53,28 @@ include g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/progress.make
 include g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/flags.make
 
 g2o/examples/slam2d/ui_base_main_window.h: ../g2o/examples/slam2d/base_main_window.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_base_main_window.h"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d/ui_base_main_window.h /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/base_main_window.ui
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d/ui_base_main_window.h /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/base_main_window.ui
 
 g2o/examples/slam2d/moc_main_window.cxx: ../g2o/examples/slam2d/main_window.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_main_window.cxx"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx_parameters
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx_parameters
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/main_window.cpp.o: g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/flags.make
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/main_window.cpp.o: ../g2o/examples/slam2d/main_window.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/main_window.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slam2d_g2o.dir/main_window.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slam2d_g2o.dir/main_window.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.cpp
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam2d_g2o.dir/main_window.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.cpp > CMakeFiles/slam2d_g2o.dir/main_window.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.cpp > CMakeFiles/slam2d_g2o.dir/main_window.cpp.i
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam2d_g2o.dir/main_window.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.cpp -o CMakeFiles/slam2d_g2o.dir/main_window.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.cpp -o CMakeFiles/slam2d_g2o.dir/main_window.cpp.s
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/main_window.cpp.o.requires:
 .PHONY : g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/main_window.cpp.o.requires
@@ -87,17 +87,17 @@ g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/main_window.cpp.o.provides.build: 
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.o: g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/flags.make
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.o: ../g2o/examples/slam2d/slam2d_viewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.cpp
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.cpp > CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.cpp > CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.i
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.cpp -o CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_viewer.cpp -o CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.s
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.o.requires:
 .PHONY : g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.o.requires
@@ -110,17 +110,17 @@ g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_viewer.cpp.o.provides.build
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.o: g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/flags.make
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.o: ../g2o/examples/slam2d/slam2d_g2o.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_g2o.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_g2o.cpp
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_g2o.cpp > CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_g2o.cpp > CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.i
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_g2o.cpp -o CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/slam2d_g2o.cpp -o CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.s
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.o.requires:
 .PHONY : g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.o.requires
@@ -133,17 +133,17 @@ g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/slam2d_g2o.cpp.o.provides.build: g
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.o: g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/flags.make
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.o: ../g2o/examples/slam2d/draw_helpers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.cpp
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.cpp > CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.cpp > CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.i
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.cpp -o CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/draw_helpers.cpp -o CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.s
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.o.requires:
 .PHONY : g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.o.requires
@@ -156,17 +156,17 @@ g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/draw_helpers.cpp.o.provides.build:
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.o: g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/flags.make
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.o: g2o/examples/slam2d/moc_main_window.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx > CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx > CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.i
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx -o CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx -o CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.s
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.o.requires:
 .PHONY : g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/moc_main_window.cxx.o.requires
@@ -217,7 +217,7 @@ slam2d_g2o_EXTERNAL_OBJECTS =
 ../bin/slam2d_g2o: /usr/lib/x86_64-linux-gnu/libGLU.so
 ../bin/slam2d_g2o: g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../../bin/slam2d_g2o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slam2d_g2o.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slam2d_g2o.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/build: ../bin/slam2d_g2o
@@ -231,11 +231,11 @@ g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/requires: g2o/examples/slam2d/CMak
 .PHONY : g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/requires
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d && $(CMAKE_COMMAND) -P CMakeFiles/slam2d_g2o.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d && $(CMAKE_COMMAND) -P CMakeFiles/slam2d_g2o.dir/cmake_clean.cmake
 .PHONY : g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/clean
 
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/depend: g2o/examples/slam2d/ui_base_main_window.h
 g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/depend: g2o/examples/slam2d/moc_main_window.cxx
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : g2o/examples/slam2d/CMakeFiles/slam2d_g2o.dir/depend
 

@@ -326,7 +326,7 @@ isometry3d_mappings.h
 g2o_types_slam3d_api.h
 ../g2o/types/slam3d/g2o_types_slam3d_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sphere/create_sphere.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sphere/create_sphere.cpp
 iostream
 -
 fstream
@@ -340,15 +340,15 @@ Eigen/Core
 Eigen/StdVector
 -
 g2o/types/slam3d/vertex_se3.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sphere/g2o/types/slam3d/vertex_se3.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sphere/g2o/types/slam3d/vertex_se3.h
 g2o/types/slam3d/edge_se3.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sphere/g2o/types/slam3d/edge_se3.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sphere/g2o/types/slam3d/edge_se3.h
 g2o/stuff/sampler.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sphere/g2o/stuff/sampler.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sphere/g2o/stuff/sampler.h
 g2o/stuff/command_args.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sphere/g2o/stuff/command_args.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sphere/g2o/stuff/command_args.h
 g2o/core/factory.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/sphere/g2o/core/factory.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/sphere/g2o/core/factory.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

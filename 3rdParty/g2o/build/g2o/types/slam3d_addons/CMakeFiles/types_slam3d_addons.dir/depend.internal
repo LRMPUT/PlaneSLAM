@@ -19,11 +19,11 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.o
  ../g2o/core/robust_kernel.h
  ../g2o/stuff/macros.h
  ../g2o/stuff/misc.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -252,11 +252,11 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o
  ../g2o/stuff/misc.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/plane3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/plane3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -490,9 +490,9 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o
  ../g2o/types/slam3d/se3_ops.hpp
  ../g2o/types/slam3d/se3quat.h
  ../g2o/types/slam3d/vertex_se3.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -729,9 +729,9 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o
  ../g2o/types/slam3d/se3_ops.hpp
  ../g2o/types/slam3d/se3quat.h
  ../g2o/types/slam3d/vertex_se3.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -968,11 +968,11 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o
  ../g2o/types/slam3d/se3_ops.hpp
  ../g2o/types/slam3d/se3quat.h
  ../g2o/types/slam3d/vertex_se3.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -1208,11 +1208,11 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.
  ../g2o/types/slam3d/se3_ops.hpp
  ../g2o/types/slam3d/se3quat.h
  ../g2o/types/slam3d/vertex_se3.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/plane3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/plane3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -1423,9 +1423,9 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/macros.h
  ../g2o/stuff/misc.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -1676,20 +1676,20 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.c
  ../g2o/types/slam3d/types_slam3d.h
  ../g2o/types/slam3d/vertex_pointxyz.h
  ../g2o/types/slam3d/vertex_se3.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/plane3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/plane3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/types_slam3d_addons.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -1910,10 +1910,10 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o
  ../g2o/core/parameter_container.h
  ../g2o/stuff/macros.h
  ../g2o/stuff/misc.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -2139,10 +2139,10 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o
  ../g2o/stuff/opengl_wrapper.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/plane3d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/plane3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -2372,9 +2372,9 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.
  ../g2o/types/slam3d/se3_ops.hpp
  ../g2o/types/slam3d/se3quat.h
  ../g2o/types/slam3d/vertex_se3.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

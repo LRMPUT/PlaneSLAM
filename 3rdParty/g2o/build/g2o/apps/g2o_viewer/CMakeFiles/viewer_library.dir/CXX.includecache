@@ -384,23 +384,23 @@ macros.h
 g2o_stuff_api.h
 ../g2o/stuff/g2o_stuff_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/moc_main_window.cxx
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/moc_main_window.cxx
 ../../../../g2o/apps/g2o_viewer/main_window.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/moc_properties_widget.cxx
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/moc_properties_widget.cxx
 ../../../../g2o/apps/g2o_viewer/properties_widget.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.cpp
 g2o_qglviewer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
 g2o/stuff/opengl_primitives.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/stuff/opengl_primitives.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/stuff/opengl_primitives.h
 g2o/core/sparse_optimizer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/sparse_optimizer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/sparse_optimizer.h
 g2o/core/hyper_graph_action.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/hyper_graph_action.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/hyper_graph_action.h
 OpenGL/gl.h
 -
 GL/gl.h
@@ -410,51 +410,51 @@ GL/glu.h
 iostream
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
 qglviewer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/qglviewer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/qglviewer.h
 g2o_viewer_api.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
 g2o/core/hyper_graph_action.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/hyper_graph_action.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/hyper_graph_action.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
 g2o/config.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/config.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/config.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.cpp
 gui_hyper_graph_action.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
 g2o_qglviewer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
 QApplication
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
 g2o_viewer_api.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
 g2o/core/hyper_graph_action.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/hyper_graph_action.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/hyper_graph_action.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.cpp
 main_window.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
 viewer_properties_widget.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h
 g2o/core/optimization_algorithm_property.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/optimization_algorithm_property.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/optimization_algorithm_property.h
 g2o/core/optimization_algorithm_factory.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/optimization_algorithm_factory.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/optimization_algorithm_factory.h
 g2o/core/sparse_optimizer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/sparse_optimizer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/sparse_optimizer.h
 g2o/core/estimate_propagator.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/estimate_propagator.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/estimate_propagator.h
 g2o/core/optimization_algorithm.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/optimization_algorithm.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/optimization_algorithm.h
 g2o/core/robust_kernel_factory.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/robust_kernel_factory.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/robust_kernel_factory.h
 g2o/core/robust_kernel.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/robust_kernel.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/robust_kernel.h
 QFileDialog
 -
 QStandardItemModel
@@ -470,19 +470,19 @@ iostream
 cassert
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
 g2o_viewer_api.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
 ui_base_main_window.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/ui_base_main_window.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/ui_base_main_window.h
 g2o/core/optimization_algorithm_property.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/optimization_algorithm_property.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/optimization_algorithm_property.h
 vector
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.cpp
 properties_widget.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
 QLineEdit
 -
 iostream
@@ -490,9 +490,9 @@ iostream
 cassert
 -
 g2o/stuff/property.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/stuff/property.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/stuff/property.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
 vector
 -
 string
@@ -500,47 +500,47 @@ string
 QDialog
 -
 g2o_viewer_api.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
 ui_base_properties_widget.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/ui_base_properties_widget.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/ui_base_properties_widget.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.cpp
 run_g2o_viewer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.h
 main_window.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
 stream_redirect.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h
 gui_hyper_graph_action.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
 g2o/config.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/config.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/config.h
 g2o/core/sparse_optimizer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/sparse_optimizer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/sparse_optimizer.h
 g2o/core/factory.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/factory.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/factory.h
 g2o/core/optimization_algorithm_factory.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/optimization_algorithm_factory.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/optimization_algorithm_factory.h
 g2o/core/hyper_graph_action.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/hyper_graph_action.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/core/hyper_graph_action.h
 g2o/apps/g2o_cli/dl_wrapper.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/apps/g2o_cli/dl_wrapper.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/apps/g2o_cli/dl_wrapper.h
 g2o/stuff/command_args.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/stuff/command_args.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/stuff/command_args.h
 g2o/stuff/opengl_wrapper.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/stuff/opengl_wrapper.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/stuff/opengl_wrapper.h
 QApplication
 -
 QThread
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.h
 g2o_viewer_api.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.cpp
 stream_redirect.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h
 QPlainTextEdit
 -
 QString
@@ -548,7 +548,7 @@ QString
 iostream
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h
 iostream
 -
 streambuf
@@ -558,15 +558,15 @@ string
 QMutex
 -
 g2o_viewer_api.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.cpp
 viewer_properties_widget.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h
 g2o_qglviewer.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
 g2o/stuff/property.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/stuff/property.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o/stuff/property.h
 QLineEdit
 -
 iostream
@@ -576,11 +576,11 @@ cassert
 cxxabi.h
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h
 g2o_viewer_api.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
 properties_widget.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
 
 /usr/include/QGLViewer/camera.h
 manipulatedCameraFrame.h

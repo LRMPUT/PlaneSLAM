@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/types/slam3d/CMakeFiles/progress.marks
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d/CMakeFiles/progress.marks
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/clean
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/clean
 .PHONY : clean
 
 # The main clean target
@@ -129,22 +129,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/preinstall
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/rule
 .PHONY : g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/rule
 
 # Convenience name for target.
@@ -153,12 +153,12 @@ test_isometry3d_mappings: g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.d
 
 # fast build rule for target.
 test_isometry3d_mappings/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build.make g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build.make g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build
 .PHONY : test_isometry3d_mappings/fast
 
 # Convenience name for target.
 g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/rule
 .PHONY : g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ test_mat2quat_jacobian: g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/r
 
 # fast build rule for target.
 test_mat2quat_jacobian/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build
 .PHONY : test_mat2quat_jacobian/fast
 
 # Convenience name for target.
 g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/rule
 .PHONY : g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ test_slam3d_jacobian: g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/rule
 
 # fast build rule for target.
 test_slam3d_jacobian/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build
 .PHONY : test_slam3d_jacobian/fast
 
 # Convenience name for target.
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/rule:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/rule
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/rule
 .PHONY : g2o/types/slam3d/CMakeFiles/types_slam3d.dir/rule
 
 # Convenience name for target.
@@ -195,7 +195,7 @@ types_slam3d: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/rule
 
 # fast build rule for target.
 types_slam3d/fast:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build
 .PHONY : types_slam3d/fast
 
 dquat2mat.o: dquat2mat.cpp.o
@@ -203,7 +203,7 @@ dquat2mat.o: dquat2mat.cpp.o
 
 # target to build an object file
 dquat2mat.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/dquat2mat.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/dquat2mat.cpp.o
 .PHONY : dquat2mat.cpp.o
 
 dquat2mat.i: dquat2mat.cpp.i
@@ -211,7 +211,7 @@ dquat2mat.i: dquat2mat.cpp.i
 
 # target to preprocess a source file
 dquat2mat.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/dquat2mat.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/dquat2mat.cpp.i
 .PHONY : dquat2mat.cpp.i
 
 dquat2mat.s: dquat2mat.cpp.s
@@ -219,7 +219,7 @@ dquat2mat.s: dquat2mat.cpp.s
 
 # target to generate assembly for a file
 dquat2mat.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/dquat2mat.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/dquat2mat.cpp.s
 .PHONY : dquat2mat.cpp.s
 
 edge_pointxyz.o: edge_pointxyz.cpp.o
@@ -227,7 +227,7 @@ edge_pointxyz.o: edge_pointxyz.cpp.o
 
 # target to build an object file
 edge_pointxyz.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.o
 .PHONY : edge_pointxyz.cpp.o
 
 edge_pointxyz.i: edge_pointxyz.cpp.i
@@ -235,7 +235,7 @@ edge_pointxyz.i: edge_pointxyz.cpp.i
 
 # target to preprocess a source file
 edge_pointxyz.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.i
 .PHONY : edge_pointxyz.cpp.i
 
 edge_pointxyz.s: edge_pointxyz.cpp.s
@@ -243,7 +243,7 @@ edge_pointxyz.s: edge_pointxyz.cpp.s
 
 # target to generate assembly for a file
 edge_pointxyz.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.s
 .PHONY : edge_pointxyz.cpp.s
 
 edge_se3.o: edge_se3.cpp.o
@@ -251,7 +251,7 @@ edge_se3.o: edge_se3.cpp.o
 
 # target to build an object file
 edge_se3.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3.cpp.o
 .PHONY : edge_se3.cpp.o
 
 edge_se3.i: edge_se3.cpp.i
@@ -259,7 +259,7 @@ edge_se3.i: edge_se3.cpp.i
 
 # target to preprocess a source file
 edge_se3.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3.cpp.i
 .PHONY : edge_se3.cpp.i
 
 edge_se3.s: edge_se3.cpp.s
@@ -267,7 +267,7 @@ edge_se3.s: edge_se3.cpp.s
 
 # target to generate assembly for a file
 edge_se3.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3.cpp.s
 .PHONY : edge_se3.cpp.s
 
 edge_se3_lotsofxyz.o: edge_se3_lotsofxyz.cpp.o
@@ -275,7 +275,7 @@ edge_se3_lotsofxyz.o: edge_se3_lotsofxyz.cpp.o
 
 # target to build an object file
 edge_se3_lotsofxyz.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.o
 .PHONY : edge_se3_lotsofxyz.cpp.o
 
 edge_se3_lotsofxyz.i: edge_se3_lotsofxyz.cpp.i
@@ -283,7 +283,7 @@ edge_se3_lotsofxyz.i: edge_se3_lotsofxyz.cpp.i
 
 # target to preprocess a source file
 edge_se3_lotsofxyz.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.i
 .PHONY : edge_se3_lotsofxyz.cpp.i
 
 edge_se3_lotsofxyz.s: edge_se3_lotsofxyz.cpp.s
@@ -291,7 +291,7 @@ edge_se3_lotsofxyz.s: edge_se3_lotsofxyz.cpp.s
 
 # target to generate assembly for a file
 edge_se3_lotsofxyz.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.s
 .PHONY : edge_se3_lotsofxyz.cpp.s
 
 edge_se3_offset.o: edge_se3_offset.cpp.o
@@ -299,7 +299,7 @@ edge_se3_offset.o: edge_se3_offset.cpp.o
 
 # target to build an object file
 edge_se3_offset.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_offset.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_offset.cpp.o
 .PHONY : edge_se3_offset.cpp.o
 
 edge_se3_offset.i: edge_se3_offset.cpp.i
@@ -307,7 +307,7 @@ edge_se3_offset.i: edge_se3_offset.cpp.i
 
 # target to preprocess a source file
 edge_se3_offset.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_offset.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_offset.cpp.i
 .PHONY : edge_se3_offset.cpp.i
 
 edge_se3_offset.s: edge_se3_offset.cpp.s
@@ -315,15 +315,39 @@ edge_se3_offset.s: edge_se3_offset.cpp.s
 
 # target to generate assembly for a file
 edge_se3_offset.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_offset.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_offset.cpp.s
 .PHONY : edge_se3_offset.cpp.s
+
+edge_se3_plane.o: edge_se3_plane.cpp.o
+.PHONY : edge_se3_plane.o
+
+# target to build an object file
+edge_se3_plane.cpp.o:
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.o
+.PHONY : edge_se3_plane.cpp.o
+
+edge_se3_plane.i: edge_se3_plane.cpp.i
+.PHONY : edge_se3_plane.i
+
+# target to preprocess a source file
+edge_se3_plane.cpp.i:
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.i
+.PHONY : edge_se3_plane.cpp.i
+
+edge_se3_plane.s: edge_se3_plane.cpp.s
+.PHONY : edge_se3_plane.s
+
+# target to generate assembly for a file
+edge_se3_plane.cpp.s:
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.s
+.PHONY : edge_se3_plane.cpp.s
 
 edge_se3_pointxyz.o: edge_se3_pointxyz.cpp.o
 .PHONY : edge_se3_pointxyz.o
 
 # target to build an object file
 edge_se3_pointxyz.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz.cpp.o
 .PHONY : edge_se3_pointxyz.cpp.o
 
 edge_se3_pointxyz.i: edge_se3_pointxyz.cpp.i
@@ -331,7 +355,7 @@ edge_se3_pointxyz.i: edge_se3_pointxyz.cpp.i
 
 # target to preprocess a source file
 edge_se3_pointxyz.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz.cpp.i
 .PHONY : edge_se3_pointxyz.cpp.i
 
 edge_se3_pointxyz.s: edge_se3_pointxyz.cpp.s
@@ -339,7 +363,7 @@ edge_se3_pointxyz.s: edge_se3_pointxyz.cpp.s
 
 # target to generate assembly for a file
 edge_se3_pointxyz.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz.cpp.s
 .PHONY : edge_se3_pointxyz.cpp.s
 
 edge_se3_pointxyz_depth.o: edge_se3_pointxyz_depth.cpp.o
@@ -347,7 +371,7 @@ edge_se3_pointxyz_depth.o: edge_se3_pointxyz_depth.cpp.o
 
 # target to build an object file
 edge_se3_pointxyz_depth.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_depth.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_depth.cpp.o
 .PHONY : edge_se3_pointxyz_depth.cpp.o
 
 edge_se3_pointxyz_depth.i: edge_se3_pointxyz_depth.cpp.i
@@ -355,7 +379,7 @@ edge_se3_pointxyz_depth.i: edge_se3_pointxyz_depth.cpp.i
 
 # target to preprocess a source file
 edge_se3_pointxyz_depth.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_depth.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_depth.cpp.i
 .PHONY : edge_se3_pointxyz_depth.cpp.i
 
 edge_se3_pointxyz_depth.s: edge_se3_pointxyz_depth.cpp.s
@@ -363,7 +387,7 @@ edge_se3_pointxyz_depth.s: edge_se3_pointxyz_depth.cpp.s
 
 # target to generate assembly for a file
 edge_se3_pointxyz_depth.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_depth.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_depth.cpp.s
 .PHONY : edge_se3_pointxyz_depth.cpp.s
 
 edge_se3_pointxyz_disparity.o: edge_se3_pointxyz_disparity.cpp.o
@@ -371,7 +395,7 @@ edge_se3_pointxyz_disparity.o: edge_se3_pointxyz_disparity.cpp.o
 
 # target to build an object file
 edge_se3_pointxyz_disparity.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_disparity.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_disparity.cpp.o
 .PHONY : edge_se3_pointxyz_disparity.cpp.o
 
 edge_se3_pointxyz_disparity.i: edge_se3_pointxyz_disparity.cpp.i
@@ -379,7 +403,7 @@ edge_se3_pointxyz_disparity.i: edge_se3_pointxyz_disparity.cpp.i
 
 # target to preprocess a source file
 edge_se3_pointxyz_disparity.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_disparity.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_disparity.cpp.i
 .PHONY : edge_se3_pointxyz_disparity.cpp.i
 
 edge_se3_pointxyz_disparity.s: edge_se3_pointxyz_disparity.cpp.s
@@ -387,7 +411,7 @@ edge_se3_pointxyz_disparity.s: edge_se3_pointxyz_disparity.cpp.s
 
 # target to generate assembly for a file
 edge_se3_pointxyz_disparity.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_disparity.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_disparity.cpp.s
 .PHONY : edge_se3_pointxyz_disparity.cpp.s
 
 edge_se3_pointxyz_reprojectionError.o: edge_se3_pointxyz_reprojectionError.cpp.o
@@ -395,7 +419,7 @@ edge_se3_pointxyz_reprojectionError.o: edge_se3_pointxyz_reprojectionError.cpp.o
 
 # target to build an object file
 edge_se3_pointxyz_reprojectionError.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_reprojectionError.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_reprojectionError.cpp.o
 .PHONY : edge_se3_pointxyz_reprojectionError.cpp.o
 
 edge_se3_pointxyz_reprojectionError.i: edge_se3_pointxyz_reprojectionError.cpp.i
@@ -403,7 +427,7 @@ edge_se3_pointxyz_reprojectionError.i: edge_se3_pointxyz_reprojectionError.cpp.i
 
 # target to preprocess a source file
 edge_se3_pointxyz_reprojectionError.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_reprojectionError.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_reprojectionError.cpp.i
 .PHONY : edge_se3_pointxyz_reprojectionError.cpp.i
 
 edge_se3_pointxyz_reprojectionError.s: edge_se3_pointxyz_reprojectionError.cpp.s
@@ -411,7 +435,7 @@ edge_se3_pointxyz_reprojectionError.s: edge_se3_pointxyz_reprojectionError.cpp.s
 
 # target to generate assembly for a file
 edge_se3_pointxyz_reprojectionError.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_reprojectionError.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_reprojectionError.cpp.s
 .PHONY : edge_se3_pointxyz_reprojectionError.cpp.s
 
 edge_se3_prior.o: edge_se3_prior.cpp.o
@@ -419,7 +443,7 @@ edge_se3_prior.o: edge_se3_prior.cpp.o
 
 # target to build an object file
 edge_se3_prior.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_prior.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_prior.cpp.o
 .PHONY : edge_se3_prior.cpp.o
 
 edge_se3_prior.i: edge_se3_prior.cpp.i
@@ -427,7 +451,7 @@ edge_se3_prior.i: edge_se3_prior.cpp.i
 
 # target to preprocess a source file
 edge_se3_prior.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_prior.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_prior.cpp.i
 .PHONY : edge_se3_prior.cpp.i
 
 edge_se3_prior.s: edge_se3_prior.cpp.s
@@ -435,7 +459,7 @@ edge_se3_prior.s: edge_se3_prior.cpp.s
 
 # target to generate assembly for a file
 edge_se3_prior.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_prior.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_prior.cpp.s
 .PHONY : edge_se3_prior.cpp.s
 
 isometry3d_gradients.o: isometry3d_gradients.cpp.o
@@ -443,7 +467,7 @@ isometry3d_gradients.o: isometry3d_gradients.cpp.o
 
 # target to build an object file
 isometry3d_gradients.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_gradients.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_gradients.cpp.o
 .PHONY : isometry3d_gradients.cpp.o
 
 isometry3d_gradients.i: isometry3d_gradients.cpp.i
@@ -451,7 +475,7 @@ isometry3d_gradients.i: isometry3d_gradients.cpp.i
 
 # target to preprocess a source file
 isometry3d_gradients.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_gradients.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_gradients.cpp.i
 .PHONY : isometry3d_gradients.cpp.i
 
 isometry3d_gradients.s: isometry3d_gradients.cpp.s
@@ -459,7 +483,7 @@ isometry3d_gradients.s: isometry3d_gradients.cpp.s
 
 # target to generate assembly for a file
 isometry3d_gradients.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_gradients.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_gradients.cpp.s
 .PHONY : isometry3d_gradients.cpp.s
 
 isometry3d_mappings.o: isometry3d_mappings.cpp.o
@@ -467,7 +491,7 @@ isometry3d_mappings.o: isometry3d_mappings.cpp.o
 
 # target to build an object file
 isometry3d_mappings.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_mappings.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_mappings.cpp.o
 .PHONY : isometry3d_mappings.cpp.o
 
 isometry3d_mappings.i: isometry3d_mappings.cpp.i
@@ -475,7 +499,7 @@ isometry3d_mappings.i: isometry3d_mappings.cpp.i
 
 # target to preprocess a source file
 isometry3d_mappings.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_mappings.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_mappings.cpp.i
 .PHONY : isometry3d_mappings.cpp.i
 
 isometry3d_mappings.s: isometry3d_mappings.cpp.s
@@ -483,7 +507,7 @@ isometry3d_mappings.s: isometry3d_mappings.cpp.s
 
 # target to generate assembly for a file
 isometry3d_mappings.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_mappings.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_mappings.cpp.s
 .PHONY : isometry3d_mappings.cpp.s
 
 parameter_camera.o: parameter_camera.cpp.o
@@ -491,7 +515,7 @@ parameter_camera.o: parameter_camera.cpp.o
 
 # target to build an object file
 parameter_camera.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_camera.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_camera.cpp.o
 .PHONY : parameter_camera.cpp.o
 
 parameter_camera.i: parameter_camera.cpp.i
@@ -499,7 +523,7 @@ parameter_camera.i: parameter_camera.cpp.i
 
 # target to preprocess a source file
 parameter_camera.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_camera.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_camera.cpp.i
 .PHONY : parameter_camera.cpp.i
 
 parameter_camera.s: parameter_camera.cpp.s
@@ -507,7 +531,7 @@ parameter_camera.s: parameter_camera.cpp.s
 
 # target to generate assembly for a file
 parameter_camera.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_camera.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_camera.cpp.s
 .PHONY : parameter_camera.cpp.s
 
 parameter_se3_offset.o: parameter_se3_offset.cpp.o
@@ -515,7 +539,7 @@ parameter_se3_offset.o: parameter_se3_offset.cpp.o
 
 # target to build an object file
 parameter_se3_offset.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_se3_offset.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_se3_offset.cpp.o
 .PHONY : parameter_se3_offset.cpp.o
 
 parameter_se3_offset.i: parameter_se3_offset.cpp.i
@@ -523,7 +547,7 @@ parameter_se3_offset.i: parameter_se3_offset.cpp.i
 
 # target to preprocess a source file
 parameter_se3_offset.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_se3_offset.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_se3_offset.cpp.i
 .PHONY : parameter_se3_offset.cpp.i
 
 parameter_se3_offset.s: parameter_se3_offset.cpp.s
@@ -531,7 +555,7 @@ parameter_se3_offset.s: parameter_se3_offset.cpp.s
 
 # target to generate assembly for a file
 parameter_se3_offset.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_se3_offset.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_se3_offset.cpp.s
 .PHONY : parameter_se3_offset.cpp.s
 
 parameter_stereo_camera.o: parameter_stereo_camera.cpp.o
@@ -539,7 +563,7 @@ parameter_stereo_camera.o: parameter_stereo_camera.cpp.o
 
 # target to build an object file
 parameter_stereo_camera.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_stereo_camera.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_stereo_camera.cpp.o
 .PHONY : parameter_stereo_camera.cpp.o
 
 parameter_stereo_camera.i: parameter_stereo_camera.cpp.i
@@ -547,7 +571,7 @@ parameter_stereo_camera.i: parameter_stereo_camera.cpp.i
 
 # target to preprocess a source file
 parameter_stereo_camera.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_stereo_camera.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_stereo_camera.cpp.i
 .PHONY : parameter_stereo_camera.cpp.i
 
 parameter_stereo_camera.s: parameter_stereo_camera.cpp.s
@@ -555,7 +579,7 @@ parameter_stereo_camera.s: parameter_stereo_camera.cpp.s
 
 # target to generate assembly for a file
 parameter_stereo_camera.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_stereo_camera.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_stereo_camera.cpp.s
 .PHONY : parameter_stereo_camera.cpp.s
 
 test_isometry3d_mappings.o: test_isometry3d_mappings.cpp.o
@@ -563,7 +587,7 @@ test_isometry3d_mappings.o: test_isometry3d_mappings.cpp.o
 
 # target to build an object file
 test_isometry3d_mappings.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build.make g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/test_isometry3d_mappings.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build.make g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/test_isometry3d_mappings.cpp.o
 .PHONY : test_isometry3d_mappings.cpp.o
 
 test_isometry3d_mappings.i: test_isometry3d_mappings.cpp.i
@@ -571,7 +595,7 @@ test_isometry3d_mappings.i: test_isometry3d_mappings.cpp.i
 
 # target to preprocess a source file
 test_isometry3d_mappings.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build.make g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/test_isometry3d_mappings.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build.make g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/test_isometry3d_mappings.cpp.i
 .PHONY : test_isometry3d_mappings.cpp.i
 
 test_isometry3d_mappings.s: test_isometry3d_mappings.cpp.s
@@ -579,7 +603,7 @@ test_isometry3d_mappings.s: test_isometry3d_mappings.cpp.s
 
 # target to generate assembly for a file
 test_isometry3d_mappings.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build.make g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/test_isometry3d_mappings.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build.make g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/test_isometry3d_mappings.cpp.s
 .PHONY : test_isometry3d_mappings.cpp.s
 
 test_mat2quat_jacobian.o: test_mat2quat_jacobian.cpp.o
@@ -587,7 +611,7 @@ test_mat2quat_jacobian.o: test_mat2quat_jacobian.cpp.o
 
 # target to build an object file
 test_mat2quat_jacobian.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/test_mat2quat_jacobian.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/test_mat2quat_jacobian.cpp.o
 .PHONY : test_mat2quat_jacobian.cpp.o
 
 test_mat2quat_jacobian.i: test_mat2quat_jacobian.cpp.i
@@ -595,7 +619,7 @@ test_mat2quat_jacobian.i: test_mat2quat_jacobian.cpp.i
 
 # target to preprocess a source file
 test_mat2quat_jacobian.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/test_mat2quat_jacobian.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/test_mat2quat_jacobian.cpp.i
 .PHONY : test_mat2quat_jacobian.cpp.i
 
 test_mat2quat_jacobian.s: test_mat2quat_jacobian.cpp.s
@@ -603,7 +627,7 @@ test_mat2quat_jacobian.s: test_mat2quat_jacobian.cpp.s
 
 # target to generate assembly for a file
 test_mat2quat_jacobian.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/test_mat2quat_jacobian.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/test_mat2quat_jacobian.cpp.s
 .PHONY : test_mat2quat_jacobian.cpp.s
 
 test_slam3d_jacobian.o: test_slam3d_jacobian.cpp.o
@@ -611,7 +635,7 @@ test_slam3d_jacobian.o: test_slam3d_jacobian.cpp.o
 
 # target to build an object file
 test_slam3d_jacobian.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/test_slam3d_jacobian.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/test_slam3d_jacobian.cpp.o
 .PHONY : test_slam3d_jacobian.cpp.o
 
 test_slam3d_jacobian.i: test_slam3d_jacobian.cpp.i
@@ -619,7 +643,7 @@ test_slam3d_jacobian.i: test_slam3d_jacobian.cpp.i
 
 # target to preprocess a source file
 test_slam3d_jacobian.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/test_slam3d_jacobian.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/test_slam3d_jacobian.cpp.i
 .PHONY : test_slam3d_jacobian.cpp.i
 
 test_slam3d_jacobian.s: test_slam3d_jacobian.cpp.s
@@ -627,7 +651,7 @@ test_slam3d_jacobian.s: test_slam3d_jacobian.cpp.s
 
 # target to generate assembly for a file
 test_slam3d_jacobian.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/test_slam3d_jacobian.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/test_slam3d_jacobian.cpp.s
 .PHONY : test_slam3d_jacobian.cpp.s
 
 types_slam3d.o: types_slam3d.cpp.o
@@ -635,7 +659,7 @@ types_slam3d.o: types_slam3d.cpp.o
 
 # target to build an object file
 types_slam3d.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o
 .PHONY : types_slam3d.cpp.o
 
 types_slam3d.i: types_slam3d.cpp.i
@@ -643,7 +667,7 @@ types_slam3d.i: types_slam3d.cpp.i
 
 # target to preprocess a source file
 types_slam3d.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.i
 .PHONY : types_slam3d.cpp.i
 
 types_slam3d.s: types_slam3d.cpp.s
@@ -651,15 +675,39 @@ types_slam3d.s: types_slam3d.cpp.s
 
 # target to generate assembly for a file
 types_slam3d.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.s
 .PHONY : types_slam3d.cpp.s
+
+vertex_plane_quat.o: vertex_plane_quat.cpp.o
+.PHONY : vertex_plane_quat.o
+
+# target to build an object file
+vertex_plane_quat.cpp.o:
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o
+.PHONY : vertex_plane_quat.cpp.o
+
+vertex_plane_quat.i: vertex_plane_quat.cpp.i
+.PHONY : vertex_plane_quat.i
+
+# target to preprocess a source file
+vertex_plane_quat.cpp.i:
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.i
+.PHONY : vertex_plane_quat.cpp.i
+
+vertex_plane_quat.s: vertex_plane_quat.cpp.s
+.PHONY : vertex_plane_quat.s
+
+# target to generate assembly for a file
+vertex_plane_quat.cpp.s:
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.s
+.PHONY : vertex_plane_quat.cpp.s
 
 vertex_pointxyz.o: vertex_pointxyz.cpp.o
 .PHONY : vertex_pointxyz.o
 
 # target to build an object file
 vertex_pointxyz.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_pointxyz.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_pointxyz.cpp.o
 .PHONY : vertex_pointxyz.cpp.o
 
 vertex_pointxyz.i: vertex_pointxyz.cpp.i
@@ -667,7 +715,7 @@ vertex_pointxyz.i: vertex_pointxyz.cpp.i
 
 # target to preprocess a source file
 vertex_pointxyz.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_pointxyz.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_pointxyz.cpp.i
 .PHONY : vertex_pointxyz.cpp.i
 
 vertex_pointxyz.s: vertex_pointxyz.cpp.s
@@ -675,7 +723,7 @@ vertex_pointxyz.s: vertex_pointxyz.cpp.s
 
 # target to generate assembly for a file
 vertex_pointxyz.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_pointxyz.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_pointxyz.cpp.s
 .PHONY : vertex_pointxyz.cpp.s
 
 vertex_se3.o: vertex_se3.cpp.o
@@ -683,7 +731,7 @@ vertex_se3.o: vertex_se3.cpp.o
 
 # target to build an object file
 vertex_se3.cpp.o:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3.cpp.o
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3.cpp.o
 .PHONY : vertex_se3.cpp.o
 
 vertex_se3.i: vertex_se3.cpp.i
@@ -691,7 +739,7 @@ vertex_se3.i: vertex_se3.cpp.i
 
 # target to preprocess a source file
 vertex_se3.cpp.i:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3.cpp.i
 .PHONY : vertex_se3.cpp.i
 
 vertex_se3.s: vertex_se3.cpp.s
@@ -699,7 +747,7 @@ vertex_se3.s: vertex_se3.cpp.s
 
 # target to generate assembly for a file
 vertex_se3.cpp.s:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3.cpp.s
 .PHONY : vertex_se3.cpp.s
 
 # Help Target
@@ -733,6 +781,9 @@ help:
 	@echo "... edge_se3_offset.o"
 	@echo "... edge_se3_offset.i"
 	@echo "... edge_se3_offset.s"
+	@echo "... edge_se3_plane.o"
+	@echo "... edge_se3_plane.i"
+	@echo "... edge_se3_plane.s"
 	@echo "... edge_se3_pointxyz.o"
 	@echo "... edge_se3_pointxyz.i"
 	@echo "... edge_se3_pointxyz.s"
@@ -775,6 +826,9 @@ help:
 	@echo "... types_slam3d.o"
 	@echo "... types_slam3d.i"
 	@echo "... types_slam3d.s"
+	@echo "... vertex_plane_quat.o"
+	@echo "... vertex_plane_quat.i"
+	@echo "... vertex_plane_quat.s"
 	@echo "... vertex_pointxyz.o"
 	@echo "... vertex_pointxyz.i"
 	@echo "... vertex_pointxyz.s"
@@ -792,6 +846,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

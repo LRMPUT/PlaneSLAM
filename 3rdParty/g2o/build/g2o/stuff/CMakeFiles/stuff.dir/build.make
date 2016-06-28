@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include g2o/stuff/CMakeFiles/stuff.dir/depend.make
@@ -54,17 +54,17 @@ include g2o/stuff/CMakeFiles/stuff.dir/flags.make
 
 g2o/stuff/CMakeFiles/stuff.dir/timeutil.cpp.o: g2o/stuff/CMakeFiles/stuff.dir/flags.make
 g2o/stuff/CMakeFiles/stuff.dir/timeutil.cpp.o: ../g2o/stuff/timeutil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/stuff/CMakeFiles/stuff.dir/timeutil.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/timeutil.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/timeutil.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/timeutil.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/timeutil.cpp
 
 g2o/stuff/CMakeFiles/stuff.dir/timeutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stuff.dir/timeutil.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/timeutil.cpp > CMakeFiles/stuff.dir/timeutil.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/timeutil.cpp > CMakeFiles/stuff.dir/timeutil.cpp.i
 
 g2o/stuff/CMakeFiles/stuff.dir/timeutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stuff.dir/timeutil.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/timeutil.cpp -o CMakeFiles/stuff.dir/timeutil.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/timeutil.cpp -o CMakeFiles/stuff.dir/timeutil.cpp.s
 
 g2o/stuff/CMakeFiles/stuff.dir/timeutil.cpp.o.requires:
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/timeutil.cpp.o.requires
@@ -77,17 +77,17 @@ g2o/stuff/CMakeFiles/stuff.dir/timeutil.cpp.o.provides.build: g2o/stuff/CMakeFil
 
 g2o/stuff/CMakeFiles/stuff.dir/command_args.cpp.o: g2o/stuff/CMakeFiles/stuff.dir/flags.make
 g2o/stuff/CMakeFiles/stuff.dir/command_args.cpp.o: ../g2o/stuff/command_args.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/stuff/CMakeFiles/stuff.dir/command_args.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/command_args.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/command_args.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/command_args.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/command_args.cpp
 
 g2o/stuff/CMakeFiles/stuff.dir/command_args.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stuff.dir/command_args.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/command_args.cpp > CMakeFiles/stuff.dir/command_args.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/command_args.cpp > CMakeFiles/stuff.dir/command_args.cpp.i
 
 g2o/stuff/CMakeFiles/stuff.dir/command_args.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stuff.dir/command_args.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/command_args.cpp -o CMakeFiles/stuff.dir/command_args.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/command_args.cpp -o CMakeFiles/stuff.dir/command_args.cpp.s
 
 g2o/stuff/CMakeFiles/stuff.dir/command_args.cpp.o.requires:
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/command_args.cpp.o.requires
@@ -100,17 +100,17 @@ g2o/stuff/CMakeFiles/stuff.dir/command_args.cpp.o.provides.build: g2o/stuff/CMak
 
 g2o/stuff/CMakeFiles/stuff.dir/sparse_helper.cpp.o: g2o/stuff/CMakeFiles/stuff.dir/flags.make
 g2o/stuff/CMakeFiles/stuff.dir/sparse_helper.cpp.o: ../g2o/stuff/sparse_helper.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/stuff/CMakeFiles/stuff.dir/sparse_helper.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/sparse_helper.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/sparse_helper.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/sparse_helper.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/sparse_helper.cpp
 
 g2o/stuff/CMakeFiles/stuff.dir/sparse_helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stuff.dir/sparse_helper.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/sparse_helper.cpp > CMakeFiles/stuff.dir/sparse_helper.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/sparse_helper.cpp > CMakeFiles/stuff.dir/sparse_helper.cpp.i
 
 g2o/stuff/CMakeFiles/stuff.dir/sparse_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stuff.dir/sparse_helper.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/sparse_helper.cpp -o CMakeFiles/stuff.dir/sparse_helper.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/sparse_helper.cpp -o CMakeFiles/stuff.dir/sparse_helper.cpp.s
 
 g2o/stuff/CMakeFiles/stuff.dir/sparse_helper.cpp.o.requires:
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/sparse_helper.cpp.o.requires
@@ -123,17 +123,17 @@ g2o/stuff/CMakeFiles/stuff.dir/sparse_helper.cpp.o.provides.build: g2o/stuff/CMa
 
 g2o/stuff/CMakeFiles/stuff.dir/os_specific.c.o: g2o/stuff/CMakeFiles/stuff.dir/flags.make
 g2o/stuff/CMakeFiles/stuff.dir/os_specific.c.o: ../g2o/stuff/os_specific.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object g2o/stuff/CMakeFiles/stuff.dir/os_specific.c.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/stuff.dir/os_specific.c.o   -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/os_specific.c
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/stuff.dir/os_specific.c.o   -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/os_specific.c
 
 g2o/stuff/CMakeFiles/stuff.dir/os_specific.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stuff.dir/os_specific.c.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/os_specific.c > CMakeFiles/stuff.dir/os_specific.c.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/os_specific.c > CMakeFiles/stuff.dir/os_specific.c.i
 
 g2o/stuff/CMakeFiles/stuff.dir/os_specific.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stuff.dir/os_specific.c.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/os_specific.c -o CMakeFiles/stuff.dir/os_specific.c.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/os_specific.c -o CMakeFiles/stuff.dir/os_specific.c.s
 
 g2o/stuff/CMakeFiles/stuff.dir/os_specific.c.o.requires:
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/os_specific.c.o.requires
@@ -146,17 +146,17 @@ g2o/stuff/CMakeFiles/stuff.dir/os_specific.c.o.provides.build: g2o/stuff/CMakeFi
 
 g2o/stuff/CMakeFiles/stuff.dir/filesys_tools.cpp.o: g2o/stuff/CMakeFiles/stuff.dir/flags.make
 g2o/stuff/CMakeFiles/stuff.dir/filesys_tools.cpp.o: ../g2o/stuff/filesys_tools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/stuff/CMakeFiles/stuff.dir/filesys_tools.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/filesys_tools.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/filesys_tools.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/filesys_tools.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/filesys_tools.cpp
 
 g2o/stuff/CMakeFiles/stuff.dir/filesys_tools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stuff.dir/filesys_tools.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/filesys_tools.cpp > CMakeFiles/stuff.dir/filesys_tools.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/filesys_tools.cpp > CMakeFiles/stuff.dir/filesys_tools.cpp.i
 
 g2o/stuff/CMakeFiles/stuff.dir/filesys_tools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stuff.dir/filesys_tools.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/filesys_tools.cpp -o CMakeFiles/stuff.dir/filesys_tools.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/filesys_tools.cpp -o CMakeFiles/stuff.dir/filesys_tools.cpp.s
 
 g2o/stuff/CMakeFiles/stuff.dir/filesys_tools.cpp.o.requires:
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/filesys_tools.cpp.o.requires
@@ -169,17 +169,17 @@ g2o/stuff/CMakeFiles/stuff.dir/filesys_tools.cpp.o.provides.build: g2o/stuff/CMa
 
 g2o/stuff/CMakeFiles/stuff.dir/string_tools.cpp.o: g2o/stuff/CMakeFiles/stuff.dir/flags.make
 g2o/stuff/CMakeFiles/stuff.dir/string_tools.cpp.o: ../g2o/stuff/string_tools.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/stuff/CMakeFiles/stuff.dir/string_tools.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/string_tools.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/string_tools.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/string_tools.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/string_tools.cpp
 
 g2o/stuff/CMakeFiles/stuff.dir/string_tools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stuff.dir/string_tools.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/string_tools.cpp > CMakeFiles/stuff.dir/string_tools.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/string_tools.cpp > CMakeFiles/stuff.dir/string_tools.cpp.i
 
 g2o/stuff/CMakeFiles/stuff.dir/string_tools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stuff.dir/string_tools.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/string_tools.cpp -o CMakeFiles/stuff.dir/string_tools.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/string_tools.cpp -o CMakeFiles/stuff.dir/string_tools.cpp.s
 
 g2o/stuff/CMakeFiles/stuff.dir/string_tools.cpp.o.requires:
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/string_tools.cpp.o.requires
@@ -192,17 +192,17 @@ g2o/stuff/CMakeFiles/stuff.dir/string_tools.cpp.o.provides.build: g2o/stuff/CMak
 
 g2o/stuff/CMakeFiles/stuff.dir/property.cpp.o: g2o/stuff/CMakeFiles/stuff.dir/flags.make
 g2o/stuff/CMakeFiles/stuff.dir/property.cpp.o: ../g2o/stuff/property.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/stuff/CMakeFiles/stuff.dir/property.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/property.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/property.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/property.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/property.cpp
 
 g2o/stuff/CMakeFiles/stuff.dir/property.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stuff.dir/property.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/property.cpp > CMakeFiles/stuff.dir/property.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/property.cpp > CMakeFiles/stuff.dir/property.cpp.i
 
 g2o/stuff/CMakeFiles/stuff.dir/property.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stuff.dir/property.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/property.cpp -o CMakeFiles/stuff.dir/property.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/property.cpp -o CMakeFiles/stuff.dir/property.cpp.s
 
 g2o/stuff/CMakeFiles/stuff.dir/property.cpp.o.requires:
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/property.cpp.o.requires
@@ -215,17 +215,17 @@ g2o/stuff/CMakeFiles/stuff.dir/property.cpp.o.provides.build: g2o/stuff/CMakeFil
 
 g2o/stuff/CMakeFiles/stuff.dir/sampler.cpp.o: g2o/stuff/CMakeFiles/stuff.dir/flags.make
 g2o/stuff/CMakeFiles/stuff.dir/sampler.cpp.o: ../g2o/stuff/sampler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/stuff/CMakeFiles/stuff.dir/sampler.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/sampler.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/sampler.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/sampler.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/sampler.cpp
 
 g2o/stuff/CMakeFiles/stuff.dir/sampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stuff.dir/sampler.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/sampler.cpp > CMakeFiles/stuff.dir/sampler.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/sampler.cpp > CMakeFiles/stuff.dir/sampler.cpp.i
 
 g2o/stuff/CMakeFiles/stuff.dir/sampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stuff.dir/sampler.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/sampler.cpp -o CMakeFiles/stuff.dir/sampler.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/sampler.cpp -o CMakeFiles/stuff.dir/sampler.cpp.s
 
 g2o/stuff/CMakeFiles/stuff.dir/sampler.cpp.o.requires:
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/sampler.cpp.o.requires
@@ -238,17 +238,17 @@ g2o/stuff/CMakeFiles/stuff.dir/sampler.cpp.o.provides.build: g2o/stuff/CMakeFile
 
 g2o/stuff/CMakeFiles/stuff.dir/tictoc.cpp.o: g2o/stuff/CMakeFiles/stuff.dir/flags.make
 g2o/stuff/CMakeFiles/stuff.dir/tictoc.cpp.o: ../g2o/stuff/tictoc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/stuff/CMakeFiles/stuff.dir/tictoc.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/tictoc.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/tictoc.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/stuff.dir/tictoc.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/tictoc.cpp
 
 g2o/stuff/CMakeFiles/stuff.dir/tictoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stuff.dir/tictoc.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/tictoc.cpp > CMakeFiles/stuff.dir/tictoc.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/tictoc.cpp > CMakeFiles/stuff.dir/tictoc.cpp.i
 
 g2o/stuff/CMakeFiles/stuff.dir/tictoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stuff.dir/tictoc.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/tictoc.cpp -o CMakeFiles/stuff.dir/tictoc.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/tictoc.cpp -o CMakeFiles/stuff.dir/tictoc.cpp.s
 
 g2o/stuff/CMakeFiles/stuff.dir/tictoc.cpp.o.requires:
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/tictoc.cpp.o.requires
@@ -286,7 +286,7 @@ stuff_EXTERNAL_OBJECTS =
 ../lib/libg2o_stuff.so: g2o/stuff/CMakeFiles/stuff.dir/build.make
 ../lib/libg2o_stuff.so: g2o/stuff/CMakeFiles/stuff.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../lib/libg2o_stuff.so"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stuff.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stuff.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 g2o/stuff/CMakeFiles/stuff.dir/build: ../lib/libg2o_stuff.so
@@ -304,10 +304,10 @@ g2o/stuff/CMakeFiles/stuff.dir/requires: g2o/stuff/CMakeFiles/stuff.dir/tictoc.c
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/requires
 
 g2o/stuff/CMakeFiles/stuff.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff && $(CMAKE_COMMAND) -P CMakeFiles/stuff.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff && $(CMAKE_COMMAND) -P CMakeFiles/stuff.dir/cmake_clean.cmake
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/clean
 
 g2o/stuff/CMakeFiles/stuff.dir/depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/stuff/CMakeFiles/stuff.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/stuff/CMakeFiles/stuff.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : g2o/stuff/CMakeFiles/stuff.dir/depend
 

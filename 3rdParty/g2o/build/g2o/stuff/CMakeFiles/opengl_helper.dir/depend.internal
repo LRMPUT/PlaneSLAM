@@ -3,9 +3,9 @@
 
 g2o/stuff/CMakeFiles/opengl_helper.dir/opengl_primitives.cpp.o
  ../g2o/core/eigen_types.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/opengl_wrapper.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/opengl_wrapper.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support

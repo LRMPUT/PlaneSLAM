@@ -35,6 +35,10 @@ ADD_LIBRARY(types_slam3d ${G2O_LIB_TYPE}
   edge_pointxyz.cpp edge_pointxyz.h
   types_slam3d.cpp
   types_slam3d.h
+  vertex_plane_quat.cpp
+  vertex_plane_quat.h
+  edge_se3_plane.cpp
+  edge_se3_plane.h
 )
 
 

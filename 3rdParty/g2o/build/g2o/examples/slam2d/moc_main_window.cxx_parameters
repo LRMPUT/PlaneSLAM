@@ -1,7 +1,7 @@
 -I/usr/include
--I/home/jachu/workspace/PUTSLAM/3rdParty/g2o
+-I/home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 -I/usr/include/eigen3
--I/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+-I/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 -I/usr/include/qt4
 -I/usr/include/qt4/QtOpenGL
 -I/usr/include/qt4/QtGui
@@ -14,5 +14,5 @@
 -DQT_XML_LIB
 -DQT_CORE_LIB
 -o
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/slam2d/moc_main_window.cxx
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/slam2d/main_window.h

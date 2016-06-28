@@ -4,9 +4,9 @@
 g2o/solvers/csparse/CMakeFiles/csparse_extension.dir/csparse_helper.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/macros.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o_csparse_extension_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/csparse_helper.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/solvers/csparse/g2o_csparse_extension_api.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support

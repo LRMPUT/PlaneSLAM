@@ -47,18 +47,18 @@ g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_line2d.cpp.o
  ../g2o/types/slam2d/types_slam2d.h
  ../g2o/types/slam2d/vertex_point_xy.h
  ../g2o/types/slam2d/vertex_se2.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d_pointxy.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_line2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_line.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_pointLine.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/line_2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/types_slam2d_addons.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d_pointxy.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_line2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_line.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_pointLine.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/line_2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/types_slam2d_addons.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -290,11 +290,11 @@ g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_line2d_pointxy.c
  ../g2o/types/slam2d/g2o_types_slam2d_api.h
  ../g2o/types/slam2d/se2.h
  ../g2o/types/slam2d/vertex_point_xy.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d_pointxy.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d_pointxy.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/line_2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d_pointxy.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d_pointxy.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/line_2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -527,11 +527,11 @@ g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_se2_line2d.cpp.o
  ../g2o/types/slam2d/se2.h
  ../g2o/types/slam2d/vertex_point_xy.h
  ../g2o/types/slam2d/vertex_se2.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_line2d.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_line2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/line_2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_line2d.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_line2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/line_2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -763,10 +763,10 @@ g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_se2_segment2d.cp
  ../g2o/types/slam2d/g2o_types_slam2d_api.h
  ../g2o/types/slam2d/se2.h
  ../g2o/types/slam2d/vertex_se2.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -998,10 +998,10 @@ g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_se2_segment2d_li
  ../g2o/types/slam2d/g2o_types_slam2d_api.h
  ../g2o/types/slam2d/se2.h
  ../g2o/types/slam2d/vertex_se2.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_line.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_line.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_line.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_line.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -1233,10 +1233,10 @@ g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/edge_se2_segment2d_po
  ../g2o/types/slam2d/g2o_types_slam2d_api.h
  ../g2o/types/slam2d/se2.h
  ../g2o/types/slam2d/vertex_se2.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_pointLine.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_pointLine.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_pointLine.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_pointLine.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -1488,18 +1488,18 @@ g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/types_slam2d_addons.c
  ../g2o/types/slam2d/types_slam2d.h
  ../g2o/types/slam2d/vertex_point_xy.h
  ../g2o/types/slam2d/vertex_se2.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d_pointxy.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_line2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_line.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_pointLine.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/line_2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/types_slam2d_addons.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/types_slam2d_addons.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_line2d_pointxy.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_line2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_line.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/edge_se2_segment2d_pointLine.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/line_2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/types_slam2d_addons.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/types_slam2d_addons.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -1728,10 +1728,10 @@ g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/vertex_line2d.cpp.o
  ../g2o/types/slam2d/g2o_types_slam2d_api.h
  ../g2o/types/slam2d/se2.h
  ../g2o/types/slam2d/vertex_point_xy.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/line_2d.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/line_2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_line2d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -1956,9 +1956,9 @@ g2o/types/slam2d_addons/CMakeFiles/types_slam2d_addons.dir/vertex_segment2d.cpp.
  ../g2o/stuff/opengl_wrapper.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/g2o_types_slam2d_addons_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam2d_addons/vertex_segment2d.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense

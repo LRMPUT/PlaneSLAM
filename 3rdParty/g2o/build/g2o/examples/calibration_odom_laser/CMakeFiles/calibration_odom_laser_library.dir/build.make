@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/depend.make
@@ -54,17 +54,17 @@ include g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_li
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.o: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/flags.make
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.o: ../g2o/examples/calibration_odom_laser/gm2dl_io.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/gm2dl_io.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/gm2dl_io.cpp
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/gm2dl_io.cpp > CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/gm2dl_io.cpp > CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.i
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/gm2dl_io.cpp -o CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/gm2dl_io.cpp -o CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.s
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.o.requires:
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.o.requires
@@ -77,17 +77,17 @@ g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.di
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.o: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/flags.make
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.o: ../g2o/examples/calibration_odom_laser/sclam_helpers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/sclam_helpers.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/sclam_helpers.cpp
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/sclam_helpers.cpp > CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/sclam_helpers.cpp > CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.i
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/sclam_helpers.cpp -o CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/sclam_helpers.cpp -o CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.s
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.o.requires:
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.o.requires
@@ -100,17 +100,17 @@ g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.di
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.o: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/flags.make
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.o: ../g2o/examples/calibration_odom_laser/edge_se2_pure_calib.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/edge_se2_pure_calib.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/edge_se2_pure_calib.cpp
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/edge_se2_pure_calib.cpp > CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/edge_se2_pure_calib.cpp > CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.i
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/edge_se2_pure_calib.cpp -o CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/edge_se2_pure_calib.cpp -o CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.s
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.o.requires:
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.o.requires
@@ -123,17 +123,17 @@ g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.di
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.o: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/flags.make
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.o: ../g2o/examples/calibration_odom_laser/closed_form_calibration.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/closed_form_calibration.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/closed_form_calibration.cpp
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/closed_form_calibration.cpp > CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/closed_form_calibration.cpp > CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.i
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/closed_form_calibration.cpp -o CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser/closed_form_calibration.cpp -o CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.s
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.o.requires:
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.o.requires
@@ -178,7 +178,7 @@ calibration_odom_laser_library_EXTERNAL_OBJECTS =
 ../lib/libg2o_calibration_odom_laser.so: /usr/lib/x86_64-linux-gnu/libXext.so
 ../lib/libg2o_calibration_odom_laser.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_calibration_odom_laser.so"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calibration_odom_laser_library.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calibration_odom_laser_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/build: ../lib/libg2o_calibration_odom_laser.so
@@ -191,10 +191,10 @@ g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.di
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/requires
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && $(CMAKE_COMMAND) -P CMakeFiles/calibration_odom_laser_library.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && $(CMAKE_COMMAND) -P CMakeFiles/calibration_odom_laser_library.dir/cmake_clean.cmake
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/clean
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/calibration_odom_laser /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/depend
 

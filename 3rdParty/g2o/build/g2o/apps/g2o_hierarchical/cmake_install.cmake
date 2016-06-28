@@ -1,4 +1,4 @@
-# Install script for directory: /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical
+# Install script for directory: /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,13 +42,13 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
 FILE(INSTALL DESTINATION "/usr/local/include/g2o/apps/g2o_hierarchical" TYPE FILE FILES
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_labeler.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_creator.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/backbone_tree_action.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/star.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_types_cost_function.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/simple_star_ops.h"
-    "/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical_api.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_labeler.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_creator.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/backbone_tree_action.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/star.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_types_cost_function.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/simple_star_ops.h"
+    "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical_api.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

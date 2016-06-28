@@ -12,9 +12,9 @@ Eigen/Core
 Eigen/Geometry
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.cpp
 opengl_primitives.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.h
 cstdlib
 -
 cmath
@@ -24,15 +24,15 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/opengl_primitives.h
 opengl_wrapper.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/opengl_wrapper.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/opengl_wrapper.h
 g2o/config.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/g2o/config.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/g2o/config.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/opengl_wrapper.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/opengl_wrapper.h
 g2o/config.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/stuff/g2o/config.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/stuff/g2o/config.h
 windows.h
 -
 OpenGL/gl.h

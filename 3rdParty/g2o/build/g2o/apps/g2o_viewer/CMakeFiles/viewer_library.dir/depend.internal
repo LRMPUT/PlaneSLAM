@@ -24,9 +24,9 @@ g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/g2o_qglviewer.cpp.o
  ../g2o/stuff/opengl_wrapper.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
  /usr/include/QGLViewer/camera.h
  /usr/include/QGLViewer/config.h
  /usr/include/QGLViewer/constraint.h
@@ -378,10 +378,10 @@ g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/gui_hyper_graph_action.cpp.o
  ../g2o/stuff/macros.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
  /usr/include/QGLViewer/camera.h
  /usr/include/QGLViewer/config.h
  /usr/include/QGLViewer/constraint.h
@@ -758,11 +758,11 @@ g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/main_window.cpp.o
  ../g2o/stuff/misc.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h
  /usr/include/QGLViewer/camera.h
  /usr/include/QGLViewer/config.h
  /usr/include/QGLViewer/constraint.h
@@ -1207,9 +1207,9 @@ g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/moc_main_window.cxx.o
  ../g2o/stuff/macros.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/moc_main_window.cxx
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/moc_main_window.cxx
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
  /usr/include/QGLViewer/camera.h
  /usr/include/QGLViewer/config.h
  /usr/include/QGLViewer/constraint.h
@@ -1629,9 +1629,9 @@ g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/moc_main_window.cxx.o
  g2o/config.h
 g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/moc_properties_widget.cxx.o
  ../g2o/core/eigen_types.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/moc_properties_widget.cxx
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer/moc_properties_widget.cxx
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -1991,9 +1991,9 @@ g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/properties_widget.cpp.o
  ../g2o/stuff/macros.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -2384,12 +2384,12 @@ g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/run_g2o_viewer.cpp.o
  ../g2o/stuff/opengl_wrapper.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/gui_hyper_graph_action.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/main_window.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/run_g2o_viewer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h
  /usr/include/QGLViewer/camera.h
  /usr/include/QGLViewer/config.h
  /usr/include/QGLViewer/constraint.h
@@ -2816,9 +2816,9 @@ g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/run_g2o_viewer.cpp.o
  g2o/config.h
 g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/stream_redirect.cpp.o
  ../g2o/core/eigen_types.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/stream_redirect.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -3150,11 +3150,11 @@ g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/viewer_properties_widget.cpp.o
  ../g2o/stuff/macros.h
  ../g2o/stuff/property.h
  ../g2o/stuff/string_tools.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_qglviewer.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/g2o_viewer_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/properties_widget.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_viewer/viewer_properties_widget.h
  /usr/include/QGLViewer/camera.h
  /usr/include/QGLViewer/config.h
  /usr/include/QGLViewer/constraint.h

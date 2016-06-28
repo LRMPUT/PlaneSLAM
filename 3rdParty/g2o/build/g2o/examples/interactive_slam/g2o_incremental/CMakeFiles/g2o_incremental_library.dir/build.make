@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/depend.make
@@ -54,17 +54,17 @@ include g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental
 
 g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.o: g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/flags.make
 g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.o: ../g2o/examples/interactive_slam/g2o_incremental/graph_optimizer_sparse_incremental.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/graph_optimizer_sparse_incremental.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/graph_optimizer_sparse_incremental.cpp
 
 g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/graph_optimizer_sparse_incremental.cpp > CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/graph_optimizer_sparse_incremental.cpp > CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.i
 
 g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/graph_optimizer_sparse_incremental.cpp -o CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental/graph_optimizer_sparse_incremental.cpp -o CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.s
 
 g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.o.requires:
 .PHONY : g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/graph_optimizer_sparse_incremental.cpp.o.requires
@@ -110,7 +110,7 @@ g2o_incremental_library_EXTERNAL_OBJECTS =
 ../lib/libg2o_incremental.so: ../lib/libg2o_parser.so
 ../lib/libg2o_incremental.so: g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../../lib/libg2o_incremental.so"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g2o_incremental_library.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g2o_incremental_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/build: ../lib/libg2o_incremental.so
@@ -120,10 +120,10 @@ g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library
 .PHONY : g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/requires
 
 g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental && $(CMAKE_COMMAND) -P CMakeFiles/g2o_incremental_library.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental && $(CMAKE_COMMAND) -P CMakeFiles/g2o_incremental_library.dir/cmake_clean.cmake
 .PHONY : g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/clean
 
 g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/interactive_slam/g2o_incremental /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/depend
 

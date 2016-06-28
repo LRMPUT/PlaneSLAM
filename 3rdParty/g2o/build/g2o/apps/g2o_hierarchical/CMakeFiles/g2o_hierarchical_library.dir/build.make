@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o
+CMAKE_SOURCE_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build
+CMAKE_BINARY_DIR = /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build
 
 # Include any dependencies generated for this target.
 include g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/depend.make
@@ -54,17 +54,17 @@ include g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/flags.
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.o: g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/flags.make
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.o: ../g2o/apps/g2o_hierarchical/edge_labeler.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_labeler.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_labeler.cpp
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_labeler.cpp > CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_labeler.cpp > CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.i
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_labeler.cpp -o CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_labeler.cpp -o CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.s
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.o.requires:
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.cpp.o.requires
@@ -77,17 +77,17 @@ g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_labeler.c
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.o: g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/flags.make
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.o: ../g2o/apps/g2o_hierarchical/edge_creator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_creator.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_creator.cpp
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_creator.cpp > CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_creator.cpp > CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.i
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_creator.cpp -o CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_creator.cpp -o CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.s
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.o.requires:
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.cpp.o.requires
@@ -100,17 +100,17 @@ g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_creator.c
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.o: g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/flags.make
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.o: ../g2o/apps/g2o_hierarchical/star.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/star.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/star.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/star.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/star.cpp
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_hierarchical_library.dir/star.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/star.cpp > CMakeFiles/g2o_hierarchical_library.dir/star.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/star.cpp > CMakeFiles/g2o_hierarchical_library.dir/star.cpp.i
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_hierarchical_library.dir/star.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/star.cpp -o CMakeFiles/g2o_hierarchical_library.dir/star.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/star.cpp -o CMakeFiles/g2o_hierarchical_library.dir/star.cpp.s
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.o.requires:
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.o.requires
@@ -123,17 +123,17 @@ g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/star.cpp.o.pro
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.o: g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/flags.make
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.o: ../g2o/apps/g2o_hierarchical/edge_types_cost_function.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_types_cost_function.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_types_cost_function.cpp
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_types_cost_function.cpp > CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_types_cost_function.cpp > CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.i
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_types_cost_function.cpp -o CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_types_cost_function.cpp -o CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.s
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.o.requires:
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cost_function.cpp.o.requires
@@ -146,17 +146,17 @@ g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/edge_types_cos
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.o: g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/flags.make
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.o: ../g2o/apps/g2o_hierarchical/backbone_tree_action.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/backbone_tree_action.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/backbone_tree_action.cpp
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/backbone_tree_action.cpp > CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/backbone_tree_action.cpp > CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.i
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/backbone_tree_action.cpp -o CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/backbone_tree_action.cpp -o CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.s
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.o.requires:
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.o.requires
@@ -169,17 +169,17 @@ g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.o: g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/flags.make
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.o: ../g2o/apps/g2o_hierarchical/simple_star_ops.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/simple_star_ops.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/simple_star_ops.cpp
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/simple_star_ops.cpp > CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/simple_star_ops.cpp > CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.i
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/simple_star_ops.cpp -o CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/simple_star_ops.cpp -o CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.s
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.o.requires:
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.o.requires
@@ -192,17 +192,17 @@ g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/simple_star_op
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.o: g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/flags.make
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.o: ../g2o/apps/g2o_hierarchical/g2o_hierarchical_test_functions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.o"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.o -c /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical_test_functions.cpp
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical_test_functions.cpp
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.i"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical_test_functions.cpp > CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.i
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical_test_functions.cpp > CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.i
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.s"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical_test_functions.cpp -o CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.s
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical_test_functions.cpp -o CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.s
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.o.requires:
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.o.requires
@@ -238,7 +238,7 @@ g2o_hierarchical_library_EXTERNAL_OBJECTS =
 ../lib/libg2o_hierarchical.so: ../lib/libg2o_stuff.so
 ../lib/libg2o_hierarchical.so: g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_hierarchical.so"
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g2o_hierarchical_library.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g2o_hierarchical_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/build: ../lib/libg2o_hierarchical.so
@@ -254,10 +254,10 @@ g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/requires: g2o/
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/requires
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/clean:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && $(CMAKE_COMMAND) -P CMakeFiles/g2o_hierarchical_library.dir/cmake_clean.cmake
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical && $(CMAKE_COMMAND) -P CMakeFiles/g2o_hierarchical_library.dir/cmake_clean.cmake
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/clean
 
 g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/depend:
-	cd /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PUTSLAM/3rdParty/g2o /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical /home/jachu/workspace/PUTSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jachu/workspace/PlaneSLAM/3rdParty/g2o /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_library.dir/depend
 

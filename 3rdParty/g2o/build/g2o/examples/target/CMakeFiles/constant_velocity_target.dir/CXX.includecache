@@ -470,7 +470,7 @@ string
 g2o_stuff_api.h
 ../g2o/stuff/g2o_stuff_api.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/target/constant_velocity_target.cpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/target/constant_velocity_target.cpp
 Eigen/StdVector
 -
 iostream
@@ -492,17 +492,17 @@ g2o/solvers/pcg/linear_solver_pcg.h
 g2o/stuff/sampler.h
 -
 targetTypes6D.hpp
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/target/targetTypes6D.hpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/target/targetTypes6D.hpp
 continuous_to_discrete.h
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/target/continuous_to_discrete.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/target/continuous_to_discrete.h
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/target/continuous_to_discrete.h
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/target/continuous_to_discrete.h
 unsupported/Eigen/MatrixFunctions
 -
 iostream
 -
 
-/home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/examples/target/targetTypes6D.hpp
+/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/examples/target/targetTypes6D.hpp
 g2o/core/base_vertex.h
 -
 g2o/core/base_binary_edge.h

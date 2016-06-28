@@ -43,13 +43,13 @@ g2o/apps/g2o_hierarchical/CMakeFiles/g2o_hierarchical_application.dir/g2o_hierar
  ../g2o/types/slam3d/g2o_types_slam3d_api.h
  ../g2o/types/slam3d/parameter_camera.h
  ../g2o/types/slam3d/parameter_se3_offset.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_creator.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_labeler.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_types_cost_function.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical_api.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/simple_star_ops.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/star.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_creator.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_labeler.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/edge_types_cost_function.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/g2o_hierarchical_api.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/simple_star_ops.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_hierarchical/star.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support

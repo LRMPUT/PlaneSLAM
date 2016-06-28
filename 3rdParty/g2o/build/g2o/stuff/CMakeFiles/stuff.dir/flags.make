@@ -3,11 +3,11 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_FLAGS =   -Wall -W -O3 -DNDEBUG -fPIC -I/home/jachu/workspace/PUTSLAM/3rdParty/g2o -I/usr/include/eigen3 -I/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build   
+C_FLAGS =   -Wall -W -O3 -DNDEBUG -fPIC -I/home/jachu/workspace/PlaneSLAM/3rdParty/g2o -I/usr/include/eigen3 -I/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build   
 
 C_DEFINES = -DUNIX -Dstuff_EXPORTS
 
-CXX_FLAGS =  -std=c++11  -Wall -W -O3 -DNDEBUG -fPIC -I/home/jachu/workspace/PUTSLAM/3rdParty/g2o -I/usr/include/eigen3 -I/home/jachu/workspace/PUTSLAM/3rdParty/g2o/build   
+CXX_FLAGS =  -std=c++11  -Wall -W -O3 -DNDEBUG -fPIC -I/home/jachu/workspace/PlaneSLAM/3rdParty/g2o -I/usr/include/eigen3 -I/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build   
 
 CXX_DEFINES = -DUNIX -Dstuff_EXPORTS
 

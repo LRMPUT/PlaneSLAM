@@ -4,8 +4,8 @@
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/opengl_wrapper.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_font.cpp
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_font.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -211,8 +211,8 @@ EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_font.cpp.o
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/opengl_wrapper.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_mono_roman.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_mono_roman.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
@@ -418,8 +418,8 @@ EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_mono_roman.cpp
 EXTERNAL/freeglut/CMakeFiles/freeglut_minimal.dir/freeglut_stroke_roman.cpp.o
  ../g2o/core/eigen_types.h
  ../g2o/stuff/opengl_wrapper.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
- /home/jachu/workspace/PUTSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_roman.cpp
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_minimal.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/EXTERNAL/freeglut/freeglut_stroke_roman.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Eigen2Support
