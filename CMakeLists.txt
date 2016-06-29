@@ -31,10 +31,19 @@ add_executable(PlaneSLAM
 	${PlaneSLAM_SOURCES}
 	src/main.cpp)
 
-target_link_libraries(PlaneSLAM
-	${G2O_TYPES_SLAM3D}
-	${G2O_TYPES_SBA}
-	${G2O_CORE_LIBRARY}
-	${G2O_STUFF_LIBRARY})
+if(${CMAKE_BUILD_TYPE} MATCHES "Release")
+	target_link_libraries(PlaneSLAM
+		${G2O_TYPES_SLAM3D}
+		${G2O_TYPES_SBA}
+		${G2O_CORE_LIBRARY}
+		${G2O_STUFF_LIBRARY})
+elseif(${CMAKE_BUILD_TYPE} MATCHES "Debug")
+	target_link_libraries(PlaneSLAM
+		${G2O_TYPES_SLAM3D_DEBUG}
+		${G2O_TYPES_SBA_DEBUG}
+		${G2O_CORE_LIBRARY_DEBUG}
+		${G2O_STUFF_LIBRARY_DEBUG})
+endif(${CMAKE_BUILD_TYPE} MATCHES "Release")
+
 
 

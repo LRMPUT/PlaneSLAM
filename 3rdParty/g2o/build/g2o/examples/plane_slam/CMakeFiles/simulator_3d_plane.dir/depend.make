@@ -49,6 +49,7 @@ g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -63,6 +64,7 @@ g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/examples/plane_slam/CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o: ../g2o/types/slam3d_addons/edge_line3d.h

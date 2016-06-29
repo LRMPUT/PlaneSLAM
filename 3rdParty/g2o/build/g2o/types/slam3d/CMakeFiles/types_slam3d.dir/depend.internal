@@ -3746,6 +3746,7 @@ g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/edge_se3.h
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/edge_se3_lotsofxyz.h
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/edge_se3_offset.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/edge_se3_plane.h
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/edge_se3_pointxyz.h
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/edge_se3_pointxyz_depth.h
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -3761,6 +3762,7 @@ g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/se3quat.h
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/types_slam3d.cpp
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/types_slam3d.h
+ /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/vertex_plane_quat.h
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/vertex_pointxyz.h
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/vertex_se3.h
  /usr/include/eigen3/Eigen/Cholesky

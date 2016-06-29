@@ -262,16 +262,6 @@ macros.h
 cmath
 -
 
-../g2o/stuff/opengl_wrapper.h
-g2o/config.h
-../g2o/stuff/g2o/config.h
-windows.h
--
-OpenGL/gl.h
--
-GL/gl.h
--
-
 ../g2o/stuff/property.h
 string
 -
@@ -337,6 +327,16 @@ edge_se3.h
 ../g2o/types/slam3d/edge_se3.h
 g2o_types_slam3d_api.h
 ../g2o/types/slam3d/g2o_types_slam3d_api.h
+
+../g2o/types/slam3d/edge_se3_plane.h
+g2o/core/base_binary_edge.h
+../g2o/types/slam3d/g2o/core/base_binary_edge.h
+g2o_types_slam3d_api.h
+../g2o/types/slam3d/g2o_types_slam3d_api.h
+vertex_se3.h
+../g2o/types/slam3d/vertex_se3.h
+vertex_plane_quat.h
+../g2o/types/slam3d/vertex_plane_quat.h
 
 ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/core/base_binary_edge.h
@@ -495,6 +495,20 @@ edge_pointxyz.h
 ../g2o/types/slam3d/edge_pointxyz.h
 edge_se3_lotsofxyz.h
 ../g2o/types/slam3d/edge_se3_lotsofxyz.h
+vertex_plane_quat.h
+../g2o/types/slam3d/vertex_plane_quat.h
+edge_se3_plane.h
+../g2o/types/slam3d/edge_se3_plane.h
+
+../g2o/types/slam3d/vertex_plane_quat.h
+iostream
+-
+g2o/config.h
+../g2o/types/slam3d/g2o/config.h
+g2o/core/base_vertex.h
+../g2o/types/slam3d/g2o/core/base_vertex.h
+g2o_types_slam3d_api.h
+../g2o/types/slam3d/g2o_types_slam3d_api.h
 
 ../g2o/types/slam3d/vertex_pointxyz.h
 g2o_types_slam3d_api.h
@@ -516,10 +530,6 @@ isometry3d_mappings.h
 g2o_types_slam3d_api.h
 ../g2o/types/slam3d/g2o_types_slam3d_api.h
 
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.cpp
-edge_line3d.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.h
-
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.h
 g2o_types_slam3d_addons_api.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
@@ -530,10 +540,6 @@ g2o/config.h
 g2o/core/base_binary_edge.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/core/base_binary_edge.h
 
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.cpp
-edge_plane.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.h
-
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_plane.h
 g2o_types_slam3d_addons_api.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
@@ -543,10 +549,6 @@ g2o/config.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/config.h
 g2o/core/base_binary_edge.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/core/base_binary_edge.h
-
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.cpp
-edge_se3_calib.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.h
 
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.h
 g2o_types_slam3d_addons_api.h
@@ -560,14 +562,6 @@ g2o/types/slam3d/isometry3d_mappings.h
 Eigen/Geometry
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/Eigen/Geometry
 
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.cpp
-edge_se3_euler.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.h
-g2o/core/factory.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/core/factory.h
-iostream
--
-
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_euler.h
 g2o_types_slam3d_addons_api.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
@@ -575,10 +569,6 @@ g2o/types/slam3d/edge_se3.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/types/slam3d/edge_se3.h
 g2o/types/slam3d/vertex_se3.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/types/slam3d/vertex_se3.h
-
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.cpp
-edge_se3_line.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.h
 
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_line.h
 g2o/core/base_binary_edge.h
@@ -594,14 +584,6 @@ g2o/types/slam3d/vertex_se3.h
 g2o/types/slam3d/parameter_se3_offset.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/types/slam3d/parameter_se3_offset.h
 
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.cpp
-iostream
--
-edge_se3_plane_calib.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.h
-g2o/stuff/opengl_wrapper.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/stuff/opengl_wrapper.h
-
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_plane_calib.h
 g2o/core/base_multi_edge.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/core/base_multi_edge.h
@@ -615,12 +597,6 @@ g2o/config.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
 g2o/config.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/config.h
-
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.cpp
-line3d.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
-iostream
--
 
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
 g2o_types_slam3d_addons_api.h
@@ -684,10 +660,6 @@ edge_plane.h
 edge_se3_calib.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_se3_calib.h
 
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.cpp
-vertex_line3d.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h
-
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_line3d.h
 g2o_types_slam3d_addons_api.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o_types_slam3d_addons_api.h
@@ -695,12 +667,6 @@ line3d.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/line3d.h
 g2o/core/base_vertex.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/core/base_vertex.h
-
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.cpp
-vertex_plane.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h
-g2o/stuff/opengl_wrapper.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/stuff/opengl_wrapper.h
 
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_plane.h
 g2o_types_slam3d_addons_api.h
@@ -713,14 +679,6 @@ g2o/core/hyper_graph_action.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/core/hyper_graph_action.h
 plane3d.h
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/plane3d.h
-
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.cpp
-vertex_se3_euler.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.h
-g2o/types/slam3d/isometry3d_mappings.h
-/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/g2o/types/slam3d/isometry3d_mappings.h
-iostream
--
 
 /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/vertex_se3_euler.h
 g2o_types_slam3d_addons_api.h

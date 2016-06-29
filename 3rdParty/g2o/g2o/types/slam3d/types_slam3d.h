@@ -42,4 +42,7 @@
 #include "edge_pointxyz.h"
 
 #include "edge_se3_lotsofxyz.h"
+
+#include "vertex_plane_quat.h"
+#include "edge_se3_plane.h"
 #endif

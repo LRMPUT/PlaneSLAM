@@ -53,6 +53,7 @@ g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/e
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -67,6 +68,7 @@ g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/s
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/gicp_demo.cpp.o: ../g2o/examples/icp/gicp_demo.cpp

@@ -269,6 +269,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -283,6 +284,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o: ../g2o/apps/g2o_simulator/g2o_simulator_api.h
@@ -528,6 +530,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -542,6 +545,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o: ../g2o/types/slam3d_addons/edge_line3d.h
@@ -828,6 +832,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -842,6 +847,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o: ../g2o/apps/g2o_simulator/g2o_simulator_api.h
@@ -1116,6 +1122,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_beari
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -1130,6 +1137,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_beari
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o: ../g2o/apps/g2o_simulator/g2o_simulator_api.h
@@ -1405,6 +1413,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offse
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -1419,6 +1428,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offse
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o: ../g2o/apps/g2o_simulator/g2o_simulator_api.h
@@ -1665,6 +1675,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -1679,6 +1690,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o: ../g2o/types/slam3d_addons/edge_line3d.h
@@ -1938,6 +1950,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_dept
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -1952,6 +1965,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_dept
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o: ../g2o/types/slam3d_addons/edge_line3d.h
@@ -2211,6 +2225,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -2225,6 +2240,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o: ../g2o/types/slam3d_addons/edge_line3d.h
@@ -2512,6 +2528,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o:
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -2526,6 +2543,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o:
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o: ../g2o/apps/g2o_simulator/g2o_simulator_api.h
@@ -2772,6 +2790,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o:
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -2786,6 +2805,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o:
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o: ../g2o/types/slam3d_addons/edge_line3d.h
@@ -3045,6 +3065,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -3059,6 +3080,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o: ../g2o/types/slam3d_addons/edge_line3d.h
@@ -3318,6 +3340,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -3332,6 +3355,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o: ../g2o/types/slam3d_addons/edge_line3d.h
@@ -3624,6 +3648,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -3638,6 +3663,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o: ../g2o/apps/g2o_simulator/sensor_odometry2d.h
@@ -3921,6 +3947,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_lin
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -3935,6 +3962,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_lin
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o: ../g2o/apps/g2o_simulator/sensor_odometry2d.h
@@ -4218,6 +4246,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_poi
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -4232,6 +4261,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_poi
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o: ../g2o/apps/g2o_simulator/sensor_odometry2d.h
@@ -4481,6 +4511,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -4495,6 +4526,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o: ../g2o/apps/g2o_simulator/g2o_simulator_api.h
@@ -4766,6 +4798,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -4780,6 +4813,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o: ../g2o/apps/g2o_simulator/g2o_simulator_api.h

@@ -35,6 +35,7 @@ g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/edge
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/edge_se3.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/edge_se3_offset.h
+g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/edge_se3_plane.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -49,6 +50,7 @@ g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/se3_
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/se3_ops.hpp
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/se3quat.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/types_slam3d.h
+g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/vertex_se3.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/icp/g2o_types_icp_api.h

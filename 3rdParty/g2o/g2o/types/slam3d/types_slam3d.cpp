@@ -45,6 +45,9 @@ namespace g2o {
 
   G2O_REGISTER_TYPE(EDGE_SE3_LOTSOF_XYZ, EdgeSE3LotsOfXYZ)
 
+  G2O_REGISTER_TYPE(VERTEX_PLANE_QUAT, VertexPlaneQuat);
+  G2O_REGISTER_TYPE(EDGE_SE3_PLANE, EdgeSE3Plane);
+
   /*********** ACTIONS ************/
   G2O_REGISTER_ACTION(VertexSE3WriteGnuplotAction);
   G2O_REGISTER_ACTION(VertexPointXYZWriteGnuplotAction);

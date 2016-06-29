@@ -38,16 +38,20 @@ namespace g2o {
       }
 
       virtual bool setMeasurementData(const double* d){
+//  		std::cout << "EdgeSE3Plane::setMeasurementData()" << std::endl;
         Eigen::Map<const Vector3D> v(d);
         double w = sqrt(1.0 - v[0]*v[0] - v[1]*v[1] - v[2]*v[2]);
         setMeasurement(Eigen::Quaterniond(w, v[0], v[1], v[2]));
         return true;
+//        std::cout << "End EdgeSE3Plane::setMeasurementData()" << std::endl;
       }
 
       virtual bool getMeasurementData(double* d) const{
+//    	  std::cout << "EdgeSE3Plane::getMeasurementData()" << std::endl;
         Eigen::Map<Vector3D> v(d);
         v = _measurement.vec();
         return true;
+//        std::cout << "End EdgeSE3Plane::getMeasurementData()" << std::endl;
       }
 
 //      void linearizeOplus();

@@ -11,61 +11,67 @@
 
 
 namespace g2o {
-  using namespace std;
-  using namespace Eigen;
+	using namespace std;
+	using namespace Eigen;
 
-  EdgeSE3Plane::EdgeSE3Plane() : BaseBinaryEdge<3, Eigen::Quaterniond, VertexSE3, VertexPlaneQuat>() {
-    information().setIdentity();
-  }
+	EdgeSE3Plane::EdgeSE3Plane() : BaseBinaryEdge<3, Eigen::Quaterniond, VertexSE3, VertexPlaneQuat>() {
+		information().setIdentity();
+	}
 
-  bool EdgeSE3Plane::read(std::istream& is) {
-    Vector4D meas;
-    for (int i=0; i<4; i++)
-      is >> meas[i];
-    // normalize the quaternion to recover numerical precision lost by storing as human readable text
-    meas.normalize();
-    setMeasurement(Quaterniond(meas[3], meas[0], meas[1], meas[2]));
+	bool EdgeSE3Plane::read(std::istream& is) {
+		Vector4D meas;
+		for (int i=0; i<4; i++)
+		  is >> meas[i];
+		// normalize the quaternion to recover numerical precision lost by storing as human readable text
+		meas.normalize();
+		setMeasurement(Quaterniond(meas[3], meas[0], meas[1], meas[2]));
 
-    if (is.bad()) {
-      return false;
-    }
-    for ( int i=0; i<information().rows() && is.good(); i++)
-      for (int j=i; j<information().cols() && is.good(); j++){
-        is >> information()(i,j);
-        if (i!=j)
-          information()(j,i)=information()(i,j);
-      }
-    if (is.bad()) {
-      //  we overwrite the information matrix with the Identity
-      information().setIdentity();
-    }
-    return true;
-  }
+		if (is.bad()) {
+		  return false;
+		}
+		for ( int i=0; i<information().rows() && is.good(); i++)
+		  for (int j=i; j<information().cols() && is.good(); j++){
+			is >> information()(i,j);
+			if (i!=j)
+			  information()(j,i)=information()(i,j);
+		  }
+		if (is.bad()) {
+		  //  we overwrite the information matrix with the Identity
+		  information().setIdentity();
+		}
+		return true;
+	}
 
-  bool EdgeSE3Plane::write(std::ostream& os) const {
-    Vector4D meas;
-    meas[0] = _measurement.x();
-    meas[1] = _measurement.y();
-    meas[2] = _measurement.z();
-    meas[3] = _measurement.w();
-    for (int i=0; i<4; i++) os  << meas[i] << " ";
-    for (int i=0; i<information().rows(); i++)
-      for (int j=i; j<information().cols(); j++) {
-        os <<  information()(i,j) << " ";
-      }
-    return os.good();
-  }
+	bool EdgeSE3Plane::write(std::ostream& os) const {
+		Vector4D meas;
+		meas[0] = _measurement.x();
+		meas[1] = _measurement.y();
+		meas[2] = _measurement.z();
+		meas[3] = _measurement.w();
+		for (int i=0; i<4; i++) os  << meas[i] << " ";
+		for (int i=0; i<information().rows(); i++)
+		  for (int j=i; j<information().cols(); j++) {
+			os <<  information()(i,j) << " ";
+		  }
+		return os.good();
+	}
 
-  void EdgeSE3Plane::computeError() {
-	VertexSE3 *from = static_cast<VertexSE3*>(_vertices[0]);
-	VertexPlaneQuat *to   = static_cast<VertexPlaneQuat*>(_vertices[1]);
-	Matrix<double, 4, 4> estFromInv = from->estimate().inverse().matrix();
-	Vector4D estPlaneVect = estFromInv * _measurement.coeffs();
-	Quaterniond estPlane(estPlaneVect[3], estPlaneVect[0], estPlaneVect[1], estPlaneVect[2]);
-	estPlane.normalize();
-	Quaterniond delta = estPlane.inverse() * to->estimate();
-    _error = logMap(delta);
-  }
+	void EdgeSE3Plane::computeError() {
+//		cout << "EdgeSE3Plane::computeError() a" << endl;
+		VertexSE3 *from = static_cast<VertexSE3*>(_vertices[0]);
+		VertexPlaneQuat *to   = static_cast<VertexPlaneQuat*>(_vertices[1]);
+		Matrix<double, 4, 4> estFromInv = from->estimate().inverse().matrix();
+		Vector4D estPlaneVect = estFromInv * _measurement.coeffs();
+		Quaterniond estPlane(estPlaneVect[3], estPlaneVect[0], estPlaneVect[1], estPlaneVect[2]);
+		estPlane.normalize();
+		Quaterniond delta = estPlane.inverse() * to->estimate();
+		_error = logMap(delta);
+//		cout << "estPlane.inverse() = " << estPlane.inverse().coeffs() << endl;
+//		cout << "to->estimate() = " << to->estimate().coeffs() << endl;
+//		cout << "delta = " << delta.coeffs() << endl;
+//		cout << "_error = " << _error << endl;
+//		cout << "End EdgeSE3Plane::computeError() a" << endl;
+	}
 
 //  bool EdgeSE3Plane::setMeasurementFromState(){
 //    VertexSE3 *from = static_cast<VertexSE3*>(_vertices[0]);
@@ -103,19 +109,19 @@ namespace g2o {
 //    //cerr << "IE" << endl;
 //  }
 
-  Vector3D EdgeSE3Plane::logMap(Eigen::Quaterniond quat)
-  {
-	  Vector3D res = Vector3D::Ones();
+	Vector3D EdgeSE3Plane::logMap(Eigen::Quaterniond quat)
+	{
+		Vector3D res = Vector3D::Ones();
 
-	  double qvNorm = sqrt(quat.x()*quat.x() + quat.y()*quat.y() + quat.z()*quat.z());
-	  if(qvNorm > 1e-5){
+		double qvNorm = sqrt(quat.x()*quat.x() + quat.y()*quat.y() + quat.z()*quat.z());
+		if(qvNorm > 1e-5){
 		  res[0] *= quat.x()/qvNorm;
 		  res[1] *= quat.y()/qvNorm;
 		  res[2] *= quat.z()/qvNorm;
-	  }
-	  double acosQw = acos(quat.w());
-	  res *= 2.0*acosQw;
-	  return res;
+		}
+		double acosQw = acos(quat.w());
+		res *= 2.0*acosQw;
+		return res;
   }
 
 }

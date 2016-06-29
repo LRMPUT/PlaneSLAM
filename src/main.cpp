@@ -93,6 +93,7 @@ Eigen::Quaterniond normAndDToQuat(double d, Eigen::Vector3d norm){
 		res.z() = -norm[2];
 		res.w() = d;
 	}
+	res.normalize();
 	return res;
 }
 
@@ -233,10 +234,10 @@ int main(){
 
 			linearSolverSE3 = new g2o::LinearSolverEigen<g2o::BlockSolver_6_3::PoseMatrixType>();
 
-			g2o::BlockSolver_6_3 * solverSE3_ptr = new g2o::BlockSolver_6_3(linearSolverSE3);
+			g2o::BlockSolver_6_3 * solverSE3 = new g2o::BlockSolver_6_3(linearSolverSE3);
 
-			g2o::OptimizationAlgorithmLevenberg* solverSE3 = new g2o::OptimizationAlgorithmLevenberg(solverSE3_ptr);
-			optimizerSE3.setAlgorithm(solverSE3);
+			g2o::OptimizationAlgorithmLevenberg* algorithmSE3 = new g2o::OptimizationAlgorithmLevenberg(solverSE3);
+			optimizerSE3.setAlgorithm(algorithmSE3);
 	    }
 
 	    g2o::SparseOptimizer optimizerMin;
@@ -244,11 +245,10 @@ int main(){
 			g2o::BlockSolver_6_3::LinearSolverType * linearSolverMin;
 
 			linearSolverMin = new g2o::LinearSolverEigen<g2o::BlockSolver_6_3::PoseMatrixType>();
+			g2o::BlockSolver_6_3 * solverMin = new g2o::BlockSolver_6_3(linearSolverMin);
 
-			g2o::BlockSolver_6_3 * solverMin_ptr = new g2o::BlockSolver_6_3(linearSolverMin);
-
-			g2o::OptimizationAlgorithmLevenberg* solverMin = new g2o::OptimizationAlgorithmLevenberg(solverMin_ptr);
-			optimizerMin.setAlgorithm(solverMin);
+			g2o::OptimizationAlgorithmLevenberg* algorithmMin = new g2o::OptimizationAlgorithmLevenberg(solverMin);
+			optimizerMin.setAlgorithm(algorithmMin);
 	    }
 
 	    for(int po = 0; po < odomPoses.size(); ++po){
@@ -301,6 +301,7 @@ int main(){
 				curV->setEstimate(normAndDToQuat(d, norm));
 				curV->setId(odomPoses.size() + pl);
 	//    		curV->setFixed(true);
+				curV->setMarginalized(true);
 				optimizerMin.addVertex(curV);
 	    	}
 	    }
@@ -447,12 +448,12 @@ int main(){
 	    }
 
 	    // Optimize!
-	    static constexpr int maxIter = 1000;
+	    static constexpr int maxIter = 10;
 
 	    cout << "optimizerSE3.vertices().size() = " << optimizerSE3.vertices().size() << endl;
 	    cout << "optimizerSE3.edges.size() = " << optimizerSE3.edges().size() << endl;
-		optimizerSE3.initializeOptimization();
-		optimizerSE3.optimize(maxIter);
+//		optimizerSE3.initializeOptimization();
+//		optimizerSE3.optimize(maxIter);
 
 //		for(auto it = optimizerSE3.edges().begin(); it != optimizerSE3.edges().end(); ++it){
 //			g2o::EdgeSE3* curEdge = static_cast<g2o::EdgeSE3*>(*it);
@@ -487,7 +488,10 @@ int main(){
 	    cout << "optimizerMin.vertices().size() = " << optimizerMin.vertices().size() << endl;
 	    cout << "optimizerMin.edges.size() = " << optimizerMin.edges().size() << endl;
 		optimizerMin.initializeOptimization();
+		cout << "optimization initialized" << endl;
+		optimizerMin.setVerbose(true);
 		optimizerMin.optimize(maxIter);
+		cout << "optimized" << endl;
 
 		ofstream optTrajMinFile("../res/optTrajMin.txt");
 		for(int po = 0; po < odomPoses.size(); ++po){

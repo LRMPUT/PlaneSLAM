@@ -1660,6 +1660,7 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.c
  ../g2o/types/slam3d/edge_se3.h
  ../g2o/types/slam3d/edge_se3_lotsofxyz.h
  ../g2o/types/slam3d/edge_se3_offset.h
+ ../g2o/types/slam3d/edge_se3_plane.h
  ../g2o/types/slam3d/edge_se3_pointxyz.h
  ../g2o/types/slam3d/edge_se3_pointxyz_depth.h
  ../g2o/types/slam3d/edge_se3_pointxyz_disparity.h
@@ -1674,6 +1675,7 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.c
  ../g2o/types/slam3d/se3_ops.hpp
  ../g2o/types/slam3d/se3quat.h
  ../g2o/types/slam3d/types_slam3d.h
+ ../g2o/types/slam3d/vertex_plane_quat.h
  ../g2o/types/slam3d/vertex_pointxyz.h
  ../g2o/types/slam3d/vertex_se3.h
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d_addons/edge_line3d.h
