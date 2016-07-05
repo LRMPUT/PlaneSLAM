@@ -17,8 +17,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o"
   "CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o"
   "CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o"
-  "../../../../lib/libg2o_simulator.pdb"
-  "../../../../lib/libg2o_simulator.so"
+  "../../../../lib/libg2o_simulator_d.pdb"
+  "../../../../lib/libg2o_simulator_d.so"
 )
 
 # Per-language clean rules from dependency scanning.

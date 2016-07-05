@@ -102,6 +102,7 @@ g2o/apps/g2o_simulator/CMakeFiles/convertSegmentLine_application.dir/convertSegm
  ../g2o/types/slam3d/vertex_plane_quat.h
  ../g2o/types/slam3d/vertex_pointxyz.h
  ../g2o/types/slam3d/vertex_se3.h
+ ../g2o/types/slam3d/vertex_se3_quat.h
  /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/apps/g2o_simulator/convertSegmentLine.cpp
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core

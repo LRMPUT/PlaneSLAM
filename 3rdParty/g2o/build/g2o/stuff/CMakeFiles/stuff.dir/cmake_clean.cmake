@@ -8,8 +8,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/stuff.dir/property.cpp.o"
   "CMakeFiles/stuff.dir/sampler.cpp.o"
   "CMakeFiles/stuff.dir/tictoc.cpp.o"
-  "../../../lib/libg2o_stuff.pdb"
-  "../../../lib/libg2o_stuff.so"
+  "../../../lib/libg2o_stuff_d.pdb"
+  "../../../lib/libg2o_stuff_d.so"
 )
 
 # Per-language clean rules from dependency scanning.

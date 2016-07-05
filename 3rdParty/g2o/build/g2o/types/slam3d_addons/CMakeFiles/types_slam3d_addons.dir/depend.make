@@ -1677,6 +1677,7 @@ g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.c
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o: ../g2o/types/slam3d/vertex_se3.h
+g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o: ../g2o/types/slam3d/vertex_se3_quat.h
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o: ../g2o/types/slam3d_addons/edge_line3d.h
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o: ../g2o/types/slam3d_addons/edge_plane.h
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o: ../g2o/types/slam3d_addons/edge_se3_calib.h

@@ -84,7 +84,7 @@ bal_example_EXTERNAL_OBJECTS =
 
 ../bin/bal_example: g2o/examples/bal/CMakeFiles/bal_example.dir/bal_example.cpp.o
 ../bin/bal_example: g2o/examples/bal/CMakeFiles/bal_example.dir/build.make
-../bin/bal_example: ../lib/libg2o_solver_cholmod.so
+../bin/bal_example: ../lib/libg2o_solver_cholmod_d.so
 ../bin/bal_example: /usr/lib/x86_64-linux-gnu/libcholmod.so
 ../bin/bal_example: /usr/lib/x86_64-linux-gnu/libamd.so
 ../bin/bal_example: /usr/lib/x86_64-linux-gnu/libcolamd.so
@@ -93,8 +93,8 @@ bal_example_EXTERNAL_OBJECTS =
 ../bin/bal_example: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.a
 ../bin/bal_example: /usr/lib/libblas.so
 ../bin/bal_example: /usr/lib/liblapack.so
-../bin/bal_example: ../lib/libg2o_core.so
-../bin/bal_example: ../lib/libg2o_stuff.so
+../bin/bal_example: ../lib/libg2o_core_d.so
+../bin/bal_example: ../lib/libg2o_stuff_d.so
 ../bin/bal_example: g2o/examples/bal/CMakeFiles/bal_example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../../bin/bal_example"
 	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/bal && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bal_example.dir/link.txt --verbose=$(VERBOSE)

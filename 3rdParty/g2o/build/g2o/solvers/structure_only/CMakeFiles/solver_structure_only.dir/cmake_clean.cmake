@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/solver_structure_only.dir/structure_only.cpp.o"
-  "../../../../lib/libg2o_solver_structure_only.pdb"
-  "../../../../lib/libg2o_solver_structure_only.so"
+  "../../../../lib/libg2o_solver_structure_only_d.pdb"
+  "../../../../lib/libg2o_solver_structure_only_d.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -101,6 +101,7 @@ g2o/apps/g2o_simulator/CMakeFiles/convertSegmentLine_application.dir/convertSegm
 g2o/apps/g2o_simulator/CMakeFiles/convertSegmentLine_application.dir/convertSegmentLine.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/convertSegmentLine_application.dir/convertSegmentLine.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/convertSegmentLine_application.dir/convertSegmentLine.cpp.o: ../g2o/types/slam3d/vertex_se3.h
+g2o/apps/g2o_simulator/CMakeFiles/convertSegmentLine_application.dir/convertSegmentLine.cpp.o: ../g2o/types/slam3d/vertex_se3_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/convertSegmentLine_application.dir/convertSegmentLine.cpp.o: ../g2o/apps/g2o_simulator/convertSegmentLine.cpp
 g2o/apps/g2o_simulator/CMakeFiles/convertSegmentLine_application.dir/convertSegmentLine.cpp.o: /usr/include/eigen3/Eigen/Cholesky
 g2o/apps/g2o_simulator/CMakeFiles/convertSegmentLine_application.dir/convertSegmentLine.cpp.o: /usr/include/eigen3/Eigen/Core

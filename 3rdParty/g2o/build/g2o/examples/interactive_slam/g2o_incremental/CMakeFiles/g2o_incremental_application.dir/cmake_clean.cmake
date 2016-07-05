@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/g2o_incremental_application.dir/g2o_incremental.cpp.o"
-  "../../../../../bin/g2o_incremental.pdb"
-  "../../../../../bin/g2o_incremental"
+  "../../../../../bin/g2o_incremental_d.pdb"
+  "../../../../../bin/g2o_incremental_d"
 )
 
 # Per-language clean rules from dependency scanning.

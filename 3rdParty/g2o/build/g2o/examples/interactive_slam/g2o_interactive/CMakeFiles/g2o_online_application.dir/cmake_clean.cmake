@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/g2o_online_application.dir/g2o_online.cpp.o"
-  "../../../../../bin/g2o_online.pdb"
-  "../../../../../bin/g2o_online"
+  "../../../../../bin/g2o_online_d.pdb"
+  "../../../../../bin/g2o_online_d"
 )
 
 # Per-language clean rules from dependency scanning.

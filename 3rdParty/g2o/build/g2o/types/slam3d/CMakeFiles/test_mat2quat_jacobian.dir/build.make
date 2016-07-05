@@ -84,10 +84,10 @@ test_mat2quat_jacobian_EXTERNAL_OBJECTS =
 
 ../bin/test_mat2quat_jacobian: g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/test_mat2quat_jacobian.cpp.o
 ../bin/test_mat2quat_jacobian: g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build.make
-../bin/test_mat2quat_jacobian: ../lib/libg2o_types_slam3d.so
-../bin/test_mat2quat_jacobian: ../lib/libg2o_core.so
-../bin/test_mat2quat_jacobian: ../lib/libg2o_stuff.so
-../bin/test_mat2quat_jacobian: ../lib/libg2o_opengl_helper.so
+../bin/test_mat2quat_jacobian: ../lib/libg2o_types_slam3d_d.so
+../bin/test_mat2quat_jacobian: ../lib/libg2o_core_d.so
+../bin/test_mat2quat_jacobian: ../lib/libg2o_stuff_d.so
+../bin/test_mat2quat_jacobian: ../lib/libg2o_opengl_helper_d.so
 ../bin/test_mat2quat_jacobian: /usr/lib/x86_64-linux-gnu/libGLU.so
 ../bin/test_mat2quat_jacobian: /usr/lib/x86_64-linux-gnu/libSM.so
 ../bin/test_mat2quat_jacobian: /usr/lib/x86_64-linux-gnu/libICE.so

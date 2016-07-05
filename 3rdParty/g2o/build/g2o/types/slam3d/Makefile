@@ -750,6 +750,30 @@ vertex_se3.cpp.s:
 	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3.cpp.s
 .PHONY : vertex_se3.cpp.s
 
+vertex_se3_quat.o: vertex_se3_quat.cpp.o
+.PHONY : vertex_se3_quat.o
+
+# target to build an object file
+vertex_se3_quat.cpp.o:
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o
+.PHONY : vertex_se3_quat.cpp.o
+
+vertex_se3_quat.i: vertex_se3_quat.cpp.i
+.PHONY : vertex_se3_quat.i
+
+# target to preprocess a source file
+vertex_se3_quat.cpp.i:
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.i
+.PHONY : vertex_se3_quat.cpp.i
+
+vertex_se3_quat.s: vertex_se3_quat.cpp.s
+.PHONY : vertex_se3_quat.s
+
+# target to generate assembly for a file
+vertex_se3_quat.cpp.s:
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build && $(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.s
+.PHONY : vertex_se3_quat.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -835,6 +859,9 @@ help:
 	@echo "... vertex_se3.o"
 	@echo "... vertex_se3.i"
 	@echo "... vertex_se3.s"
+	@echo "... vertex_se3_quat.o"
+	@echo "... vertex_se3_quat.i"
+	@echo "... vertex_se3_quat.s"
 .PHONY : help
 
 

@@ -154,34 +154,34 @@ calibration_odom_laser_library_OBJECTS = \
 # External object files for target calibration_odom_laser_library
 calibration_odom_laser_library_EXTERNAL_OBJECTS =
 
-../lib/libg2o_calibration_odom_laser.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.o
-../lib/libg2o_calibration_odom_laser.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.o
-../lib/libg2o_calibration_odom_laser.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.o
-../lib/libg2o_calibration_odom_laser.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.o
-../lib/libg2o_calibration_odom_laser.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/build.make
-../lib/libg2o_calibration_odom_laser.so: ../lib/libg2o_core.so
-../lib/libg2o_calibration_odom_laser.so: ../lib/libg2o_solver_csparse.so
-../lib/libg2o_calibration_odom_laser.so: ../lib/libg2o_types_sclam2d.so
-../lib/libg2o_calibration_odom_laser.so: ../lib/libg2o_types_data.so
-../lib/libg2o_calibration_odom_laser.so: ../lib/libg2o_csparse_extension.so
-../lib/libg2o_calibration_odom_laser.so: /usr/lib/x86_64-linux-gnu/libcxsparse.so
-../lib/libg2o_calibration_odom_laser.so: ../lib/libg2o_types_slam2d.so
-../lib/libg2o_calibration_odom_laser.so: ../lib/libg2o_core.so
-../lib/libg2o_calibration_odom_laser.so: ../lib/libg2o_stuff.so
-../lib/libg2o_calibration_odom_laser.so: ../lib/libg2o_ext_freeglut_minimal.so
-../lib/libg2o_calibration_odom_laser.so: ../lib/libg2o_opengl_helper.so
-../lib/libg2o_calibration_odom_laser.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-../lib/libg2o_calibration_odom_laser.so: /usr/lib/x86_64-linux-gnu/libGL.so
-../lib/libg2o_calibration_odom_laser.so: /usr/lib/x86_64-linux-gnu/libSM.so
-../lib/libg2o_calibration_odom_laser.so: /usr/lib/x86_64-linux-gnu/libICE.so
-../lib/libg2o_calibration_odom_laser.so: /usr/lib/x86_64-linux-gnu/libX11.so
-../lib/libg2o_calibration_odom_laser.so: /usr/lib/x86_64-linux-gnu/libXext.so
-../lib/libg2o_calibration_odom_laser.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_calibration_odom_laser.so"
+../lib/libg2o_calibration_odom_laser_d.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.o
+../lib/libg2o_calibration_odom_laser_d.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/sclam_helpers.cpp.o
+../lib/libg2o_calibration_odom_laser_d.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/edge_se2_pure_calib.cpp.o
+../lib/libg2o_calibration_odom_laser_d.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/closed_form_calibration.cpp.o
+../lib/libg2o_calibration_odom_laser_d.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/build.make
+../lib/libg2o_calibration_odom_laser_d.so: ../lib/libg2o_core_d.so
+../lib/libg2o_calibration_odom_laser_d.so: ../lib/libg2o_solver_csparse_d.so
+../lib/libg2o_calibration_odom_laser_d.so: ../lib/libg2o_types_sclam2d_d.so
+../lib/libg2o_calibration_odom_laser_d.so: ../lib/libg2o_types_data_d.so
+../lib/libg2o_calibration_odom_laser_d.so: ../lib/libg2o_csparse_extension_d.so
+../lib/libg2o_calibration_odom_laser_d.so: /usr/lib/x86_64-linux-gnu/libcxsparse.so
+../lib/libg2o_calibration_odom_laser_d.so: ../lib/libg2o_types_slam2d_d.so
+../lib/libg2o_calibration_odom_laser_d.so: ../lib/libg2o_core_d.so
+../lib/libg2o_calibration_odom_laser_d.so: ../lib/libg2o_stuff_d.so
+../lib/libg2o_calibration_odom_laser_d.so: ../lib/libg2o_ext_freeglut_minimal_d.so
+../lib/libg2o_calibration_odom_laser_d.so: ../lib/libg2o_opengl_helper_d.so
+../lib/libg2o_calibration_odom_laser_d.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+../lib/libg2o_calibration_odom_laser_d.so: /usr/lib/x86_64-linux-gnu/libGL.so
+../lib/libg2o_calibration_odom_laser_d.so: /usr/lib/x86_64-linux-gnu/libSM.so
+../lib/libg2o_calibration_odom_laser_d.so: /usr/lib/x86_64-linux-gnu/libICE.so
+../lib/libg2o_calibration_odom_laser_d.so: /usr/lib/x86_64-linux-gnu/libX11.so
+../lib/libg2o_calibration_odom_laser_d.so: /usr/lib/x86_64-linux-gnu/libXext.so
+../lib/libg2o_calibration_odom_laser_d.so: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_calibration_odom_laser_d.so"
 	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/calibration_odom_laser && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calibration_odom_laser_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/build: ../lib/libg2o_calibration_odom_laser.so
+g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/build: ../lib/libg2o_calibration_odom_laser_d.so
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/build
 
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/requires: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/gm2dl_io.cpp.o.requires

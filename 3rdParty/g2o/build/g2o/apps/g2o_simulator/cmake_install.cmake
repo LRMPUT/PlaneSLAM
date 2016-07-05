@@ -12,7 +12,7 @@ IF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     STRING(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   ELSE(BUILD_TYPE)
-    SET(CMAKE_INSTALL_CONFIG_NAME "Release")
+    SET(CMAKE_INSTALL_CONFIG_NAME "Debug")
   ENDIF(BUILD_TYPE)
   MESSAGE(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 ENDIF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
@@ -33,105 +33,105 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  IF(EXISTS "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator.so")
+  IF(EXISTS "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator_d.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator_d.so")
     FILE(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator.so"
+         FILE "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator_d.so"
          RPATH "")
   ENDIF()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/lib/libg2o_simulator.so")
+   "/usr/local/lib/libg2o_simulator_d.so")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib/libg2o_simulator.so")
-  IF(EXISTS "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator.so")
+FILE(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib/libg2o_simulator_d.so")
+  IF(EXISTS "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator_d.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator_d.so")
     FILE(RPATH_REMOVE
-         FILE "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator.so")
+         FILE "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator_d.so")
     IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator.so")
+      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/lib/libg2o_simulator_d.so")
     ENDIF(CMAKE_INSTALL_DO_STRIP)
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d")
+  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d_d" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d_d")
     FILE(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d"
+         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d_d"
          RPATH "")
   ENDIF()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/bin/g2o_simulator2d")
+   "/usr/local/bin/g2o_simulator2d_d")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/bin/g2o_simulator2d")
-  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d")
+FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/bin/g2o_simulator2d_d")
+  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d_d" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d_d")
     FILE(RPATH_REMOVE
-         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d")
+         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d_d")
     IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d")
+      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/bin/g2o_simulator2d_d")
     ENDIF(CMAKE_INSTALL_DO_STRIP)
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d")
+  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d_d" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d_d")
     FILE(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d"
+         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d_d"
          RPATH "")
   ENDIF()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/bin/g2o_simulator3d")
+   "/usr/local/bin/g2o_simulator3d_d")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/bin/g2o_simulator3d")
-  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d")
+FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/bin/g2o_simulator3d_d")
+  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d_d" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d_d")
     FILE(RPATH_REMOVE
-         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d")
+         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d_d")
     IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d")
+      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/bin/g2o_simulator3d_d")
     ENDIF(CMAKE_INSTALL_DO_STRIP)
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations")
+  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations_d" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations_d")
     FILE(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations"
+         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations_d"
          RPATH "")
   ENDIF()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/bin/g2o_anonymize_observations")
+   "/usr/local/bin/g2o_anonymize_observations_d")
   IF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
   IF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   ENDIF (CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/bin/g2o_anonymize_observations")
-  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations")
+FILE(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/bin/g2o_anonymize_observations_d")
+  IF(EXISTS "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations_d" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations_d")
     FILE(RPATH_REMOVE
-         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations")
+         FILE "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations_d")
     IF(CMAKE_INSTALL_DO_STRIP)
-      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations")
+      EXECUTE_PROCESS(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/bin/g2o_anonymize_observations_d")
     ENDIF(CMAKE_INSTALL_DO_STRIP)
   ENDIF()
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

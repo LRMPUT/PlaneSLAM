@@ -322,35 +322,35 @@ types_slam3d_addons_OBJECTS = \
 # External object files for target types_slam3d_addons
 types_slam3d_addons_EXTERNAL_OBJECTS =
 
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.o
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.o
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.o
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/build.make
-../lib/libg2o_types_slam3d_addons.so: ../lib/libg2o_types_slam3d.so
-../lib/libg2o_types_slam3d_addons.so: ../lib/libg2o_core.so
-../lib/libg2o_types_slam3d_addons.so: /usr/lib/x86_64-linux-gnu/libGL.so
-../lib/libg2o_types_slam3d_addons.so: ../lib/libg2o_stuff.so
-../lib/libg2o_types_slam3d_addons.so: ../lib/libg2o_opengl_helper.so
-../lib/libg2o_types_slam3d_addons.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-../lib/libg2o_types_slam3d_addons.so: /usr/lib/x86_64-linux-gnu/libGL.so
-../lib/libg2o_types_slam3d_addons.so: /usr/lib/x86_64-linux-gnu/libSM.so
-../lib/libg2o_types_slam3d_addons.so: /usr/lib/x86_64-linux-gnu/libICE.so
-../lib/libg2o_types_slam3d_addons.so: /usr/lib/x86_64-linux-gnu/libX11.so
-../lib/libg2o_types_slam3d_addons.so: /usr/lib/x86_64-linux-gnu/libXext.so
-../lib/libg2o_types_slam3d_addons.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_types_slam3d_addons.so"
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.o
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_euler.cpp.o
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_plane.cpp.o
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_plane_calib.cpp.o
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/line3d.cpp.o
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_line3d.cpp.o
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_line.cpp.o
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_line3d.cpp.o
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/build.make
+../lib/libg2o_types_slam3d_addons_d.so: ../lib/libg2o_types_slam3d_d.so
+../lib/libg2o_types_slam3d_addons_d.so: ../lib/libg2o_core_d.so
+../lib/libg2o_types_slam3d_addons_d.so: /usr/lib/x86_64-linux-gnu/libGL.so
+../lib/libg2o_types_slam3d_addons_d.so: ../lib/libg2o_stuff_d.so
+../lib/libg2o_types_slam3d_addons_d.so: ../lib/libg2o_opengl_helper_d.so
+../lib/libg2o_types_slam3d_addons_d.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+../lib/libg2o_types_slam3d_addons_d.so: /usr/lib/x86_64-linux-gnu/libGL.so
+../lib/libg2o_types_slam3d_addons_d.so: /usr/lib/x86_64-linux-gnu/libSM.so
+../lib/libg2o_types_slam3d_addons_d.so: /usr/lib/x86_64-linux-gnu/libICE.so
+../lib/libg2o_types_slam3d_addons_d.so: /usr/lib/x86_64-linux-gnu/libX11.so
+../lib/libg2o_types_slam3d_addons_d.so: /usr/lib/x86_64-linux-gnu/libXext.so
+../lib/libg2o_types_slam3d_addons_d.so: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_types_slam3d_addons_d.so"
 	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d_addons && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/types_slam3d_addons.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/build: ../lib/libg2o_types_slam3d_addons.so
+g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/build: ../lib/libg2o_types_slam3d_addons_d.so
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/build
 
 g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/requires: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/vertex_se3_euler.cpp.o.requires

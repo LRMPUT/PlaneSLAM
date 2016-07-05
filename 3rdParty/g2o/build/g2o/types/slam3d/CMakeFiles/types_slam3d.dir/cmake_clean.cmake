@@ -17,10 +17,11 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.o"
   "CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.o"
   "CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o"
+  "CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o"
   "CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o"
   "CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.o"
-  "../../../../lib/libg2o_types_slam3d.pdb"
-  "../../../../lib/libg2o_types_slam3d.so"
+  "../../../../lib/libg2o_types_slam3d_d.pdb"
+  "../../../../lib/libg2o_types_slam3d_d.so"
 )
 
 # Per-language clean rules from dependency scanning.

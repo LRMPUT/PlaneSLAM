@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/simple_optimize.dir/simple_optimize.cpp.o"
-  "../../../../bin/simple_optimize.pdb"
-  "../../../../bin/simple_optimize"
+  "../../../../bin/simple_optimize_d.pdb"
+  "../../../../bin/simple_optimize_d"
 )
 
 # Per-language clean rules from dependency scanning.

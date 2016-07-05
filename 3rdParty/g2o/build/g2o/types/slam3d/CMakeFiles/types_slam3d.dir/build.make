@@ -466,9 +466,32 @@ g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o.provides: g2o/ty
 
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o.provides.build: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o
 
+g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/flags.make
+g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o: ../g2o/types/slam3d/vertex_se3_quat.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o"
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/vertex_se3_quat.cpp
+
+g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.i"
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/vertex_se3_quat.cpp > CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.i
+
+g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.s"
+	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/vertex_se3_quat.cpp -o CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.s
+
+g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o.requires:
+.PHONY : g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o.requires
+
+g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o.provides: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o.requires
+	$(MAKE) -f g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o.provides.build
+.PHONY : g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o.provides
+
+g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o.provides.build: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o
+
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/flags.make
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o"
 	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/vertex_plane_quat.cpp
 
@@ -491,7 +514,7 @@ g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o.provides.bu
 
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.o: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/flags.make
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.o: ../g2o/types/slam3d/edge_se3_plane.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.o"
 	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.o -c /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/edge_se3_plane.cpp
 
@@ -532,49 +555,51 @@ types_slam3d_OBJECTS = \
 "CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.o" \
 "CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.o" \
 "CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o" \
+"CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o" \
 "CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o" \
 "CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.o"
 
 # External object files for target types_slam3d
 types_slam3d_EXTERNAL_OBJECTS =
 
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/dquat2mat.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_mappings.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_gradients.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_se3_offset.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_offset.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_pointxyz.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_camera.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_stereo_camera.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_disparity.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_reprojectionError.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_depth.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_prior.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.o
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make
-../lib/libg2o_types_slam3d.so: ../lib/libg2o_core.so
-../lib/libg2o_types_slam3d.so: ../lib/libg2o_opengl_helper.so
-../lib/libg2o_types_slam3d.so: /usr/lib/x86_64-linux-gnu/libGL.so
-../lib/libg2o_types_slam3d.so: ../lib/libg2o_stuff.so
-../lib/libg2o_types_slam3d.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-../lib/libg2o_types_slam3d.so: /usr/lib/x86_64-linux-gnu/libGL.so
-../lib/libg2o_types_slam3d.so: /usr/lib/x86_64-linux-gnu/libSM.so
-../lib/libg2o_types_slam3d.so: /usr/lib/x86_64-linux-gnu/libICE.so
-../lib/libg2o_types_slam3d.so: /usr/lib/x86_64-linux-gnu/libX11.so
-../lib/libg2o_types_slam3d.so: /usr/lib/x86_64-linux-gnu/libXext.so
-../lib/libg2o_types_slam3d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_types_slam3d.so"
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/dquat2mat.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_mappings.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/isometry3d_gradients.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_se3_offset.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_offset.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_pointxyz.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_camera.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/parameter_stereo_camera.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_disparity.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_reprojectionError.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_pointxyz_depth.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_prior.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.o
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build.make
+../lib/libg2o_types_slam3d_d.so: ../lib/libg2o_core_d.so
+../lib/libg2o_types_slam3d_d.so: ../lib/libg2o_opengl_helper_d.so
+../lib/libg2o_types_slam3d_d.so: /usr/lib/x86_64-linux-gnu/libGL.so
+../lib/libg2o_types_slam3d_d.so: ../lib/libg2o_stuff_d.so
+../lib/libg2o_types_slam3d_d.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+../lib/libg2o_types_slam3d_d.so: /usr/lib/x86_64-linux-gnu/libGL.so
+../lib/libg2o_types_slam3d_d.so: /usr/lib/x86_64-linux-gnu/libSM.so
+../lib/libg2o_types_slam3d_d.so: /usr/lib/x86_64-linux-gnu/libICE.so
+../lib/libg2o_types_slam3d_d.so: /usr/lib/x86_64-linux-gnu/libX11.so
+../lib/libg2o_types_slam3d_d.so: /usr/lib/x86_64-linux-gnu/libXext.so
+../lib/libg2o_types_slam3d_d.so: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_types_slam3d_d.so"
 	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/types_slam3d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build: ../lib/libg2o_types_slam3d.so
+g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build: ../lib/libg2o_types_slam3d_d.so
 .PHONY : g2o/types/slam3d/CMakeFiles/types_slam3d.dir/build
 
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/requires: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/dquat2mat.cpp.o.requires
@@ -595,6 +620,7 @@ g2o/types/slam3d/CMakeFiles/types_slam3d.dir/requires: g2o/types/slam3d/CMakeFil
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/requires: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_lotsofxyz.cpp.o.requires
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/requires: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_pointxyz.cpp.o.requires
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/requires: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/types_slam3d.cpp.o.requires
+g2o/types/slam3d/CMakeFiles/types_slam3d.dir/requires: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o.requires
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/requires: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o.requires
 g2o/types/slam3d/CMakeFiles/types_slam3d.dir/requires: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/edge_se3_plane.cpp.o.requires
 .PHONY : g2o/types/slam3d/CMakeFiles/types_slam3d.dir/requires

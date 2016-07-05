@@ -294,44 +294,44 @@ viewer_library_OBJECTS = \
 # External object files for target viewer_library
 viewer_library_EXTERNAL_OBJECTS =
 
-../lib/libg2o_viewer.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/g2o_qglviewer.cpp.o
-../lib/libg2o_viewer.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/main_window.cpp.o
-../lib/libg2o_viewer.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/stream_redirect.cpp.o
-../lib/libg2o_viewer.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/gui_hyper_graph_action.cpp.o
-../lib/libg2o_viewer.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/properties_widget.cpp.o
-../lib/libg2o_viewer.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/viewer_properties_widget.cpp.o
-../lib/libg2o_viewer.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/run_g2o_viewer.cpp.o
-../lib/libg2o_viewer.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/moc_main_window.cxx.o
-../lib/libg2o_viewer.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/moc_properties_widget.cxx.o
-../lib/libg2o_viewer.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/build.make
-../lib/libg2o_viewer.so: ../lib/libg2o_core.so
-../lib/libg2o_viewer.so: ../lib/libg2o_cli.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libQGLViewer.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libQtOpenGL.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libQtGui.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libQtXml.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libQtCore.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libGL.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libSM.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libICE.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libX11.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libXext.so
-../lib/libg2o_viewer.so: ../lib/libg2o_core.so
-../lib/libg2o_viewer.so: ../lib/libg2o_opengl_helper.so
-../lib/libg2o_viewer.so: ../lib/libg2o_stuff.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libGL.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libSM.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libICE.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libX11.so
-../lib/libg2o_viewer.so: /usr/lib/x86_64-linux-gnu/libXext.so
-../lib/libg2o_viewer.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_viewer.so"
+../lib/libg2o_viewer_d.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/g2o_qglviewer.cpp.o
+../lib/libg2o_viewer_d.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/main_window.cpp.o
+../lib/libg2o_viewer_d.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/stream_redirect.cpp.o
+../lib/libg2o_viewer_d.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/gui_hyper_graph_action.cpp.o
+../lib/libg2o_viewer_d.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/properties_widget.cpp.o
+../lib/libg2o_viewer_d.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/viewer_properties_widget.cpp.o
+../lib/libg2o_viewer_d.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/run_g2o_viewer.cpp.o
+../lib/libg2o_viewer_d.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/moc_main_window.cxx.o
+../lib/libg2o_viewer_d.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/moc_properties_widget.cxx.o
+../lib/libg2o_viewer_d.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/build.make
+../lib/libg2o_viewer_d.so: ../lib/libg2o_core_d.so
+../lib/libg2o_viewer_d.so: ../lib/libg2o_cli_d.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libQGLViewer.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libQtOpenGL.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libQtGui.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libQtXml.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libQtCore.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libGL.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libSM.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libICE.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libX11.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libXext.so
+../lib/libg2o_viewer_d.so: ../lib/libg2o_core_d.so
+../lib/libg2o_viewer_d.so: ../lib/libg2o_opengl_helper_d.so
+../lib/libg2o_viewer_d.so: ../lib/libg2o_stuff_d.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libGL.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libSM.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libICE.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libX11.so
+../lib/libg2o_viewer_d.so: /usr/lib/x86_64-linux-gnu/libXext.so
+../lib/libg2o_viewer_d.so: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_viewer_d.so"
 	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_viewer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/viewer_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/build: ../lib/libg2o_viewer.so
+g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/build: ../lib/libg2o_viewer_d.so
 .PHONY : g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/build
 
 g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/requires: g2o/apps/g2o_viewer/CMakeFiles/viewer_library.dir/g2o_qglviewer.cpp.o.requires

@@ -9,6 +9,7 @@
 #define G2O_VERTEX_PLANE_QUAT_H_
 
 #include <iostream>
+#include <cmath>
 
 #include "g2o/config.h"
 #include "g2o/core/base_vertex.h"
@@ -56,7 +57,7 @@ namespace g2o{
 		virtual bool setMinimalEstimateDataImpl(const double* est){
 //			std::cout << "VertexPlaneQuat::getMinimalEstimateDataImpl" << std::endl;
 			Eigen::Map<const Vector3D> v(est);
-			double w = sqrt(1.0 - v[0]*v[0] - v[1]*v[1] - v[2]*v[2]);
+			double w = std::sqrt(1.0 - v[0]*v[0] - v[1]*v[1] - v[2]*v[2]);
 			_estimate=Eigen::Quaterniond(w, v[0], v[1], v[2]);
 			return true;
 //			std::cout << "End VertexPlaneQuat::getMinimalEstimateDataImpl" << std::endl;
@@ -81,38 +82,19 @@ namespace g2o{
 		* exponential map from article "Simultaneous Localization
 		*  and Mapping with Infinite Planes" by Michael Kaess.
 		*/
-		virtual void oplusImpl(const double* update)
-		{
-//			std::cout << "VertexPlaneQuat::oplusImpl" << std::endl;
-			Eigen::Map<const Vector3D> v(update);
+		virtual void oplusImpl(const double* update);
 
-			double arg = 0.5 * sqrt(v[0]*v[0] + v[1]*v[1] + v[2]*v[2]);
-			double sincArg = 1.0;
-			if(arg > 1e-5){
-				sincArg = sin(arg)/arg;
+		static void normalizeAndUnify(Eigen::Quaterniond& q){
+			q.normalize();
+			static constexpr double eps = 1e-9;
+			if(q.w() < 0.0 ||
+				(fabs(q.w()) < eps && q.z() < 0.0) ||
+				(fabs(q.w()) < eps && fabs(q.z()) < eps && q.y() < 0.0) ||
+				(fabs(q.w()) < eps && fabs(q.z()) < eps && fabs(q.y()) < eps && q.x() < 0.0))
+			{
+				q.coeffs() = -q.coeffs();
 			}
-			double cosArg = cos(arg);
-			double sign = 1.0;
-			if(cosArg < 0.0){
-				sign = -1.0;
-			}
-
-			Eigen::Quaterniond increment(sign*cosArg,
-										sign*0.5*sincArg*v[0],
-										sign*0.5*sincArg*v[1],
-										sign*0.5*sincArg*v[2]);
-			_estimate = increment * _estimate;
-			_estimate.normalize();
-			if(_estimate.w() < 0.0){
-				_estimate.coeffs() = -_estimate.coeffs();
-//				_estimate.x() = -_estimate.x();
-//				_estimate.y() = -_estimate.y();
-//				_estimate.z() = -_estimate.z();
-//				_estimate.w() = -_estimate.w();
-			}
-//			std::cout << "End VertexPlaneQuat::oplusImpl" << std::endl;
 		}
-
 	};
 
 }	//end namespace

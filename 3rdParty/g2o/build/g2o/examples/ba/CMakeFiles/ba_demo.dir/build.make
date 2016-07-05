@@ -84,9 +84,9 @@ ba_demo_EXTERNAL_OBJECTS =
 
 ../bin/ba_demo: g2o/examples/ba/CMakeFiles/ba_demo.dir/ba_demo.cpp.o
 ../bin/ba_demo: g2o/examples/ba/CMakeFiles/ba_demo.dir/build.make
-../bin/ba_demo: ../lib/libg2o_core.so
-../bin/ba_demo: ../lib/libg2o_solver_cholmod.so
-../bin/ba_demo: ../lib/libg2o_types_sba.so
+../bin/ba_demo: ../lib/libg2o_core_d.so
+../bin/ba_demo: ../lib/libg2o_solver_cholmod_d.so
+../bin/ba_demo: ../lib/libg2o_types_sba_d.so
 ../bin/ba_demo: /usr/lib/x86_64-linux-gnu/libcholmod.so
 ../bin/ba_demo: /usr/lib/x86_64-linux-gnu/libamd.so
 ../bin/ba_demo: /usr/lib/x86_64-linux-gnu/libcolamd.so
@@ -95,10 +95,10 @@ ba_demo_EXTERNAL_OBJECTS =
 ../bin/ba_demo: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.a
 ../bin/ba_demo: /usr/lib/libblas.so
 ../bin/ba_demo: /usr/lib/liblapack.so
-../bin/ba_demo: ../lib/libg2o_types_slam3d.so
-../bin/ba_demo: ../lib/libg2o_core.so
-../bin/ba_demo: ../lib/libg2o_stuff.so
-../bin/ba_demo: ../lib/libg2o_opengl_helper.so
+../bin/ba_demo: ../lib/libg2o_types_slam3d_d.so
+../bin/ba_demo: ../lib/libg2o_core_d.so
+../bin/ba_demo: ../lib/libg2o_stuff_d.so
+../bin/ba_demo: ../lib/libg2o_opengl_helper_d.so
 ../bin/ba_demo: /usr/lib/x86_64-linux-gnu/libGLU.so
 ../bin/ba_demo: /usr/lib/x86_64-linux-gnu/libSM.so
 ../bin/ba_demo: /usr/lib/x86_64-linux-gnu/libICE.so

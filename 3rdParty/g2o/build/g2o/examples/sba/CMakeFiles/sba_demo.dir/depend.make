@@ -80,6 +80,7 @@ g2o/examples/sba/CMakeFiles/sba_demo.dir/sba_demo.cpp.o: ../g2o/types/slam3d/typ
 g2o/examples/sba/CMakeFiles/sba_demo.dir/sba_demo.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/examples/sba/CMakeFiles/sba_demo.dir/sba_demo.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/examples/sba/CMakeFiles/sba_demo.dir/sba_demo.cpp.o: ../g2o/types/slam3d/vertex_se3.h
+g2o/examples/sba/CMakeFiles/sba_demo.dir/sba_demo.cpp.o: ../g2o/types/slam3d/vertex_se3_quat.h
 g2o/examples/sba/CMakeFiles/sba_demo.dir/sba_demo.cpp.o: ../g2o/examples/sba/sba_demo.cpp
 g2o/examples/sba/CMakeFiles/sba_demo.dir/sba_demo.cpp.o: /usr/include/eigen3/Eigen/Cholesky
 g2o/examples/sba/CMakeFiles/sba_demo.dir/sba_demo.cpp.o: /usr/include/eigen3/Eigen/Core

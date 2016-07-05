@@ -10,8 +10,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/types_slam3d_addons.dir/edge_plane.cpp.o"
   "CMakeFiles/types_slam3d_addons.dir/edge_se3_calib.cpp.o"
   "CMakeFiles/types_slam3d_addons.dir/types_slam3d_addons.cpp.o"
-  "../../../../lib/libg2o_types_slam3d_addons.pdb"
-  "../../../../lib/libg2o_types_slam3d_addons.so"
+  "../../../../lib/libg2o_types_slam3d_addons_d.pdb"
+  "../../../../lib/libg2o_types_slam3d_addons_d.so"
 )
 
 # Per-language clean rules from dependency scanning.

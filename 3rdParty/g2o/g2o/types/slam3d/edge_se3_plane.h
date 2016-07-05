@@ -11,7 +11,7 @@
 #include "g2o/core/base_binary_edge.h"
 
 #include "g2o_types_slam3d_api.h"
-#include "vertex_se3.h"
+#include "vertex_se3_quat.h"
 #include "vertex_plane_quat.h"
 
 namespace g2o {
@@ -23,7 +23,7 @@ namespace g2o {
    * If z denotes the measurement, then the error function is given as follows:
    * z^-1 * (x_i^-1 * x_j)
    */
-  class G2O_TYPES_SLAM3D_API EdgeSE3Plane : public BaseBinaryEdge<3, Eigen::Quaterniond, VertexSE3, VertexPlaneQuat> {
+  class G2O_TYPES_SLAM3D_API EdgeSE3Plane : public BaseBinaryEdge<3, Eigen::Quaterniond, VertexSE3Quat, VertexPlaneQuat> {
     public:
       EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
       EdgeSE3Plane();
@@ -54,7 +54,7 @@ namespace g2o {
 //        std::cout << "End EdgeSE3Plane::getMeasurementData()" << std::endl;
       }
 
-//      void linearizeOplus();
+      void linearizeOplus();
 
       virtual int measurementDimension() const {return 3;}
 
@@ -68,6 +68,20 @@ namespace g2o {
 //      virtual void initialEstimate(const OptimizableGraph::VertexSet& from, OptimizableGraph::Vertex* to);
 
     protected:
+      Eigen::Matrix<double, 4, 3> d_plOplus_d_Oplus(Eigen::Quaterniond pl);
+
+      Eigen::Matrix<double, 16, 6> d_poOplus_d_Oplus(Eigen::Matrix<double, 4, 4> poT);
+
+      Eigen::Matrix<double, 4, 16> d_estPlInv_d_poOplus(Eigen::Matrix<double, 4, 4> poT, Eigen::Quaterniond meas);
+
+      Eigen::Matrix<double, 4, 4> d_qNorm_d_q(Eigen::Quaterniond q);
+
+      Eigen::Matrix<double, 4, 4> d_quatMul_d_a(Eigen::Quaterniond a, Eigen::Quaterniond b);
+
+      Eigen::Matrix<double, 4, 4> d_quatMul_d_b(Eigen::Quaterniond a, Eigen::Quaterniond b);
+
+      Eigen::Matrix<double, 3, 4> d_logMap_d_d(Eigen::Quaterniond d);
+
       Vector3D logMap(Eigen::Quaterniond quat);
 
       Eigen::Quaterniond _inverseMeasurement;

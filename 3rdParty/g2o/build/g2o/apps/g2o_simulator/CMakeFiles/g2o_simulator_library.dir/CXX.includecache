@@ -723,8 +723,8 @@ g2o/core/base_binary_edge.h
 ../g2o/types/slam3d/g2o/core/base_binary_edge.h
 g2o_types_slam3d_api.h
 ../g2o/types/slam3d/g2o_types_slam3d_api.h
-vertex_se3.h
-../g2o/types/slam3d/vertex_se3.h
+vertex_se3_quat.h
+../g2o/types/slam3d/vertex_se3_quat.h
 vertex_plane_quat.h
 ../g2o/types/slam3d/vertex_plane_quat.h
 
@@ -887,11 +887,15 @@ edge_se3_lotsofxyz.h
 ../g2o/types/slam3d/edge_se3_lotsofxyz.h
 vertex_plane_quat.h
 ../g2o/types/slam3d/vertex_plane_quat.h
+vertex_se3_quat.h
+../g2o/types/slam3d/vertex_se3_quat.h
 edge_se3_plane.h
 ../g2o/types/slam3d/edge_se3_plane.h
 
 ../g2o/types/slam3d/vertex_plane_quat.h
 iostream
+-
+cmath
 -
 g2o/config.h
 ../g2o/types/slam3d/g2o/config.h
@@ -917,6 +921,20 @@ g2o/core/hyper_graph_action.h
 ../g2o/types/slam3d/g2o/core/hyper_graph_action.h
 isometry3d_mappings.h
 ../g2o/types/slam3d/isometry3d_mappings.h
+g2o_types_slam3d_api.h
+../g2o/types/slam3d/g2o_types_slam3d_api.h
+
+../g2o/types/slam3d/vertex_se3_quat.h
+g2o/core/base_vertex.h
+../g2o/types/slam3d/g2o/core/base_vertex.h
+g2o/core/base_binary_edge.h
+../g2o/types/slam3d/g2o/core/base_binary_edge.h
+g2o/types/slam3d/se3_ops.h
+../g2o/types/slam3d/g2o/types/slam3d/se3_ops.h
+g2o/types/slam3d/se3quat.h
+../g2o/types/slam3d/g2o/types/slam3d/se3quat.h
+Eigen/Geometry
+-
 g2o_types_slam3d_api.h
 ../g2o/types/slam3d/g2o_types_slam3d_api.h
 

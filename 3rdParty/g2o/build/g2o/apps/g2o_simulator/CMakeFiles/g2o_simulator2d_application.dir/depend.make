@@ -80,6 +80,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator2d_application.dir/test_simulator
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator2d_application.dir/test_simulator2d.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator2d_application.dir/test_simulator2d.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator2d_application.dir/test_simulator2d.cpp.o: ../g2o/types/slam3d/vertex_se3.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator2d_application.dir/test_simulator2d.cpp.o: ../g2o/types/slam3d/vertex_se3_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator2d_application.dir/test_simulator2d.cpp.o: ../g2o/apps/g2o_simulator/g2o_simulator_api.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator2d_application.dir/test_simulator2d.cpp.o: ../g2o/apps/g2o_simulator/pointsensorparameters.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator2d_application.dir/test_simulator2d.cpp.o: ../g2o/apps/g2o_simulator/sensor_odometry2d.h

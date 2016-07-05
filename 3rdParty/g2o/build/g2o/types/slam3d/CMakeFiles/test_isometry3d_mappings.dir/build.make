@@ -84,10 +84,10 @@ test_isometry3d_mappings_EXTERNAL_OBJECTS =
 
 ../bin/test_isometry3d_mappings: g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/test_isometry3d_mappings.cpp.o
 ../bin/test_isometry3d_mappings: g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build.make
-../bin/test_isometry3d_mappings: ../lib/libg2o_types_slam3d.so
-../bin/test_isometry3d_mappings: ../lib/libg2o_core.so
-../bin/test_isometry3d_mappings: ../lib/libg2o_stuff.so
-../bin/test_isometry3d_mappings: ../lib/libg2o_opengl_helper.so
+../bin/test_isometry3d_mappings: ../lib/libg2o_types_slam3d_d.so
+../bin/test_isometry3d_mappings: ../lib/libg2o_core_d.so
+../bin/test_isometry3d_mappings: ../lib/libg2o_stuff_d.so
+../bin/test_isometry3d_mappings: ../lib/libg2o_opengl_helper_d.so
 ../bin/test_isometry3d_mappings: /usr/lib/x86_64-linux-gnu/libGLU.so
 ../bin/test_isometry3d_mappings: /usr/lib/x86_64-linux-gnu/libSM.so
 ../bin/test_isometry3d_mappings: /usr/lib/x86_64-linux-gnu/libICE.so

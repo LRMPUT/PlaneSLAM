@@ -14,6 +14,7 @@ SET(CMAKE_CXX_COMPILER_ID "GNU")
 SET(CMAKE_TARGET_DEFINITIONS
   "G2O_DEFAULT_SOLVERS_DIR_=\"/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib\""
   "G2O_DEFAULT_TYPES_DIR_=\"/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib\""
+  "G2O_LIBRARY_POSTFIX=\"_d\""
   "UNIX"
   )
 

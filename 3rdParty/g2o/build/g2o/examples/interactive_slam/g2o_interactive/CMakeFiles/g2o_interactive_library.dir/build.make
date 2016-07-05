@@ -130,40 +130,40 @@ g2o_interactive_library_OBJECTS = \
 # External object files for target g2o_interactive_library
 g2o_interactive_library_EXTERNAL_OBJECTS =
 
-../lib/libg2o_interactive.so: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/g2o_slam_interface.cpp.o
-../lib/libg2o_interactive.so: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/graph_optimizer_sparse_online.cpp.o
-../lib/libg2o_interactive.so: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/types_online.cpp.o
-../lib/libg2o_interactive.so: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make
-../lib/libg2o_interactive.so: ../lib/libg2o_core.so
-../lib/libg2o_interactive.so: ../lib/libg2o_types_slam2d.so
-../lib/libg2o_interactive.so: ../lib/libg2o_types_slam3d.so
-../lib/libg2o_interactive.so: ../lib/libg2o_solver_cholmod.so
-../lib/libg2o_interactive.so: ../lib/libg2o_parser.so
-../lib/libg2o_interactive.so: ../lib/libg2o_interface.so
-../lib/libg2o_interactive.so: ../lib/libg2o_opengl_helper.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libSM.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libICE.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libX11.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libXext.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libGL.so
-../lib/libg2o_interactive.so: ../lib/libg2o_core.so
-../lib/libg2o_interactive.so: ../lib/libg2o_stuff.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libcholmod.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libamd.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libcolamd.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libcamd.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libccolamd.so
-../lib/libg2o_interactive.so: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.a
-../lib/libg2o_interactive.so: /usr/lib/libblas.so
-../lib/libg2o_interactive.so: /usr/lib/liblapack.so
-../lib/libg2o_interactive.so: ../lib/libg2o_parser.so
-../lib/libg2o_interactive.so: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../../lib/libg2o_interactive.so"
+../lib/libg2o_interactive_d.so: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/g2o_slam_interface.cpp.o
+../lib/libg2o_interactive_d.so: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/graph_optimizer_sparse_online.cpp.o
+../lib/libg2o_interactive_d.so: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/types_online.cpp.o
+../lib/libg2o_interactive_d.so: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make
+../lib/libg2o_interactive_d.so: ../lib/libg2o_core_d.so
+../lib/libg2o_interactive_d.so: ../lib/libg2o_types_slam2d_d.so
+../lib/libg2o_interactive_d.so: ../lib/libg2o_types_slam3d_d.so
+../lib/libg2o_interactive_d.so: ../lib/libg2o_solver_cholmod_d.so
+../lib/libg2o_interactive_d.so: ../lib/libg2o_parser_d.so
+../lib/libg2o_interactive_d.so: ../lib/libg2o_interface_d.so
+../lib/libg2o_interactive_d.so: ../lib/libg2o_opengl_helper_d.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libSM.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libICE.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libX11.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libXext.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libGL.so
+../lib/libg2o_interactive_d.so: ../lib/libg2o_core_d.so
+../lib/libg2o_interactive_d.so: ../lib/libg2o_stuff_d.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libcholmod.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libamd.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libcolamd.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libcamd.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libccolamd.so
+../lib/libg2o_interactive_d.so: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.a
+../lib/libg2o_interactive_d.so: /usr/lib/libblas.so
+../lib/libg2o_interactive_d.so: /usr/lib/liblapack.so
+../lib/libg2o_interactive_d.so: ../lib/libg2o_parser_d.so
+../lib/libg2o_interactive_d.so: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../../lib/libg2o_interactive_d.so"
 	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/examples/interactive_slam/g2o_interactive && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g2o_interactive_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build: ../lib/libg2o_interactive.so
+g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build: ../lib/libg2o_interactive_d.so
 .PHONY : g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build
 
 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/requires: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/g2o_slam_interface.cpp.o.requires

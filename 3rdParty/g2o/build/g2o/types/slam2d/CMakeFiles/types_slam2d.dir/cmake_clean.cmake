@@ -14,8 +14,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o"
   "CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o"
   "CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.o"
-  "../../../../lib/libg2o_types_slam2d.pdb"
-  "../../../../lib/libg2o_types_slam2d.so"
+  "../../../../lib/libg2o_types_slam2d_d.pdb"
+  "../../../../lib/libg2o_types_slam2d_d.so"
 )
 
 # Per-language clean rules from dependency scanning.

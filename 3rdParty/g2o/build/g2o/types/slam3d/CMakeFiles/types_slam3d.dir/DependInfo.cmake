@@ -24,6 +24,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/vertex_plane_quat.cpp" "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_plane_quat.cpp.o"
   "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/vertex_pointxyz.cpp" "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_pointxyz.cpp.o"
   "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/vertex_se3.cpp" "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3.cpp.o"
+  "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/g2o/types/slam3d/vertex_se3_quat.cpp" "/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam3d/CMakeFiles/types_slam3d.dir/vertex_se3_quat.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

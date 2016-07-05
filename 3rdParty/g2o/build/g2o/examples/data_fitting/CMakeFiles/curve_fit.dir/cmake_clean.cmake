@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/curve_fit.dir/curve_fit.cpp.o"
-  "../../../../bin/curve_fit.pdb"
-  "../../../../bin/curve_fit"
+  "../../../../bin/curve_fit_d.pdb"
+  "../../../../bin/curve_fit_d"
 )
 
 # Per-language clean rules from dependency scanning.

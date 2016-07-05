@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/create_sphere.dir/create_sphere.cpp.o"
-  "../../../../bin/create_sphere.pdb"
-  "../../../../bin/create_sphere"
+  "../../../../bin/create_sphere_d.pdb"
+  "../../../../bin/create_sphere_d"
 )
 
 # Per-language clean rules from dependency scanning.

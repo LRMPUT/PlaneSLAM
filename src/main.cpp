@@ -15,6 +15,7 @@
 #include "3rdParty/g2o/g2o/types/slam3d/se3quat.h"
 #include "3rdParty/g2o/g2o/types/slam3d/edge_se3.h"
 #include "3rdParty/g2o/g2o/types/slam3d/vertex_se3.h"
+#include "3rdParty/g2o/g2o/types/slam3d/vertex_se3_quat.h"
 #include "3rdParty/g2o/g2o/types/slam3d/vertex_plane_quat.h"
 #include "3rdParty/g2o/g2o/types/slam3d/edge_se3_plane.h"
 #include "3rdParty/g2o/g2o/types/sba/types_six_dof_expmap.h"
@@ -23,7 +24,9 @@
 #include "3rdParty/g2o/g2o/types/slam3d/dquat2mat.h"
 #include "3rdParty/g2o/g2o/core/block_solver.h"
 #include "3rdParty/g2o/g2o/core/optimization_algorithm_levenberg.h"
+#include "3rdParty/g2o/g2o/core/optimization_algorithm_gauss_newton.h"
 #include "3rdParty/g2o/g2o/solvers/eigen/linear_solver_eigen.h"
+#include "3rdParty/g2o/g2o/solvers/pcg/linear_solver_pcg.h"
 
 
 using namespace std;
@@ -81,19 +84,12 @@ void compJacobB(const g2o::SE3Quat& a, Eigen::Matrix<double, 7, 7>& jacob){
 Eigen::Quaterniond normAndDToQuat(double d, Eigen::Vector3d norm){
 	Eigen::Quaterniond res;
 	norm.normalize();
-	if(d < 0.0){
-		res.x() = norm[0];
-		res.y() = norm[1];
-		res.z() = norm[2];
-		res.w() = -d;
-	}
-	else{
-		res.x() = -norm[0];
-		res.y() = -norm[1];
-		res.z() = -norm[2];
-		res.w() = d;
-	}
-	res.normalize();
+	res.x() = norm[0];
+	res.y() = norm[1];
+	res.z() = norm[2];
+	res.w() = -d;
+
+	g2o::VertexPlaneQuat::normalizeAndUnify(res);
 	return res;
 }
 
@@ -242,13 +238,16 @@ int main(){
 
 	    g2o::SparseOptimizer optimizerMin;
 	    {
-			g2o::BlockSolver_6_3::LinearSolverType * linearSolverMin;
+//	    	g2o::BlockSolver_6_3::LinearSolverType * linearSolverMin = new g2o::LinearSolverEigen<g2o::BlockSolver_6_3::PoseMatrixType>();
+//			g2o::BlockSolver_6_3 * solverMin = new g2o::BlockSolver_6_3(linearSolverMin);
+//			g2o::OptimizationAlgorithmLevenberg* algorithmMin = new g2o::OptimizationAlgorithmLevenberg(solverMin);
 
-			linearSolverMin = new g2o::LinearSolverEigen<g2o::BlockSolver_6_3::PoseMatrixType>();
-			g2o::BlockSolver_6_3 * solverMin = new g2o::BlockSolver_6_3(linearSolverMin);
+	    	g2o::BlockSolverX::LinearSolverType* linearSolverMin = new g2o::LinearSolverPCG<g2o::BlockSolverX::PoseMatrixType>();
+	        g2o::BlockSolverX* solverMin = new g2o::BlockSolverX(linearSolverMin);
+	        g2o::OptimizationAlgorithmGaussNewton* algorithmMin = new g2o::OptimizationAlgorithmGaussNewton(solverMin);
+//			g2o::OptimizationAlgorithmLevenberg* algorithmMin = new g2o::OptimizationAlgorithmLevenberg(solverMin);
 
-			g2o::OptimizationAlgorithmLevenberg* algorithmMin = new g2o::OptimizationAlgorithmLevenberg(solverMin);
-			optimizerMin.setAlgorithm(algorithmMin);
+	        optimizerMin.setAlgorithm(algorithmMin);
 	    }
 
 	    for(int po = 0; po < odomPoses.size(); ++po){
@@ -266,10 +265,10 @@ int main(){
 	    	}
 	    	//minimal
 	    	{
-				g2o::VertexSE3* curV = new g2o::VertexSE3();
+				g2o::VertexSE3Quat* curV = new g2o::VertexSE3Quat();
 				g2o::SE3Quat poseSE3Quat;
 				poseSE3Quat.fromVector(odomPoses[po]);
-				curV->setEstimate(g2o::internal::fromSE3Quat(poseSE3Quat));
+				curV->setEstimate(poseSE3Quat);
 				curV->setId(po);
 				if(po == 0){
 					curV->setFixed(true);
@@ -285,7 +284,9 @@ int main(){
 				planePoseSE3Quat.fromVector(planesPoses[pl]);
 				curV->setEstimate(g2o::internal::fromSE3Quat(planePoseSE3Quat));
 				curV->setId(odomPoses.size() + pl);
-	//    		curV->setFixed(true);
+//				if(pl == 0){
+//					curV->setFixed(true);
+//				}
 				optimizerSE3.addVertex(curV);
 	    	}
 	    	//minimal
@@ -300,8 +301,10 @@ int main(){
 
 				curV->setEstimate(normAndDToQuat(d, norm));
 				curV->setId(odomPoses.size() + pl);
-	//    		curV->setFixed(true);
-				curV->setMarginalized(true);
+//				if(pl == 0 || pl == 1 || pl == 2){
+//					curV->setFixed(true);
+//				}
+//				curV->setMarginalized(true);
 				optimizerMin.addVertex(curV);
 	    	}
 	    }
@@ -328,7 +331,6 @@ int main(){
 	    		plNorm[1] += distR(gen);
 	    		plNorm[2] += distR(gen);
 	    		plNorm.normalize();
-
 
 	    		//SE3 edge
 	    		{
@@ -435,12 +437,25 @@ int main(){
 					curEdge->setMeasurement(normAndDToQuat(d, plNorm));
 					curEdge->setInformation(Eigen::Matrix<double, 3, 3>::Identity());
 
-//					if(po == 0){
-//						curEdge->computeError();
-//						g2o::Vector6d error = curEdge->error();
-//						cout << "error = " << error << endl;
-//						cout << "cost = " << error.transpose() * infPlane66 * error << endl;
-//					}
+					if(po == 0){
+						curEdge->computeError();
+						Eigen::Vector3d error = curEdge->error();
+						g2o::VertexSE3Quat* from = static_cast<g2o::VertexSE3Quat*>(curEdge->vertex(0));
+						Eigen::Quaterniond meas = normAndDToQuat(d, plNorm);
+						g2o::VertexPlaneQuat* to = static_cast<g2o::VertexPlaneQuat*>(curEdge->vertex(1));
+						Eigen::Matrix<double, 4, 4> estFromInv = from->estimate().inverse().to_homogeneous_matrix().transpose();
+						Eigen::Vector4d estPlaneVect = estFromInv * meas.coeffs();
+						Eigen::Quaterniond estPlane(estPlaneVect[3], estPlaneVect[0], estPlaneVect[1], estPlaneVect[2]);
+						estPlane.normalize();
+						Eigen::Quaterniond delta = estPlane.inverse() * to->estimate();
+						cout << "pl = " << pl << endl;
+						cout << "vert 0 est = " << from->estimate().to_homogeneous_matrix() << endl;
+						cout << "vert 0 est inverse transpose = " << from->estimate().inverse().to_homogeneous_matrix().transpose() << endl;
+						cout << "vert 1 est = " << to->estimate().coeffs() << endl;
+						cout << "measurement = " << meas.coeffs() << endl;
+						cout << "estPlane = " << estPlane.coeffs() << endl;
+						cout << "error = " << error << endl << endl << endl;
+					}
 
 					optimizerMin.addEdge(curEdge);
 	    		}
@@ -448,7 +463,7 @@ int main(){
 	    }
 
 	    // Optimize!
-	    static constexpr int maxIter = 10;
+	    static constexpr int maxIter = 5;
 
 	    cout << "optimizerSE3.vertices().size() = " << optimizerSE3.vertices().size() << endl;
 	    cout << "optimizerSE3.edges.size() = " << optimizerSE3.edges().size() << endl;
@@ -493,10 +508,65 @@ int main(){
 		optimizerMin.optimize(maxIter);
 		cout << "optimized" << endl;
 
+		Eigen::Matrix<double, 3, 6> sumJacobXi = Eigen::Matrix<double, 3, 6>::Zero();
+		Eigen::Matrix<double, 3, 3> sumJacobXj = Eigen::Matrix<double, 3, 3>::Zero();
+
+		Eigen::Matrix<double, 3, 3> Hk = Eigen::Matrix<double, 3, 3>::Zero();
+		Eigen::Matrix<double, 1, 3> bk = Eigen::Matrix<double, 1, 3>::Zero();
+		Eigen::Matrix<double, 1, 1> ck = Eigen::Matrix<double, 1, 1>::Zero();
+		for(auto it = optimizerMin.edges().begin(); it != optimizerMin.edges().end(); ++it){
+			g2o::EdgeSE3Plane* curEdge = static_cast<g2o::EdgeSE3Plane*>(*it);
+			if(curEdge->vertex(0)->id() == 0){
+				cout << "edge (" << curEdge->vertex(0)->id() << ", "
+						<< curEdge->vertex(1)->id() << ") = " << endl;
+
+				Eigen::Vector3d error = curEdge->error();
+				g2o::VertexSE3Quat* from = static_cast<g2o::VertexSE3Quat*>(curEdge->vertex(0));
+				Eigen::Quaterniond meas = curEdge->measurement();
+				g2o::VertexPlaneQuat* to = static_cast<g2o::VertexPlaneQuat*>(curEdge->vertex(1));
+				Eigen::Matrix<double, 4, 4> estFromInv = from->estimate().inverse().to_homogeneous_matrix().transpose();
+				Eigen::Vector4d estPlaneVect = estFromInv * meas.coeffs();
+				Eigen::Quaterniond estPlane(estPlaneVect[3], estPlaneVect[0], estPlaneVect[1], estPlaneVect[2]);
+				estPlane.normalize();
+				Eigen::Quaterniond delta = estPlane.inverse() * to->estimate();
+				sumJacobXi += curEdge->jacobianOplusXi();
+
+				cout << "vert 0 est = " << from->estimate().to_homogeneous_matrix() << endl;
+				cout << "vert 0 est inverse transp = " << from->estimate().inverse().to_homogeneous_matrix().transpose() << endl;
+				cout << "curEdge->jacobianOplusXi() = " << curEdge->jacobianOplusXi() << endl;
+				cout << "vert 1 est = " << to->estimate().coeffs() << endl;
+				cout << "measurement = " << meas.coeffs() << endl;
+				cout << "estPlane = " << estPlane.coeffs() << endl;
+				cout << "error = " << error << endl << endl << endl;
+
+//				cout << "information = " << curEdge->information() << endl;
+//				cout << "cost = " << curEdge->error().transpose() * curEdge->information() * curEdge->error() << endl;
+//				cout << "measurement = " << curEdge->measurement().matrix() << endl;
+//				cout << "vert 0 est = " << static_cast<g2o::VertexSE3*>(curEdge->vertex(0))->estimate().matrix() << endl;
+//				cout << "vert 1 est = " << static_cast<g2o::VertexSE3*>(curEdge->vertex(1))->estimate().matrix() << endl;
+//				g2o::Isometry3D diff = curEdge->measurement().inverse() *
+//						static_cast<g2o::VertexSE3*>(curEdge->vertex(0))->estimate().inverse() *
+//						static_cast<g2o::VertexSE3*>(curEdge->vertex(1))->estimate();
+//				cout << "diff = " << diff.matrix() << endl;
+			}
+			if(curEdge->vertex(1)->id() == 883 && curEdge->vertex(0)->id() == 0){
+				Eigen::Matrix<double, 3, 3> J = curEdge->jacobianOplusXj();
+				Eigen::Matrix<double, 3, 1> e = curEdge->error();
+				Hk += J.transpose() * J;
+				bk += e.transpose() * J;
+				ck += e.transpose() * e;
+			}
+		}
+//		cout << "sumJacobXi = " << sumJacobXi << endl;
+//		cout << "sumJacobXj = " << sumJacobXj << endl;
+		cout << "Hk = " << Hk << endl;
+		cout << "bk = " << bk << endl;
+		cout << "ck = " << ck << endl;
+
 		ofstream optTrajMinFile("../res/optTrajMin.txt");
 		for(int po = 0; po < odomPoses.size(); ++po){
-			g2o::VertexSE3* curPoseVert = static_cast<g2o::VertexSE3*>(optimizerMin.vertex(po));
-			g2o::Vector7d poseVect = g2o::internal::toVectorQT(curPoseVert->estimate());
+			g2o::VertexSE3Quat* curPoseVert = static_cast<g2o::VertexSE3Quat*>(optimizerMin.vertex(po));
+			g2o::Vector7d poseVect = curPoseVert->estimate().toVector();
 
 			optTrajMinFile << (po + 1);
 			for(int i = 0; i < 7; ++i){

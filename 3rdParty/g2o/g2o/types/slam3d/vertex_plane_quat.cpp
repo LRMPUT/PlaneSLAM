@@ -38,5 +38,59 @@ namespace g2o{
 	  return os.good();
 	}
 
+	/**
+	* update the position of this vertex. The update is using
+	* exponential map from article "Simultaneous Localization
+	*  and Mapping with Infinite Planes" by Michael Kaess.
+	*/
+	void VertexPlaneQuat::oplusImpl(const double* update)
+	{
+//			std::cout << "VertexPlaneQuat::oplusImpl" << std::endl;
+		Eigen::Map<const Vector3D> u(update);
+		Vector3D v;
+
+		static constexpr double pi = 3.14159265359;
+		v[0] = std::fmod(u[0], pi);
+		v[1] = std::fmod(u[1], pi);
+		v[2] = std::fmod(u[2], pi);
+		double arg = 0.5 * std::sqrt(v[0]*v[0] + v[1]*v[1] + v[2]*v[2]);
+		double sincArg = 1.0;
+		if(arg > 1e-6){
+			sincArg = sin(arg)/arg;
+		}
+		else{
+			//taylor expansion
+			sincArg = 1 - arg*arg/6 + pow(arg, 4)/120;
+		}
+		double cosArg = cos(arg);
+
+		Eigen::Quaterniond increment(cosArg,
+									0.5*sincArg*v[0],
+									0.5*sincArg*v[1],
+									0.5*sincArg*v[2]);
+
+//		normalizeAndUnify(increment);
+		_estimate = increment * _estimate;
+		_estimate.normalize();
+
+//		if(id() == 881 && arg > 1e-9){
+//			using namespace std;
+//			cout << "u = " << u << endl;
+//			cout << "v = " << v << endl;
+//			cout << "increment = " << increment.coeffs() << endl;
+//			cout << "_estimate = " << _estimate.coeffs() << endl;
+////			char a;
+////			cin  >> a;
+//		}
+//			if(_estimate.w() < 0.0){
+//				_estimate.coeffs() = -_estimate.coeffs();
+//				_estimate.x() = -_estimate.x();
+//				_estimate.y() = -_estimate.y();
+//				_estimate.z() = -_estimate.z();
+//				_estimate.w() = -_estimate.w();
+//			}
+//			std::cout << "End VertexPlaneQuat::oplusImpl" << std::endl;
+	}
+
 }	//end namespace
 

@@ -490,44 +490,44 @@ g2o_simulator_library_OBJECTS = \
 # External object files for target g2o_simulator_library
 g2o_simulator_library_EXTERNAL_OBJECTS =
 
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/build.make
-../lib/libg2o_simulator.so: ../lib/libg2o_types_slam3d_addons.so
-../lib/libg2o_simulator.so: ../lib/libg2o_types_slam3d.so
-../lib/libg2o_simulator.so: ../lib/libg2o_types_slam2d_addons.so
-../lib/libg2o_simulator.so: ../lib/libg2o_types_slam2d.so
-../lib/libg2o_simulator.so: ../lib/libg2o_core.so
-../lib/libg2o_simulator.so: ../lib/libg2o_opengl_helper.so
-../lib/libg2o_simulator.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-../lib/libg2o_simulator.so: /usr/lib/x86_64-linux-gnu/libSM.so
-../lib/libg2o_simulator.so: /usr/lib/x86_64-linux-gnu/libICE.so
-../lib/libg2o_simulator.so: /usr/lib/x86_64-linux-gnu/libX11.so
-../lib/libg2o_simulator.so: /usr/lib/x86_64-linux-gnu/libXext.so
-../lib/libg2o_simulator.so: ../lib/libg2o_stuff.so
-../lib/libg2o_simulator.so: /usr/lib/x86_64-linux-gnu/libGL.so
-../lib/libg2o_simulator.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_simulator.so"
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/pointsensorparameters.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry2d.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose2d.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_bearing.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxy_offset.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simutils.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_line.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_segment2d_pointline.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_odometry3d.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pose3d_offset.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_disparity.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_pointxyz_depth.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/sensor_se3_prior.cpp.o
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/build.make
+../lib/libg2o_simulator_d.so: ../lib/libg2o_types_slam3d_addons_d.so
+../lib/libg2o_simulator_d.so: ../lib/libg2o_types_slam3d_d.so
+../lib/libg2o_simulator_d.so: ../lib/libg2o_types_slam2d_addons_d.so
+../lib/libg2o_simulator_d.so: ../lib/libg2o_types_slam2d_d.so
+../lib/libg2o_simulator_d.so: ../lib/libg2o_core_d.so
+../lib/libg2o_simulator_d.so: ../lib/libg2o_opengl_helper_d.so
+../lib/libg2o_simulator_d.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+../lib/libg2o_simulator_d.so: /usr/lib/x86_64-linux-gnu/libSM.so
+../lib/libg2o_simulator_d.so: /usr/lib/x86_64-linux-gnu/libICE.so
+../lib/libg2o_simulator_d.so: /usr/lib/x86_64-linux-gnu/libX11.so
+../lib/libg2o_simulator_d.so: /usr/lib/x86_64-linux-gnu/libXext.so
+../lib/libg2o_simulator_d.so: ../lib/libg2o_stuff_d.so
+../lib/libg2o_simulator_d.so: /usr/lib/x86_64-linux-gnu/libGL.so
+../lib/libg2o_simulator_d.so: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_simulator_d.so"
 	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/apps/g2o_simulator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/g2o_simulator_library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/build: ../lib/libg2o_simulator.so
+g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/build: ../lib/libg2o_simulator_d.so
 .PHONY : g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/build
 
 g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/requires: g2o/apps/g2o_simulator/CMakeFiles/g2o_simulator_library.dir/simulator.cpp.o.requires

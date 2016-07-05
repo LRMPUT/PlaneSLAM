@@ -84,16 +84,16 @@ test_line3d_EXTERNAL_OBJECTS =
 
 ../bin/test_line3d: g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/line3d_test.cpp.o
 ../bin/test_line3d: g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/build.make
-../bin/test_line3d: ../lib/libg2o_types_slam3d_addons.so
-../bin/test_line3d: ../lib/libg2o_types_slam3d.so
-../bin/test_line3d: ../lib/libg2o_opengl_helper.so
+../bin/test_line3d: ../lib/libg2o_types_slam3d_addons_d.so
+../bin/test_line3d: ../lib/libg2o_types_slam3d_d.so
+../bin/test_line3d: ../lib/libg2o_opengl_helper_d.so
 ../bin/test_line3d: /usr/lib/x86_64-linux-gnu/libGLU.so
 ../bin/test_line3d: /usr/lib/x86_64-linux-gnu/libSM.so
 ../bin/test_line3d: /usr/lib/x86_64-linux-gnu/libICE.so
 ../bin/test_line3d: /usr/lib/x86_64-linux-gnu/libX11.so
 ../bin/test_line3d: /usr/lib/x86_64-linux-gnu/libXext.so
-../bin/test_line3d: ../lib/libg2o_core.so
-../bin/test_line3d: ../lib/libg2o_stuff.so
+../bin/test_line3d: ../lib/libg2o_core_d.so
+../bin/test_line3d: ../lib/libg2o_stuff_d.so
 ../bin/test_line3d: /usr/lib/x86_64-linux-gnu/libGL.so
 ../bin/test_line3d: g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../../../../bin/test_line3d"

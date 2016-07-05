@@ -882,7 +882,7 @@ g2o/types/data/CMakeFiles/types_data.dir/all: g2o/core/CMakeFiles/core.dir/all
 g2o/types/data/CMakeFiles/types_data.dir/all: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/all
 	$(MAKE) -f g2o/types/data/CMakeFiles/types_data.dir/build.make g2o/types/data/CMakeFiles/types_data.dir/depend
 	$(MAKE) -f g2o/types/data/CMakeFiles/types_data.dir/build.make g2o/types/data/CMakeFiles/types_data.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  62 63 64
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  61 62 63 64
 	@echo "Built target types_data"
 .PHONY : g2o/types/data/CMakeFiles/types_data.dir/all
 
@@ -892,7 +892,7 @@ all: g2o/types/data/CMakeFiles/types_data.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/types/data/CMakeFiles/types_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/types/data/CMakeFiles/types_data.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/types/data/CMakeFiles/types_data.dir/rule
@@ -993,7 +993,7 @@ g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/all: g2o/core/CMakeFile
 g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/all: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/all
 	$(MAKE) -f g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build.make g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/depend
 	$(MAKE) -f g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build.make g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  56
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 
 	@echo "Built target test_isometry3d_mappings"
 .PHONY : g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/all
 
@@ -1003,7 +1003,7 @@ all: g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/types/slam3d/CMakeFiles/test_isometry3d_mappings.dir/rule
@@ -1031,7 +1031,7 @@ g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/all: g2o/core/CMakeFiles/
 g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/all: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/all
 	$(MAKE) -f g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/depend
 	$(MAKE) -f g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  57
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 
 	@echo "Built target test_mat2quat_jacobian"
 .PHONY : g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/all
 
@@ -1041,7 +1041,7 @@ all: g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/types/slam3d/CMakeFiles/test_mat2quat_jacobian.dir/rule
@@ -1069,7 +1069,7 @@ g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/all: g2o/core/CMakeFiles/co
 g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/all: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/all
 	$(MAKE) -f g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/depend
 	$(MAKE) -f g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build.make g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  57
 	@echo "Built target test_slam3d_jacobian"
 .PHONY : g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/all
 
@@ -1079,7 +1079,7 @@ all: g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/types/slam3d/CMakeFiles/test_slam3d_jacobian.dir/rule
@@ -1159,7 +1159,7 @@ g2o/types/sba/CMakeFiles/types_sba.dir/all: g2o/core/CMakeFiles/core.dir/all
 g2o/types/sba/CMakeFiles/types_sba.dir/all: g2o/types/slam3d/CMakeFiles/types_slam3d.dir/all
 	$(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/depend
 	$(MAKE) -f g2o/types/sba/CMakeFiles/types_sba.dir/build.make g2o/types/sba/CMakeFiles/types_sba.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  66
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 
 	@echo "Built target types_sba"
 .PHONY : g2o/types/sba/CMakeFiles/types_sba.dir/all
 
@@ -1169,7 +1169,7 @@ all: g2o/types/sba/CMakeFiles/types_sba.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/types/sba/CMakeFiles/types_sba.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/types/sba/CMakeFiles/types_sba.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/types/sba/CMakeFiles/types_sba.dir/rule
@@ -1223,7 +1223,7 @@ all: g2o/types/sim3/CMakeFiles/types_sim3.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/types/sim3/CMakeFiles/types_sim3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/types/sim3/CMakeFiles/types_sim3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/types/sim3/CMakeFiles/types_sim3.dir/rule
@@ -1277,7 +1277,7 @@ all: g2o/types/icp/CMakeFiles/types_icp.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/types/icp/CMakeFiles/types_icp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/types/icp/CMakeFiles/types_icp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/types/icp/CMakeFiles/types_icp.dir/rule
@@ -1320,7 +1320,7 @@ g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/all: g2o/core/CMakeFiles/core.dir
 g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/all: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/all
 	$(MAKE) -f g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/build.make g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/depend
 	$(MAKE) -f g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/build.make g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  67 68
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  66 67 68
 	@echo "Built target types_sclam2d"
 .PHONY : g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/all
 
@@ -1330,7 +1330,7 @@ all: g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/types/sclam2d/CMakeFiles/types_sclam2d.dir/rule
@@ -1429,7 +1429,7 @@ g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/all: g2o/types/slam3d/CMakeFi
 g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/all: g2o/types/slam3d_addons/CMakeFiles/types_slam3d_addons.dir/all
 	$(MAKE) -f g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/build.make g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/depend
 	$(MAKE) -f g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/build.make g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  56
 	@echo "Built target test_line3d"
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/all
 
@@ -1439,7 +1439,7 @@ all: g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/types/slam3d_addons/CMakeFiles/test_line3d.dir/rule
@@ -1653,7 +1653,7 @@ g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/all: g2o/stuff/C
 g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/all: g2o/core/CMakeFiles/core.dir/all
 	$(MAKE) -f g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/build.make g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/depend
 	$(MAKE) -f g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/build.make g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  51
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 
 	@echo "Built target solver_structure_only"
 .PHONY : g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/all
 
@@ -1663,7 +1663,7 @@ all: g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/solvers/structure_only/CMakeFiles/solver_structure_only.dir/rule
@@ -2194,7 +2194,7 @@ g2o/examples/target/CMakeFiles/static_target.dir/all: g2o/core/CMakeFiles/core.d
 g2o/examples/target/CMakeFiles/static_target.dir/all: g2o/solvers/cholmod/CMakeFiles/solver_cholmod.dir/all
 	$(MAKE) -f g2o/examples/target/CMakeFiles/static_target.dir/build.make g2o/examples/target/CMakeFiles/static_target.dir/depend
 	$(MAKE) -f g2o/examples/target/CMakeFiles/static_target.dir/build.make g2o/examples/target/CMakeFiles/static_target.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  51
 	@echo "Built target static_target"
 .PHONY : g2o/examples/target/CMakeFiles/static_target.dir/all
 
@@ -2204,7 +2204,7 @@ all: g2o/examples/target/CMakeFiles/static_target.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/examples/target/CMakeFiles/static_target.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/target/CMakeFiles/static_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/target/CMakeFiles/static_target.dir/rule
@@ -2259,7 +2259,7 @@ all: g2o/examples/ba/CMakeFiles/ba_demo.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/examples/ba/CMakeFiles/ba_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/ba/CMakeFiles/ba_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/ba/CMakeFiles/ba_demo.dir/rule
@@ -2314,7 +2314,7 @@ all: g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth
 
 # Build rule for subdir invocation for target.
 g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/ba_anchored_inverse_depth/CMakeFiles/ba_anchored_inverse_depth_demo.dir/rule
@@ -2370,7 +2370,7 @@ all: g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d.dir/rule
@@ -2398,7 +2398,7 @@ g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/all: g2o/sol
 g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/all: g2o/solvers/csparse/CMakeFiles/solver_csparse.dir/all
 	$(MAKE) -f g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/build.make g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/depend
 	$(MAKE) -f g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/build.make g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  58 59 60 61
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  58 59 60
 	@echo "Built target tutorial_slam2d_library"
 .PHONY : g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/all
 
@@ -2408,7 +2408,7 @@ all: g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/tutorial_slam2d/CMakeFiles/tutorial_slam2d_library.dir/rule
@@ -2467,7 +2467,7 @@ all: g2o/examples/icp/CMakeFiles/gicp_demo.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/examples/icp/CMakeFiles/gicp_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/icp/CMakeFiles/gicp_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/icp/CMakeFiles/gicp_demo.dir/rule
@@ -2509,7 +2509,7 @@ all: g2o/examples/icp/CMakeFiles/gicp_sba_demo.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/examples/icp/CMakeFiles/gicp_sba_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/icp/CMakeFiles/gicp_sba_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/icp/CMakeFiles/gicp_sba_demo.dir/rule
@@ -2573,7 +2573,7 @@ all: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_libra
 
 # Build rule for subdir invocation for target.
 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/rule
@@ -2607,7 +2607,7 @@ g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/all: g2o/so
 g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/all: g2o/examples/calibration_odom_laser/CMakeFiles/calibration_odom_laser_library.dir/all
 	$(MAKE) -f g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/build.make g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/depend
 	$(MAKE) -f g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/build.make g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  42
 	@echo "Built target sclam_laser_calib"
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/all
 
@@ -2617,7 +2617,7 @@ all: g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 36
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/sclam_laser_calib.dir/rule
@@ -2661,7 +2661,7 @@ all: g2o/examples/calibration_odom_laser/CMakeFiles/sclam_odom_laser.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/examples/calibration_odom_laser/CMakeFiles/sclam_odom_laser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/calibration_odom_laser/CMakeFiles/sclam_odom_laser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/sclam_odom_laser.dir/rule
@@ -2705,7 +2705,7 @@ all: g2o/examples/calibration_odom_laser/CMakeFiles/sclam_pure_calibration.dir/a
 
 # Build rule for subdir invocation for target.
 g2o/examples/calibration_odom_laser/CMakeFiles/sclam_pure_calibration.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 36
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/calibration_odom_laser/CMakeFiles/sclam_pure_calibration.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/calibration_odom_laser/CMakeFiles/sclam_pure_calibration.dir/rule
@@ -2863,7 +2863,7 @@ g2o/examples/sba/CMakeFiles/sba_demo.dir/all: g2o/types/icp/CMakeFiles/types_icp
 g2o/examples/sba/CMakeFiles/sba_demo.dir/all: g2o/solvers/cholmod/CMakeFiles/solver_cholmod.dir/all
 	$(MAKE) -f g2o/examples/sba/CMakeFiles/sba_demo.dir/build.make g2o/examples/sba/CMakeFiles/sba_demo.dir/depend
 	$(MAKE) -f g2o/examples/sba/CMakeFiles/sba_demo.dir/build.make g2o/examples/sba/CMakeFiles/sba_demo.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  42
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 
 	@echo "Built target sba_demo"
 .PHONY : g2o/examples/sba/CMakeFiles/sba_demo.dir/all
 
@@ -2873,7 +2873,7 @@ all: g2o/examples/sba/CMakeFiles/sba_demo.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/examples/sba/CMakeFiles/sba_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/sba/CMakeFiles/sba_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/sba/CMakeFiles/sba_demo.dir/rule
@@ -3034,7 +3034,7 @@ all: g2o/examples/data_convert/CMakeFiles/convert_sba_slam3d.dir/all
 
 # Build rule for subdir invocation for target.
 g2o/examples/data_convert/CMakeFiles/convert_sba_slam3d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/data_convert/CMakeFiles/convert_sba_slam3d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/data_convert/CMakeFiles/convert_sba_slam3d.dir/rule
@@ -3222,7 +3222,7 @@ g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library
 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/all: g2o/examples/interactive_slam/slam_parser/interface/CMakeFiles/interface_library.dir/all
 	$(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/depend
 	$(MAKE) -f g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build.make g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  27
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  26 27
 	@echo "Built target g2o_interactive_library"
 .PHONY : g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/all
 
@@ -3232,7 +3232,7 @@ all: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_li
 
 # Build rule for subdir invocation for target.
 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 37
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/rule
@@ -3275,7 +3275,7 @@ all: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_applica
 
 # Build rule for subdir invocation for target.
 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 37
 	$(MAKE) -f CMakeFiles/Makefile2 g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 0
 .PHONY : g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_online_application.dir/rule
@@ -3369,7 +3369,7 @@ g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library
 g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/all: g2o/examples/interactive_slam/g2o_interactive/CMakeFiles/g2o_interactive_library.dir/all
 	$(MAKE) -f g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/build.make g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/depend
 	$(MAKE) -f g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/build.make g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles  26
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/CMakeFiles 
 	@echo "Built target g2o_incremental_library"
 .PHONY : g2o/examples/interactive_slam/g2o_incremental/CMakeFiles/g2o_incremental_library.dir/all
 

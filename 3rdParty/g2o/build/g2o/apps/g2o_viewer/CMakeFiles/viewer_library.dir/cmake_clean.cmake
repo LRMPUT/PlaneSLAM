@@ -12,8 +12,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/viewer_library.dir/run_g2o_viewer.cpp.o"
   "CMakeFiles/viewer_library.dir/moc_main_window.cxx.o"
   "CMakeFiles/viewer_library.dir/moc_properties_widget.cxx.o"
-  "../../../../lib/libg2o_viewer.pdb"
-  "../../../../lib/libg2o_viewer.so"
+  "../../../../lib/libg2o_viewer_d.pdb"
+  "../../../../lib/libg2o_viewer_d.so"
 )
 
 # Per-language clean rules from dependency scanning.

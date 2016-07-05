@@ -234,9 +234,9 @@ namespace g2o {
         if (theta<0.00001)
         {
           //TODO: CHECK WHETHER THIS IS CORRECT!!!
-          R = (Matrix3D::Identity() + Omega + Omega*Omega);
+          R = Matrix3D::Identity() + Omega + 0.5 * Omega*Omega;
 
-          V = R;
+          V = Matrix3D::Identity() + 0.5 * Omega + 1.0/6.0 * Omega*Omega;
         }
         else
         {

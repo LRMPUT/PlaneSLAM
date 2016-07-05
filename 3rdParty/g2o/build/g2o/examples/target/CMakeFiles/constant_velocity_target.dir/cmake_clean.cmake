@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/constant_velocity_target.dir/constant_velocity_target.cpp.o"
-  "../../../../bin/constant_velocity_target.pdb"
-  "../../../../bin/constant_velocity_target"
+  "../../../../bin/constant_velocity_target_d.pdb"
+  "../../../../bin/constant_velocity_target_d"
 )
 
 # Per-language clean rules from dependency scanning.

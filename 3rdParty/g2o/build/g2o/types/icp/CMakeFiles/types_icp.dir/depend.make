@@ -53,6 +53,7 @@ g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/type
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/vertex_se3.h
+g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/slam3d/vertex_se3_quat.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/icp/g2o_types_icp_api.h
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/icp/types_icp.cpp
 g2o/types/icp/CMakeFiles/types_icp.dir/types_icp.cpp.o: ../g2o/types/icp/types_icp.h

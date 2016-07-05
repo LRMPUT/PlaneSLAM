@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/simulator_3d_plane.dir/simulator_3d_plane.cpp.o"
-  "../../../../bin/simulator_3d_plane.pdb"
-  "../../../../bin/simulator_3d_plane"
+  "../../../../bin/simulator_3d_plane_d.pdb"
+  "../../../../bin/simulator_3d_plane_d"
 )
 
 # Per-language clean rules from dependency scanning.

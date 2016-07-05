@@ -7,8 +7,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/types_data.dir/raw_laser.cpp.o"
   "CMakeFiles/types_data.dir/robot_laser.cpp.o"
   "CMakeFiles/types_data.dir/data_queue.cpp.o"
-  "../../../../lib/libg2o_types_data.pdb"
-  "../../../../lib/libg2o_types_data.so"
+  "../../../../lib/libg2o_types_data_d.pdb"
+  "../../../../lib/libg2o_types_data_d.so"
 )
 
 # Per-language clean rules from dependency scanning.

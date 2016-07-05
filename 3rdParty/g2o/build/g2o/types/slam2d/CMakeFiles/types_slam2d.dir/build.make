@@ -418,38 +418,38 @@ types_slam2d_OBJECTS = \
 # External object files for target types_slam2d
 types_slam2d_EXTERNAL_OBJECTS =
 
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/types_slam2d.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_se2.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.o
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/build.make
-../lib/libg2o_types_slam2d.so: ../lib/libg2o_core.so
-../lib/libg2o_types_slam2d.so: ../lib/libg2o_opengl_helper.so
-../lib/libg2o_types_slam2d.so: /usr/lib/x86_64-linux-gnu/libGL.so
-../lib/libg2o_types_slam2d.so: ../lib/libg2o_stuff.so
-../lib/libg2o_types_slam2d.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-../lib/libg2o_types_slam2d.so: /usr/lib/x86_64-linux-gnu/libGL.so
-../lib/libg2o_types_slam2d.so: /usr/lib/x86_64-linux-gnu/libSM.so
-../lib/libg2o_types_slam2d.so: /usr/lib/x86_64-linux-gnu/libICE.so
-../lib/libg2o_types_slam2d.so: /usr/lib/x86_64-linux-gnu/libX11.so
-../lib/libg2o_types_slam2d.so: /usr/lib/x86_64-linux-gnu/libXext.so
-../lib/libg2o_types_slam2d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_types_slam2d.so"
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_calib.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/types_slam2d.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_point_xy.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/vertex_se2.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_bearing.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_prior.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/parameter_se2_offset.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_offset.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_pointxy_offset.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_xyprior.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_pointxy.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_twopointsxy.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2_lotsofxy.cpp.o
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/build.make
+../lib/libg2o_types_slam2d_d.so: ../lib/libg2o_core_d.so
+../lib/libg2o_types_slam2d_d.so: ../lib/libg2o_opengl_helper_d.so
+../lib/libg2o_types_slam2d_d.so: /usr/lib/x86_64-linux-gnu/libGL.so
+../lib/libg2o_types_slam2d_d.so: ../lib/libg2o_stuff_d.so
+../lib/libg2o_types_slam2d_d.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+../lib/libg2o_types_slam2d_d.so: /usr/lib/x86_64-linux-gnu/libGL.so
+../lib/libg2o_types_slam2d_d.so: /usr/lib/x86_64-linux-gnu/libSM.so
+../lib/libg2o_types_slam2d_d.so: /usr/lib/x86_64-linux-gnu/libICE.so
+../lib/libg2o_types_slam2d_d.so: /usr/lib/x86_64-linux-gnu/libX11.so
+../lib/libg2o_types_slam2d_d.so: /usr/lib/x86_64-linux-gnu/libXext.so
+../lib/libg2o_types_slam2d_d.so: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX shared library ../../../../lib/libg2o_types_slam2d_d.so"
 	cd /home/jachu/workspace/PlaneSLAM/3rdParty/g2o/build/g2o/types/slam2d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/types_slam2d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-g2o/types/slam2d/CMakeFiles/types_slam2d.dir/build: ../lib/libg2o_types_slam2d.so
+g2o/types/slam2d/CMakeFiles/types_slam2d.dir/build: ../lib/libg2o_types_slam2d_d.so
 .PHONY : g2o/types/slam2d/CMakeFiles/types_slam2d.dir/build
 
 g2o/types/slam2d/CMakeFiles/types_slam2d.dir/requires: g2o/types/slam2d/CMakeFiles/types_slam2d.dir/edge_se2.cpp.o.requires

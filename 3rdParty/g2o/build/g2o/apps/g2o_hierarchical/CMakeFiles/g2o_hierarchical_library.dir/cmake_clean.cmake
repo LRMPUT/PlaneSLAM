@@ -6,8 +6,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/g2o_hierarchical_library.dir/backbone_tree_action.cpp.o"
   "CMakeFiles/g2o_hierarchical_library.dir/simple_star_ops.cpp.o"
   "CMakeFiles/g2o_hierarchical_library.dir/g2o_hierarchical_test_functions.cpp.o"
-  "../../../../lib/libg2o_hierarchical.pdb"
-  "../../../../lib/libg2o_hierarchical.so"
+  "../../../../lib/libg2o_hierarchical_d.pdb"
+  "../../../../lib/libg2o_hierarchical_d.so"
 )
 
 # Per-language clean rules from dependency scanning.

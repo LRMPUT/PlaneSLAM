@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/g2o_anonymize_observations_application.dir/g2o_anonymize_observations.cpp.o"
-  "../../../../bin/g2o_anonymize_observations.pdb"
-  "../../../../bin/g2o_anonymize_observations"
+  "../../../../bin/g2o_anonymize_observations_d.pdb"
+  "../../../../bin/g2o_anonymize_observations_d"
 )
 
 # Per-language clean rules from dependency scanning.

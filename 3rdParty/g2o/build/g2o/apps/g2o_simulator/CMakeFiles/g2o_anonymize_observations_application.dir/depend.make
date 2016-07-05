@@ -67,6 +67,7 @@ g2o/apps/g2o_simulator/CMakeFiles/g2o_anonymize_observations_application.dir/g2o
 g2o/apps/g2o_simulator/CMakeFiles/g2o_anonymize_observations_application.dir/g2o_anonymize_observations.cpp.o: ../g2o/types/slam3d/vertex_plane_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_anonymize_observations_application.dir/g2o_anonymize_observations.cpp.o: ../g2o/types/slam3d/vertex_pointxyz.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_anonymize_observations_application.dir/g2o_anonymize_observations.cpp.o: ../g2o/types/slam3d/vertex_se3.h
+g2o/apps/g2o_simulator/CMakeFiles/g2o_anonymize_observations_application.dir/g2o_anonymize_observations.cpp.o: ../g2o/types/slam3d/vertex_se3_quat.h
 g2o/apps/g2o_simulator/CMakeFiles/g2o_anonymize_observations_application.dir/g2o_anonymize_observations.cpp.o: ../g2o/apps/g2o_simulator/g2o_anonymize_observations.cpp
 g2o/apps/g2o_simulator/CMakeFiles/g2o_anonymize_observations_application.dir/g2o_anonymize_observations.cpp.o: /usr/include/eigen3/Eigen/Cholesky
 g2o/apps/g2o_simulator/CMakeFiles/g2o_anonymize_observations_application.dir/g2o_anonymize_observations.cpp.o: /usr/include/eigen3/Eigen/Core

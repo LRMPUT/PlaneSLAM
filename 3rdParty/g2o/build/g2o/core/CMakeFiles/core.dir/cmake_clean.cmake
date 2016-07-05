@@ -24,8 +24,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/core.dir/robust_kernel.cpp.o"
   "CMakeFiles/core.dir/robust_kernel_impl.cpp.o"
   "CMakeFiles/core.dir/robust_kernel_factory.cpp.o"
-  "../../../lib/libg2o_core.pdb"
-  "../../../lib/libg2o_core.so"
+  "../../../lib/libg2o_core_d.pdb"
+  "../../../lib/libg2o_core_d.so"
 )
 
 # Per-language clean rules from dependency scanning.
