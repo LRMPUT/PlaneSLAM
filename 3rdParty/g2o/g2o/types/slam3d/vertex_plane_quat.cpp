@@ -50,10 +50,18 @@ namespace g2o{
 		Vector3D v;
 
 		static constexpr double pi = 3.14159265359;
-		v[0] = std::fmod(u[0], pi);
-		v[1] = std::fmod(u[1], pi);
-		v[2] = std::fmod(u[2], pi);
+//		v[0] = std::fmod(u[0], pi);
+//		v[1] = std::fmod(u[1], pi);
+//		v[2] = std::fmod(u[2], pi);
+//		double norm = std::sqrt(v[0]*v[0] + v[1]*v[1] + v[2]*v[2]);
+//		double normTrunc = std::fmod(norm + pi, 2*pi) - pi;
+		v = u;
 		double arg = 0.5 * std::sqrt(v[0]*v[0] + v[1]*v[1] + v[2]*v[2]);
+		if(fabs(arg) > 0.5 * pi){
+			std::cout << "arg = " << arg << std::endl;
+			char a;
+			std::cin >> a;
+		}
 		double sincArg = 1.0;
 		if(arg > 1e-6){
 			sincArg = sin(arg)/arg;
@@ -69,16 +77,22 @@ namespace g2o{
 									0.5*sincArg*v[1],
 									0.5*sincArg*v[2]);
 
-//		normalizeAndUnify(increment);
-		_estimate = increment * _estimate;
-		_estimate.normalize();
-
-//		if(id() == 881 && arg > 1e-9){
+		normalizeAndUnify(increment);
+//		if((/*id() == 881 ||*/ id() == 883) && arg < 1e-9){
 //			using namespace std;
+//			cout << "id = " << id() << endl;
 //			cout << "u = " << u << endl;
 //			cout << "v = " << v << endl;
 //			cout << "increment = " << increment.coeffs() << endl;
 //			cout << "_estimate = " << _estimate.coeffs() << endl;
+//		}
+
+		_estimate = increment * _estimate;
+		_estimate.normalize();
+
+//		if((/*id() == 881 ||*/ id() == 883) && arg < 1e-9){
+//			using namespace std;
+//			cout << "updated _estimate = " << _estimate.coeffs() << endl << endl;
 ////			char a;
 ////			cin  >> a;
 //		}

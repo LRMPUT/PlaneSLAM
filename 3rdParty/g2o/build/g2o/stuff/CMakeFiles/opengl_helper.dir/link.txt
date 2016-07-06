@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC  -std=c++11  -Wall -W -g -O0   -shared -Wl,-soname,libg2o_opengl_helper_d.so -o ../../../lib/libg2o_opengl_helper_d.so CMakeFiles/opengl_helper.dir/opengl_primitives.cpp.o -lGLU -lGL -lSM -lICE -lX11 -lXext 

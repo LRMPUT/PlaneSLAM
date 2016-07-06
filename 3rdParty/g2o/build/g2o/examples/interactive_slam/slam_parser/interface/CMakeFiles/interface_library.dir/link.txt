@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC  -std=c++11  -Wall -W -g -O0   -shared -Wl,-soname,libg2o_interface_d.so -o ../../../../../../lib/libg2o_interface_d.so CMakeFiles/interface_library.dir/parser_interface.cpp.o CMakeFiles/interface_library.dir/slam_context_interface.cpp.o ../../../../../../lib/libg2o_parser_d.so -Wl,-rpath,/home/jachu/workspace/PlaneSLAM/3rdParty/g2o/lib: 

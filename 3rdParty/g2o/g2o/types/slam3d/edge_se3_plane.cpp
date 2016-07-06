@@ -8,6 +8,7 @@
 #include "edge_se3_plane.h"
 #include "isometry3d_gradients.h"
 #include <iostream>
+#include <iomanip>
 
 
 namespace g2o {
@@ -60,14 +61,33 @@ namespace g2o {
 //		cout << "EdgeSE3Plane::computeError() a" << endl;
 		VertexSE3Quat *from = static_cast<VertexSE3Quat*>(_vertices[0]);
 		VertexPlaneQuat *to   = static_cast<VertexPlaneQuat*>(_vertices[1]);
-		Matrix<double, 4, 4> estFromInv = from->estimate().inverse().to_homogeneous_matrix().transpose();
-		Vector4D estPlaneVect = estFromInv * _measurement.coeffs();
+		Matrix<double, 4, 4> estFromInvTrans = from->estimate().to_homogeneous_matrix().transpose();
+		Vector4D estPlaneVect = estFromInvTrans * to->estimate().coeffs();
 
 		Quaterniond estPlaneInv(estPlaneVect[3], -estPlaneVect[0], -estPlaneVect[1], -estPlaneVect[2]);
 //		VertexPlaneQuat::normalizeAndUnify(estPlane);
 		estPlaneInv.normalize();
-		Quaterniond delta = estPlaneInv* to->estimate();
+		Quaterniond delta = estPlaneInv * _measurement;
+		delta.normalize();
 		_error = logMap(delta);
+
+//		if(std::isnan(_error(0)) || std::isnan(_error(1)) || std::isnan(_error(2))){
+//			cout << "estPlane.inverse() = " << estPlaneInv.coeffs() << endl;
+//			cout << "to->estimate() = " << to->estimate().coeffs() << endl;
+//			cout << "delta = " << delta.coeffs() << endl;
+//			cout << "_error = " << _error << endl << endl;
+//			cout << "acos(delta.w()) = " << acos(min(delta.w(), 1.0)) << endl;
+//			char a;
+//			cin >> a;
+//		}
+//		if(to->id() == 883){
+//			cout << "estPlane.inverse() = " << estPlaneInv.coeffs() << endl;
+//			cout << "to->estimate() = " << to->estimate().coeffs() << endl;
+//			cout << "delta = " << delta.coeffs() << endl;
+//			cout << "_error = " << std::setprecision(16) << _error << endl << endl << endl;
+////			char a;
+////			cin >> a;
+//		}
 //		if(_vertices[0]->id() == 1){
 //			cout << "estPlane.inverse() = " << estPlane.inverse().coeffs() << endl;
 //			cout << "to->estimate() = " << to->estimate().coeffs() << endl;
@@ -93,6 +113,11 @@ namespace g2o {
 		BaseBinaryEdge<3, Eigen::Quaterniond, VertexSE3Quat, VertexPlaneQuat>::linearizeOplus();
 //		Eigen::Matrix<double, 3, 6> jacobXiComp = _jacobianOplusXi;
 //		Eigen::Matrix<double, 3, 3> jacobXjComp = _jacobianOplusXj;
+//		if(_vertices[0]->id() == 0 && _vertices[1]->id() == 883){
+//			cout << _jacobianOplusXj << endl;
+//			char a;
+//			cin >> a;
+//		}
 		return;
 
 		VertexSE3Quat *from = static_cast<VertexSE3Quat*>(_vertices[0]);
@@ -392,16 +417,23 @@ namespace g2o {
 
 	Vector3D EdgeSE3Plane::logMap(Eigen::Quaterniond quat)
 	{
-		Vector3D res = Vector3D::Ones();
+		Vector3D res;
 
 		double qvNorm = sqrt(quat.x()*quat.x() + quat.y()*quat.y() + quat.z()*quat.z());
-		if(qvNorm > 1e-9){
-		  res[0] *= quat.x()/qvNorm;
-		  res[1] *= quat.y()/qvNorm;
-		  res[2] *= quat.z()/qvNorm;
+		if(qvNorm > 1e-6){
+			res[0] = quat.x()/qvNorm;
+			res[1] = quat.y()/qvNorm;
+			res[2] = quat.z()/qvNorm;
+		}
+		else{
+			// 1/sqrt(3), so norm = 1
+			res[0] = 0.57735026919;
+			res[1] = 0.57735026919;
+			res[2] = 0.57735026919;;
 		}
 		double acosQw = acos(quat.w());
 		res *= 2.0*acosQw;
+//		cout << "2.0*acosQw = " << 2.0*acosQw << endl;
 		return res;
   }
 

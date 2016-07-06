@@ -9,6 +9,7 @@
 #include <fstream>
 #include <vector>
 #include <random>
+#include <chrono>
 
 #include "3rdParty/Eigen/StdVector"
 
@@ -120,6 +121,10 @@ int main(){
 			}
 		}
 
+//		gtPoses = vector<g2o::Vector7d>(gtPoses.begin(), gtPoses.begin() + 100);
+
+		unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+//		default_random_engine gen(seed);
 		default_random_engine gen;
 		normal_distribution<double> distT(0.0, 0.005);
 		normal_distribution<double> distR(0.0, 0.005);
@@ -325,11 +330,13 @@ int main(){
 	    		// compute point on the plane from which normal vector intersects with camera position (in camera's frame of reference)
 	    		double d = plP.dot(plNorm) / plNorm.dot(plNorm);
 
+	    		normal_distribution<double> distTm(0.0, 0.01);
+	    		normal_distribution<double> distRm(0.0, 0.01);
 	    		//adding noise
-	    		d += distT(gen);
-	    		plNorm[0] += distR(gen);
-	    		plNorm[1] += distR(gen);
-	    		plNorm[2] += distR(gen);
+	    		d += distTm(gen);
+	    		plNorm[0] += distRm(gen);
+	    		plNorm[1] += distRm(gen);
+	    		plNorm[2] += distRm(gen);
 	    		plNorm.normalize();
 
 	    		//SE3 edge
@@ -437,25 +444,31 @@ int main(){
 					curEdge->setMeasurement(normAndDToQuat(d, plNorm));
 					curEdge->setInformation(Eigen::Matrix<double, 3, 3>::Identity());
 
-					if(po == 0){
-						curEdge->computeError();
-						Eigen::Vector3d error = curEdge->error();
-						g2o::VertexSE3Quat* from = static_cast<g2o::VertexSE3Quat*>(curEdge->vertex(0));
-						Eigen::Quaterniond meas = normAndDToQuat(d, plNorm);
-						g2o::VertexPlaneQuat* to = static_cast<g2o::VertexPlaneQuat*>(curEdge->vertex(1));
-						Eigen::Matrix<double, 4, 4> estFromInv = from->estimate().inverse().to_homogeneous_matrix().transpose();
-						Eigen::Vector4d estPlaneVect = estFromInv * meas.coeffs();
-						Eigen::Quaterniond estPlane(estPlaneVect[3], estPlaneVect[0], estPlaneVect[1], estPlaneVect[2]);
-						estPlane.normalize();
-						Eigen::Quaterniond delta = estPlane.inverse() * to->estimate();
-						cout << "pl = " << pl << endl;
-						cout << "vert 0 est = " << from->estimate().to_homogeneous_matrix() << endl;
-						cout << "vert 0 est inverse transpose = " << from->estimate().inverse().to_homogeneous_matrix().transpose() << endl;
-						cout << "vert 1 est = " << to->estimate().coeffs() << endl;
-						cout << "measurement = " << meas.coeffs() << endl;
-						cout << "estPlane = " << estPlane.coeffs() << endl;
-						cout << "error = " << error << endl << endl << endl;
-					}
+//					if(po == 0){
+//						curEdge->computeError();
+//						Eigen::Vector3d error = curEdge->error();
+//						g2o::VertexSE3Quat* from = static_cast<g2o::VertexSE3Quat*>(curEdge->vertex(0));
+//						Eigen::Quaterniond meas = normAndDToQuat(d, plNorm);
+//						g2o::VertexPlaneQuat* to = static_cast<g2o::VertexPlaneQuat*>(curEdge->vertex(1));
+//						Eigen::Matrix<double, 4, 4> estFromInv = from->estimate().inverse().to_homogeneous_matrix().transpose();
+//						Eigen::Vector4d estPlaneVect = estFromInv * meas.coeffs();
+//						Eigen::Quaterniond estPlane(estPlaneVect[3], estPlaneVect[0], estPlaneVect[1], estPlaneVect[2]);
+//						estPlane.normalize();
+//						Eigen::Quaterniond delta = estPlane.inverse() * to->estimate();
+//						cout << "pl = " << pl << endl;
+//						cout << "vert 0 est = " << from->estimate().to_homogeneous_matrix() << endl;
+//						cout << "vert 0 est inverse transpose = " << from->estimate().inverse().to_homogeneous_matrix().transpose() << endl;
+//						cout << "vert 1 est = " << to->estimate().coeffs() << endl;
+//						cout << "measurement = " << meas.coeffs() << endl;
+//						cout << "estPlane = " << estPlane.coeffs() << endl;
+//						cout << "error = " << error << endl << endl << endl;
+//					}
+
+//					if(pl == 3){
+//						curEdge->computeError();
+//						Eigen::Vector3d error = curEdge->error();
+//						cout << "error = " << error.transpose() << endl;
+//					}
 
 					optimizerMin.addEdge(curEdge);
 	    		}
@@ -463,12 +476,13 @@ int main(){
 	    }
 
 	    // Optimize!
-	    static constexpr int maxIter = 5;
+	    static constexpr int maxIter = 10;
 
 	    cout << "optimizerSE3.vertices().size() = " << optimizerSE3.vertices().size() << endl;
 	    cout << "optimizerSE3.edges.size() = " << optimizerSE3.edges().size() << endl;
-//		optimizerSE3.initializeOptimization();
-//		optimizerSE3.optimize(maxIter);
+		optimizerSE3.initializeOptimization();
+		optimizerSE3.setVerbose(true);
+		optimizerSE3.optimize(maxIter);
 
 //		for(auto it = optimizerSE3.edges().begin(); it != optimizerSE3.edges().end(); ++it){
 //			g2o::EdgeSE3* curEdge = static_cast<g2o::EdgeSE3*>(*it);
@@ -516,42 +530,47 @@ int main(){
 		Eigen::Matrix<double, 1, 1> ck = Eigen::Matrix<double, 1, 1>::Zero();
 		for(auto it = optimizerMin.edges().begin(); it != optimizerMin.edges().end(); ++it){
 			g2o::EdgeSE3Plane* curEdge = static_cast<g2o::EdgeSE3Plane*>(*it);
-			if(curEdge->vertex(0)->id() == 0){
-				cout << "edge (" << curEdge->vertex(0)->id() << ", "
-						<< curEdge->vertex(1)->id() << ") = " << endl;
-
-				Eigen::Vector3d error = curEdge->error();
-				g2o::VertexSE3Quat* from = static_cast<g2o::VertexSE3Quat*>(curEdge->vertex(0));
-				Eigen::Quaterniond meas = curEdge->measurement();
-				g2o::VertexPlaneQuat* to = static_cast<g2o::VertexPlaneQuat*>(curEdge->vertex(1));
-				Eigen::Matrix<double, 4, 4> estFromInv = from->estimate().inverse().to_homogeneous_matrix().transpose();
-				Eigen::Vector4d estPlaneVect = estFromInv * meas.coeffs();
-				Eigen::Quaterniond estPlane(estPlaneVect[3], estPlaneVect[0], estPlaneVect[1], estPlaneVect[2]);
-				estPlane.normalize();
-				Eigen::Quaterniond delta = estPlane.inverse() * to->estimate();
-				sumJacobXi += curEdge->jacobianOplusXi();
-
-				cout << "vert 0 est = " << from->estimate().to_homogeneous_matrix() << endl;
-				cout << "vert 0 est inverse transp = " << from->estimate().inverse().to_homogeneous_matrix().transpose() << endl;
-				cout << "curEdge->jacobianOplusXi() = " << curEdge->jacobianOplusXi() << endl;
-				cout << "vert 1 est = " << to->estimate().coeffs() << endl;
-				cout << "measurement = " << meas.coeffs() << endl;
-				cout << "estPlane = " << estPlane.coeffs() << endl;
-				cout << "error = " << error << endl << endl << endl;
-
-//				cout << "information = " << curEdge->information() << endl;
-//				cout << "cost = " << curEdge->error().transpose() * curEdge->information() * curEdge->error() << endl;
-//				cout << "measurement = " << curEdge->measurement().matrix() << endl;
-//				cout << "vert 0 est = " << static_cast<g2o::VertexSE3*>(curEdge->vertex(0))->estimate().matrix() << endl;
-//				cout << "vert 1 est = " << static_cast<g2o::VertexSE3*>(curEdge->vertex(1))->estimate().matrix() << endl;
-//				g2o::Isometry3D diff = curEdge->measurement().inverse() *
-//						static_cast<g2o::VertexSE3*>(curEdge->vertex(0))->estimate().inverse() *
-//						static_cast<g2o::VertexSE3*>(curEdge->vertex(1))->estimate();
-//				cout << "diff = " << diff.matrix() << endl;
-			}
-			if(curEdge->vertex(1)->id() == 883 && curEdge->vertex(0)->id() == 0){
+//			if(curEdge->vertex(0)->id() == 0){
+//				cout << "edge (" << curEdge->vertex(0)->id() << ", "
+//						<< curEdge->vertex(1)->id() << ") = " << endl;
+//
+//				Eigen::Vector3d error = curEdge->error();
+//				g2o::VertexSE3Quat* from = static_cast<g2o::VertexSE3Quat*>(curEdge->vertex(0));
+//				Eigen::Quaterniond meas = curEdge->measurement();
+//				g2o::VertexPlaneQuat* to = static_cast<g2o::VertexPlaneQuat*>(curEdge->vertex(1));
+//				Eigen::Matrix<double, 4, 4> estFromInv = from->estimate().inverse().to_homogeneous_matrix().transpose();
+//				Eigen::Vector4d estPlaneVect = estFromInv * meas.coeffs();
+//				Eigen::Quaterniond estPlane(estPlaneVect[3], estPlaneVect[0], estPlaneVect[1], estPlaneVect[2]);
+//				estPlane.normalize();
+//				Eigen::Quaterniond delta = estPlane.inverse() * to->estimate();
+//				sumJacobXi += curEdge->jacobianOplusXi();
+//
+//				cout << "vert 0 est = " << from->estimate().to_homogeneous_matrix() << endl;
+//				cout << "vert 0 est inverse transp = " << from->estimate().inverse().to_homogeneous_matrix().transpose() << endl;
+//				cout << "curEdge->jacobianOplusXi() = " << curEdge->jacobianOplusXi() << endl;
+//				cout << "vert 1 est = " << to->estimate().coeffs() << endl;
+//				cout << "measurement = " << meas.coeffs() << endl;
+//				cout << "estPlane = " << estPlane.coeffs() << endl;
+//				cout << "error = " << error << endl << endl << endl;
+//
+////				cout << "information = " << curEdge->information() << endl;
+////				cout << "cost = " << curEdge->error().transpose() * curEdge->information() * curEdge->error() << endl;
+////				cout << "measurement = " << curEdge->measurement().matrix() << endl;
+////				cout << "vert 0 est = " << static_cast<g2o::VertexSE3*>(curEdge->vertex(0))->estimate().matrix() << endl;
+////				cout << "vert 1 est = " << static_cast<g2o::VertexSE3*>(curEdge->vertex(1))->estimate().matrix() << endl;
+////				g2o::Isometry3D diff = curEdge->measurement().inverse() *
+////						static_cast<g2o::VertexSE3*>(curEdge->vertex(0))->estimate().inverse() *
+////						static_cast<g2o::VertexSE3*>(curEdge->vertex(1))->estimate();
+////				cout << "diff = " << diff.matrix() << endl;
+//			}
+			if(curEdge->vertex(1)->id() == 883){
+				curEdge->computeError();
+				curEdge->linearizeOplus();
 				Eigen::Matrix<double, 3, 3> J = curEdge->jacobianOplusXj();
 				Eigen::Matrix<double, 3, 1> e = curEdge->error();
+//				cout << "J = " << J << endl;
+//				cout << "e = " << e.transpose() << endl;
+//				cout << "cur bk = " << e.transpose() * J << endl;
 				Hk += J.transpose() * J;
 				bk += e.transpose() * J;
 				ck += e.transpose() * e;
