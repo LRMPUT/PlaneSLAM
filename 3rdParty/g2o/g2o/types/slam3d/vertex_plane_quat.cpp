@@ -1,9 +1,20 @@
 /*
- * vertex_plane_quat.cpp
- *
- *  Created on: 24 cze 2016
- *      Author: jachu
- */
+    Copyright (c) 2017 Mobile Robots Laboratory at Poznan University of Technology:
+    -Jan Wietrzykowski name.surname [at] put.poznan.pl
+
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
 
 
 #include "vertex_plane_quat.h"
@@ -57,11 +68,11 @@ namespace g2o{
 //		double normTrunc = std::fmod(norm + pi, 2*pi) - pi;
 		v = u;
 		double arg = 0.5 * std::sqrt(v[0]*v[0] + v[1]*v[1] + v[2]*v[2]);
-		if(fabs(arg) > 0.5 * pi){
-			std::cout << "arg = " << arg << std::endl;
-			char a;
-			std::cin >> a;
-		}
+//		if(fabs(arg) > 0.5 * pi){
+//			std::cout << "arg = " << arg << std::endl;
+//			char a;
+//			std::cin >> a;
+//		}
 		double sincArg = 1.0;
 		if(arg > 1e-6){
 			sincArg = sin(arg)/arg;

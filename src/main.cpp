@@ -1,9 +1,25 @@
 /*
- * main.cpp
- *
- *  Created on: 21 cze 2016
- *      Author: jachu
- */
+    Copyright (c) 2017 Mobile Robots Laboratory at Poznan University of Technology:
+    -Jan Wietrzykowski name.surname [at] put.poznan.pl
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+*/
 
 #include <iostream>
 #include <fstream>
@@ -129,6 +145,7 @@ int main(){
 		normal_distribution<double> distT(0.0, 0.005);
 		normal_distribution<double> distR(0.0, 0.005);
 		g2o::Vector7d initPose = gtPoses[0];
+		vector<g2o::Vector7d> diffs;
 		vector<g2o::Vector7d> odomPoses{initPose};
 		for(int po = 1; po < gtPoses.size(); ++po){
 			g2o::Isometry3D prevPose = g2o::internal::fromVectorQT(gtPoses[po - 1]);
@@ -149,6 +166,7 @@ int main(){
 			diffQT[5] = diffQuat.z();
 			diffQT[6] = diffQuat.w();
 
+			diffs.push_back(diffQT);
 			g2o::Isometry3D diffNoise = g2o::internal::fromVectorQT(diffQT);
 			g2o::Isometry3D prevOdomPose = g2o::internal::fromVectorQT(odomPoses[po - 1]);
 			g2o::Isometry3D curDiffPose = prevOdomPose * diffNoise;
@@ -156,13 +174,13 @@ int main(){
 			odomPoses.push_back(g2o::internal::toVectorQT(curDiffPose));
 		}
 
-		ofstream diffTrajFile("../res/odomTraj.txt");
+		ofstream odomTrajFile("../res/odomTraj.txt");
 		for(int po = 0; po < odomPoses.size(); ++po){
-			diffTrajFile << (po + 1);
+			odomTrajFile << (po + 1);
 			for(int i = 0; i < 7; ++i){
-				diffTrajFile << " " << odomPoses[po][i];
+				odomTrajFile << " " << odomPoses[po][i];
 			}
-			diffTrajFile << endl;
+			odomTrajFile << endl;
 		}
 
 		std::vector<std::vector<Eigen::Vector3d>> planesPoints;
@@ -217,6 +235,27 @@ int main(){
 			curPlaneRot.block<3, 1>(0, 1) = yAxis;
 			curPlaneRot.block<3, 1>(0, 2) = zAxis;
 
+			//plane rotation for tests puroposes
+			static constexpr double th = 0.0 * pi / 180.0;
+			if(pl == 1){
+				//around x axis
+				Eigen::Matrix3d addRot;
+				addRot << 1.0, 0.0, 0.0,
+							0.0, cos(th), -sin(th),
+							0.0, sin(th), cos(th);
+
+				curPlaneRot = addRot*curPlaneRot;
+			}
+			if(pl == 2){
+				//around z axis
+				Eigen::Matrix3d addRot;
+				addRot << cos(th), -sin(th), 0.0,
+						  sin(th), cos(th), 0.0,
+						  0.0, 0.0, 1.0;
+
+				curPlaneRot = addRot*curPlaneRot;
+			}
+
 			g2o::Isometry3D curPlanePosM;
 			curPlanePosM = curPlaneRot;
 			curPlanePosM.translation() = center;
@@ -231,13 +270,14 @@ int main(){
 
 	    g2o::SparseOptimizer optimizerSE3;
 	    {
-			g2o::BlockSolver_6_3::LinearSolverType * linearSolverSE3;
+//			g2o::BlockSolver_6_3::LinearSolverType * linearSolverSE3 = new g2o::LinearSolverEigen<g2o::BlockSolver_6_3::PoseMatrixType>();
+//			g2o::BlockSolver_6_3 * solverSE3 = new g2o::BlockSolver_6_3(linearSolverSE3);
+//			g2o::OptimizationAlgorithmLevenberg* algorithmSE3 = new g2o::OptimizationAlgorithmLevenberg(solverSE3);
 
-			linearSolverSE3 = new g2o::LinearSolverEigen<g2o::BlockSolver_6_3::PoseMatrixType>();
+	    	g2o::BlockSolverX::LinearSolverType* linearSolverSE3 = new g2o::LinearSolverPCG<g2o::BlockSolverX::PoseMatrixType>();
+	        g2o::BlockSolverX* solverSE3 = new g2o::BlockSolverX(linearSolverSE3);
+	        g2o::OptimizationAlgorithmGaussNewton* algorithmSE3 = new g2o::OptimizationAlgorithmGaussNewton(solverSE3);
 
-			g2o::BlockSolver_6_3 * solverSE3 = new g2o::BlockSolver_6_3(linearSolverSE3);
-
-			g2o::OptimizationAlgorithmLevenberg* algorithmSE3 = new g2o::OptimizationAlgorithmLevenberg(solverSE3);
 			optimizerSE3.setAlgorithm(algorithmSE3);
 	    }
 
@@ -281,13 +321,51 @@ int main(){
 				optimizerMin.addVertex(curV);
 	    	}
 	    }
+	    ofstream planesGlobFile("../res/planesGlob");
 	    for(int pl = 0; pl < planesPoses.size(); ++pl){
+	    	g2o::SE3Quat planePoseSE3Quat;
+			planePoseSE3Quat.fromVector(planesPoses[pl]);
+			Eigen::Vector3d norm = planePoseSE3Quat.rotation().toRotationMatrix().block<3, 1>(0, 2);
+			Eigen::Vector3d P = planePoseSE3Quat.translation();
+			// compute point on the plane from which normal vector intersects with the origin
+			double d = P.dot(norm) / norm.dot(norm);
+
+    		normal_distribution<double> distTm(0.0, 0.01);
+    		normal_distribution<double> distRm(0.0, 0.01);
+    		//adding noise
+    		d += distTm(gen);
+    		norm[0] += distRm(gen);
+    		norm[1] += distRm(gen);
+    		norm[2] += distRm(gen);
+    		norm.normalize();
+
 	    	//SE3
 	    	{
 				g2o::VertexSE3* curV = new g2o::VertexSE3();
-				g2o::SE3Quat planePoseSE3Quat;
-				planePoseSE3Quat.fromVector(planesPoses[pl]);
-				curV->setEstimate(g2o::internal::fromSE3Quat(planePoseSE3Quat));
+
+				Eigen::Vector3d iP = d * norm;
+
+				Eigen::Vector3d xAxis, yAxis;
+				//if normal vector is not parallel to global x axis
+				if(norm.cross(Eigen::Vector3d(1.0, 0.0, 0.0)).norm() > 1e-2){
+					// plane x axis as a cross product - always perpendicular to normal vector
+					xAxis = norm.cross(Eigen::Vector3d(1.0, 0.0, 0.0));
+					xAxis.normalize();
+					yAxis = norm.cross(xAxis);
+				}
+				else{
+					xAxis = norm.cross(Eigen::Vector3d(0.0, 1.0, 0.0));
+					xAxis.normalize();
+					yAxis = norm.cross(xAxis);
+				}
+				Eigen::Matrix3d rot;
+				rot.block<3, 1>(0, 0) = xAxis;
+				rot.block<3, 1>(0, 1) = yAxis;
+				rot.block<3, 1>(0, 2) = norm;
+
+				g2o::Isometry3D plPoseIsom(rot);
+				plPoseIsom.translation() = iP;
+				curV->setEstimate(plPoseIsom);
 				curV->setId(odomPoses.size() + pl);
 //				if(pl == 0){
 //					curV->setFixed(true);
@@ -297,12 +375,7 @@ int main(){
 	    	//minimal
 	    	{
 				g2o::VertexPlaneQuat* curV = new g2o::VertexPlaneQuat();
-				g2o::SE3Quat planePoseSE3Quat;
-				planePoseSE3Quat.fromVector(planesPoses[pl]);
-				Eigen::Vector3d norm = planePoseSE3Quat.rotation().toRotationMatrix().block<3, 1>(0, 2);
-				Eigen::Vector3d P = planePoseSE3Quat.translation();
-				// compute point on the plane from which normal vector intersects with the origin
-				double d = P.dot(norm) / norm.dot(norm);
+
 
 				curV->setEstimate(normAndDToQuat(d, norm));
 				curV->setId(odomPoses.size() + pl);
@@ -312,7 +385,17 @@ int main(){
 //				curV->setMarginalized(true);
 				optimizerMin.addVertex(curV);
 	    	}
+	    	{
+	    		Eigen::Quaterniond plQ = normAndDToQuat(d, norm);
+	    		planesGlobFile << plQ.x() << " " << plQ.y() << " " << plQ.z() << " " << plQ.w() << endl;
+	    	}
 	    }
+	    planesGlobFile.close();
+//	    //odometry edges
+//	    for(int po = 1; po < gtPoses.size(); ++po){
+//
+//	    }
+	    ofstream planesLocFile("../res/planesLoc");
 
 	    for(int po = 0; po < gtPoses.size(); ++po){
 	    	g2o::SE3Quat poseSE3Quat;
@@ -363,21 +446,22 @@ int main(){
 
 					g2o::SE3Quat planePoseOrigCamSE3Quat(plRot, plIP);
 
+					static constexpr double cInf = 1000;
 					Eigen::Matrix<double, 9, 9> covarRotMat;
-					covarRotMat << 	1000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
-									0.0, 1000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
-									0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
-									0.0, 0.0, 0.0, 1000.0, 0.0, 0.0, 0.0, 0.0, 0.0,
-									0.0, 0.0, 0.0, 0.0, 1000.0, 0.0, 0.0, 0.0, 0.0,
-									0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0, 0.0,
-									0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0, 0.0,
-									0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01, 0.0,
-									0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.01;
+					covarRotMat << 	cInf, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+									0.0, cInf, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+									0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+									0.0, 0.0, 0.0, cInf, 0.0, 0.0, 0.0, 0.0, 0.0,
+									0.0, 0.0, 0.0, 0.0, cInf, 0.0, 0.0, 0.0, 0.0,
+									0.0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 0.0, 0.0,
+									0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 0.0, 0.0,
+									0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 0.0,
+									0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1;
 
 					Eigen::Matrix<double, 7, 7> covarPlane;
-					covarPlane << 	1000.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
-									0.0, 1000.0, 0.0, 0.0, 0.0, 0.0, 0.0,
-									0.0, 0.0, 0.01, 0.0, 0.0, 0.0, 0.0,
+					covarPlane << 	cInf, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+									0.0, cInf, 0.0, 0.0, 0.0, 0.0, 0.0,
+									0.0, 0.0, 1, 0.0, 0.0, 0.0, 0.0,
 									0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 									0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 									0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
@@ -400,6 +484,7 @@ int main(){
 	//	    		Eigen::Matrix<double, 6, 6> infPose66 = infPose.block<6, 6>(0, 0);
 					Eigen::Matrix<double, 7, 7> infPlane = covarPlane.inverse();
 					Eigen::Matrix<double, 6, 6> infPlane66 = infPlane.block<6, 6>(0, 0);
+//					Eigen::Matrix<double, 6, 6> infPlane66 = Eigen::Matrix<double, 6, 6>::Identity();
 	//				Eigen::Matrix<double, 6, 6> infPose66;
 	//				infPose66.setIdentity();
 //					if(po == 0){
@@ -472,16 +557,21 @@ int main(){
 
 					optimizerMin.addEdge(curEdge);
 	    		}
+		    	{
+		    		Eigen::Quaterniond plQ = normAndDToQuat(d, plNorm);
+		    		planesLocFile << plQ.x() << " " << plQ.y() << " " << plQ.z() << " " << plQ.w() << endl;
+		    	}
 	    	}
 	    }
+	    planesLocFile.close();
 
 	    // Optimize!
-	    static constexpr int maxIter = 10;
+	    static constexpr int maxIter = 100;
 
 	    cout << "optimizerSE3.vertices().size() = " << optimizerSE3.vertices().size() << endl;
 	    cout << "optimizerSE3.edges.size() = " << optimizerSE3.edges().size() << endl;
 		optimizerSE3.initializeOptimization();
-		optimizerSE3.setVerbose(true);
+//		optimizerSE3.setVerbose(true);
 		optimizerSE3.optimize(maxIter);
 
 //		for(auto it = optimizerSE3.edges().begin(); it != optimizerSE3.edges().end(); ++it){

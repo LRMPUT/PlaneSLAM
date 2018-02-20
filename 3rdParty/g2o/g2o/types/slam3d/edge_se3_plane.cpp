@@ -1,9 +1,20 @@
 /*
- * edge_se3_plane.cpp
- *
- *  Created on: 27 cze 2016
- *      Author: jachu
- */
+    Copyright (c) 2017 Mobile Robots Laboratory at Poznan University of Technology:
+    -Jan Wietrzykowski name.surname [at] put.poznan.pl
+
+	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>
+*/
 
 #include "edge_se3_plane.h"
 #include "isometry3d_gradients.h"
@@ -113,90 +124,84 @@ namespace g2o {
 		BaseBinaryEdge<3, Eigen::Quaterniond, VertexSE3Quat, VertexPlaneQuat>::linearizeOplus();
 //		Eigen::Matrix<double, 3, 6> jacobXiComp = _jacobianOplusXi;
 //		Eigen::Matrix<double, 3, 3> jacobXjComp = _jacobianOplusXj;
-//		if(_vertices[0]->id() == 0 && _vertices[1]->id() == 883){
-//			cout << _jacobianOplusXj << endl;
-//			char a;
-//			cin >> a;
-//		}
-		return;
 
-		VertexSE3Quat *from = static_cast<VertexSE3Quat*>(_vertices[0]);
-		VertexPlaneQuat *to   = static_cast<VertexPlaneQuat*>(_vertices[1]);
-		Matrix<double, 4, 4> estFromInv = from->estimate().inverse().to_homogeneous_matrix().transpose();
-		Vector4D estPlaneVect = estFromInv * _measurement.coeffs();
-		Quaterniond estPlaneInv(estPlaneVect[3], -estPlaneVect[0], -estPlaneVect[1], -estPlaneVect[2]);
-		Eigen::Quaterniond estPlaneInvNorm = estPlaneInv.normalized();
-		Quaterniond delta = estPlaneInvNorm * to->estimate();
-		Vector3D error = logMap(delta);
-
-		Eigen::Matrix<double, 3, 4> d_logMap_d_d_val = d_logMap_d_d(delta);
-
-		if(!from->fixed()){
-			Eigen::Matrix<double, 16, 6> d_poOplus_d_Oplus_val = d_poOplus_d_Oplus(from->estimate().to_homogeneous_matrix());
-			Eigen::Matrix<double, 16, 6> tmp;
-			tmp.block<16, 3>(0, 0) = d_poOplus_d_Oplus_val.block<16, 3>(0, 3);
-			tmp.block<16, 3>(0, 3) = d_poOplus_d_Oplus_val.block<16, 3>(0, 0);
-			d_poOplus_d_Oplus_val.swap(tmp);
-			Eigen::Matrix<double, 4, 16> d_estPlInv_d_poOplus_val = d_estPlInv_d_poOplus(from->estimate().to_homogeneous_matrix(), _measurement);
-			Eigen::Matrix<double, 4, 4> d_qNorm_d_q_val = d_qNorm_d_q(estPlaneInv);
-			Eigen::Matrix<double, 4, 4> d_quatMul_d_a_val = d_quatMul_d_a(estPlaneInvNorm, to->estimate());
-
-			_jacobianOplusXi = d_logMap_d_d_val * d_quatMul_d_a_val * d_qNorm_d_q_val * d_estPlInv_d_poOplus_val * d_poOplus_d_Oplus_val;
-
-//			cout << "po = " << from->estimate().toVector() << endl;
-//			cout << "poT = " << from->estimate().to_homogeneous_matrix() << endl;
-//			cout << "poInv = " << from->estimate().inverse().to_homogeneous_matrix() << endl;
-//			cout << "poInvTrans = " << from->estimate().inverse().to_homogeneous_matrix().transpose() << endl;
-//			cout << "pl = " << to->estimate().coeffs() << endl;
-//			cout << "meas = " << _measurement.coeffs() << endl;
-//			cout << "estPlaneInv = " << estPlaneInv.coeffs() << endl;
-//			cout << "estPlaneInvNorm = " << estPlaneInvNorm.coeffs() << endl;
-//			cout << "delta = " << delta.coeffs() << endl;
-//			cout << "error = " << error << endl;
-//			cout << "d_logMap_d_d_val = " << d_logMap_d_d_val << endl;
-//			cout << "d_quatMul_d_a_val = " << d_quatMul_d_a_val << endl;
-//			cout << "d_qNorm_d_q_val = " << d_qNorm_d_q_val << endl;
-//			cout << "d_estPlInv_d_poOplus_val = " << d_estPlInv_d_poOplus_val << endl;
-//			cout << "d_poOplus_d_po = " << d_poOplus_d_Oplus_val << endl;
-//			cout << "_jacobianOplusXi = " << _jacobianOplusXi << endl;
-//			cout << "jacobXiComp = " << jacobXiComp << endl;
+//		VertexSE3Quat *from = static_cast<VertexSE3Quat*>(_vertices[0]);
+//		VertexPlaneQuat *to   = static_cast<VertexPlaneQuat*>(_vertices[1]);
+//		Matrix<double, 4, 4> estFromInv = from->estimate().inverse().to_homogeneous_matrix().transpose();
+//		Vector4D estPlaneVect = estFromInv * _measurement.coeffs();
+//		Quaterniond estPlaneInv(estPlaneVect[3], -estPlaneVect[0], -estPlaneVect[1], -estPlaneVect[2]);
+//		Eigen::Quaterniond estPlaneInvNorm = estPlaneInv.normalized();
+//		Quaterniond delta = estPlaneInvNorm * to->estimate();
+//		Vector3D error = logMap(delta);
 //
-//			char a;
-//			cin >> a;
-		}
-		else{
-			_jacobianOplusXi = Eigen::Matrix<double, 3, 6>::Zero();
-		}
-
-		if(!to->fixed()){
-			Eigen::Matrix<double, 4, 3> d_plOplus_d_Oplus_val = d_plOplus_d_Oplus(to->estimate());
-			Eigen::Matrix<double, 4, 4> d_quatMul_d_b_val = d_quatMul_d_b(estPlaneInvNorm, to->estimate());
-			_jacobianOplusXj = d_logMap_d_d_val * d_quatMul_d_b_val * d_plOplus_d_Oplus_val;
-
-//			if(!from->fixed()){
-//				cout << "pl = " << to->estimate().coeffs() << endl;
-//				cout << "estPlaneInvNorm = " << estPlaneInvNorm.coeffs() << endl;
-//				cout << "d_plOplus_d_Oplus_val = " << d_plOplus_d_Oplus_val << endl;
-//				cout << "d_quatMul_d_b_val = " << d_quatMul_d_b_val << endl;
-//				cout << "_jacobianOplusXi = " << _jacobianOplusXj << endl;
-//				cout << "jacobXiComp = " << jacobXjComp << endl;
+//		Eigen::Matrix<double, 3, 4> d_logMap_d_d_val = d_logMap_d_d(delta);
 //
-//				char a;
-//				cin >> a;
-//			}
-		}
-		else{
-			_jacobianOplusXj = Eigen::Matrix<double, 3, 3>::Zero();
-		}
-
-//		if(from->id() != 0){
-//			cout << "_jacobianOplusXi = " << _jacobianOplusXi << endl;
-//			cout << "jacobXiComp = " << jacobXiComp << endl;
-//			cout << "_jacobianOplusXj = " << _jacobianOplusXj << endl;
-//			cout << "jacobXjComp = " << jacobXjComp << endl;
-//			char a;
-//			cin >> a;
+//		if(!from->fixed()){
+//			Eigen::Matrix<double, 16, 6> d_poOplus_d_Oplus_val = d_poOplus_d_Oplus(from->estimate().to_homogeneous_matrix());
+//			Eigen::Matrix<double, 16, 6> tmp;
+//			tmp.block<16, 3>(0, 0) = d_poOplus_d_Oplus_val.block<16, 3>(0, 3);
+//			tmp.block<16, 3>(0, 3) = d_poOplus_d_Oplus_val.block<16, 3>(0, 0);
+//			d_poOplus_d_Oplus_val.swap(tmp);
+//			Eigen::Matrix<double, 4, 16> d_estPlInv_d_poOplus_val = d_estPlInv_d_poOplus(from->estimate().to_homogeneous_matrix(), _measurement);
+//			Eigen::Matrix<double, 4, 4> d_qNorm_d_q_val = d_qNorm_d_q(estPlaneInv);
+//			Eigen::Matrix<double, 4, 4> d_quatMul_d_a_val = d_quatMul_d_a(estPlaneInvNorm, to->estimate());
+//
+//			_jacobianOplusXi = d_logMap_d_d_val * d_quatMul_d_a_val * d_qNorm_d_q_val * d_estPlInv_d_poOplus_val * d_poOplus_d_Oplus_val;
+//
+////			cout << "po = " << from->estimate().toVector() << endl;
+////			cout << "poT = " << from->estimate().to_homogeneous_matrix() << endl;
+////			cout << "poInv = " << from->estimate().inverse().to_homogeneous_matrix() << endl;
+////			cout << "poInvTrans = " << from->estimate().inverse().to_homogeneous_matrix().transpose() << endl;
+////			cout << "pl = " << to->estimate().coeffs() << endl;
+////			cout << "meas = " << _measurement.coeffs() << endl;
+////			cout << "estPlaneInv = " << estPlaneInv.coeffs() << endl;
+////			cout << "estPlaneInvNorm = " << estPlaneInvNorm.coeffs() << endl;
+////			cout << "delta = " << delta.coeffs() << endl;
+////			cout << "error = " << error << endl;
+////			cout << "d_logMap_d_d_val = " << d_logMap_d_d_val << endl;
+////			cout << "d_quatMul_d_a_val = " << d_quatMul_d_a_val << endl;
+////			cout << "d_qNorm_d_q_val = " << d_qNorm_d_q_val << endl;
+////			cout << "d_estPlInv_d_poOplus_val = " << d_estPlInv_d_poOplus_val << endl;
+////			cout << "d_poOplus_d_po = " << d_poOplus_d_Oplus_val << endl;
+////			cout << "_jacobianOplusXi = " << _jacobianOplusXi << endl;
+////			cout << "jacobXiComp = " << jacobXiComp << endl;
+////
+////			char a;
+////			cin >> a;
 //		}
+//		else{
+//			_jacobianOplusXi = Eigen::Matrix<double, 3, 6>::Zero();
+//		}
+//
+//		if(!to->fixed()){
+//			Eigen::Matrix<double, 4, 3> d_plOplus_d_Oplus_val = d_plOplus_d_Oplus(to->estimate());
+//			Eigen::Matrix<double, 4, 4> d_quatMul_d_b_val = d_quatMul_d_b(estPlaneInvNorm, to->estimate());
+//			_jacobianOplusXj = d_logMap_d_d_val * d_quatMul_d_b_val * d_plOplus_d_Oplus_val;
+//
+////			if(!from->fixed()){
+////				cout << "pl = " << to->estimate().coeffs() << endl;
+////				cout << "estPlaneInvNorm = " << estPlaneInvNorm.coeffs() << endl;
+////				cout << "d_plOplus_d_Oplus_val = " << d_plOplus_d_Oplus_val << endl;
+////				cout << "d_quatMul_d_b_val = " << d_quatMul_d_b_val << endl;
+////				cout << "_jacobianOplusXi = " << _jacobianOplusXj << endl;
+////				cout << "jacobXiComp = " << jacobXjComp << endl;
+////
+////				char a;
+////				cin >> a;
+////			}
+//		}
+//		else{
+//			_jacobianOplusXj = Eigen::Matrix<double, 3, 3>::Zero();
+//		}
+//
+////		if(from->id() != 0){
+////			cout << "_jacobianOplusXi = " << _jacobianOplusXi << endl;
+////			cout << "jacobXiComp = " << jacobXiComp << endl;
+////			cout << "_jacobianOplusXj = " << _jacobianOplusXj << endl;
+////			cout << "jacobXjComp = " << jacobXjComp << endl;
+////			char a;
+////			cin >> a;
+////		}
 	}
 
 //  void EdgeSE3Plane::initialEstimate(const OptimizableGraph::VertexSet& from_, OptimizableGraph::Vertex* /*to_*/) {
