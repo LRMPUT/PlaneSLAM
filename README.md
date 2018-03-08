@@ -8,11 +8,31 @@ Prerequesties:
 
 ### Related publications
 
-Please cite the appropriate paper:  
+If you use any part of this work, please cite the appropriate paper:  
 
-[Plane parametrization] Jan Wietrzykowski, **On the Representation of Planes for Efficient Graph-based SLAM with High-level Features**, *Journal of Automation Mobile Robotics and Intelligent Systems*, 10 (3), 2016, pp. 3-11. [PDF](http://www.jamris.org/images/ISSUES/ISSUE-2016-03/03_11_Wietrzykowski-e.pdf)  
+    @article{wietrzykowski2016,
+      title={{On the Representation of Planes for Efficient Graph-based SLAM with High-level Features}},
+      author={J. Wietrzykowski},
+      journal={Journal of Automation, Mobile Robotics and Intelligent Systems},
+      year={2016},
+      number={03},
+      pages={3--11},
+      volume={10},
+      doi={10.14313/JAMRIS_3-2016/18}
+    } 
 
-[Global localization] Jan Wietrzykowski, Piotr Skrzypczyński, **A Probabilistic Framework for Global Localization with Segmented Planes**, *European Conference on Mobile Robotics*, 2017, pp. 1-6. [PDF](http://ecmr2017.ensta-paristech.fr/images/ECMR_2017_proceedings.pdf)  
+    @inproceedings{wietrzykowski2017,
+        author={J. Wietrzykowski and P. Skrzypczyński},
+        booktitle={2017 European Conference on Mobile Robots (ECMR)},
+        title={{A probabilistic framework for global localization with segmented planes}},
+        year={2017},
+        volume={},
+        number={},
+        pages={1-6},
+        doi={10.1109/ECMR.2017.8098672},
+        ISSN={},
+        month={Sept}
+    }
 
 ### Building:  
 
@@ -21,7 +41,7 @@ Tested on Ubuntu 16.04.
     ```commandline
     sudo apt-get install libeigen3-dev
     ```
-    Please ensure that your Eigen version is not beta version. Version 3.3 beta contains a bug that causes system to produce wrong results.
+    Please ensure that your Eigen version is <= 3.2. Versions >= 3.3 causes alignment issues with g2o.
 2. Build g2o and install it:  
     ```commandline
     cd 3rdParty/g2o
